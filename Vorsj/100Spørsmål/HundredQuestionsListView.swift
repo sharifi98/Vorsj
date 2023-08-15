@@ -11,14 +11,14 @@ struct HundredQuestionsListView: View {
     
     // Sample data for demonstration. You can replace it with actual data.
     let buttonsData = [
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
-        ("5050.json", "50/50"),
+        ("5050.json", "50/50", "%", Color.red),
+        ("Volume1.json", "Volume 1", "📖", Color.green),
+        ("Volume2.json", "Volume 2", "📚", Color.blue),
+        ("Volume3.json", "Volume 3", "📘", Color.orange),
+        ("Volume5BI.json", "Volume 5 (BI)", "🎓", Color.purple),
+        ("Volume5BI.json", "Volume 6", "📕", Color.yellow),
+        ("Volume5BI.json", "Volume 7", "📗", Color.pink),
+        ("Volume5BI.json", "Parleken", "📓", Color.gray)
     ]
     
     // Define the grid layout with 2 columns.
@@ -30,16 +30,30 @@ struct HundredQuestionsListView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                
+                VStack {
+                    Text("HUNDRE")
+                        .foregroundColor(.secondary)
+                        .font(.largeTitle)
+                    Text("SPØRSMÅL.")
+                        .foregroundColor(.pink)
+                        .font(.largeTitle)
+                }
+                
                 LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(buttonsData, id: \.0) { (filename, title) in
+                    ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
                         NavigationLink(destination: HundredView(filename: filename, title: title)) {
-                            Text(title)
-                                .padding()
-                                .frame(minWidth: 0, maxWidth: .infinity)
-                                .background(Color.blue)
-                                .cornerRadius(10)
-                                .foregroundColor(.white)
-                                .shadow(radius: 5)
+                            VStack {
+                                Text(emoji)
+                                    .font(.largeTitle)
+                                Text(title)
+                            }
+                            .padding()
+                            .frame(minWidth: 180, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
+                            .background(color)
+                            .cornerRadius(10)
+                            .foregroundColor(.white)
+                            .shadow(radius: 5)
                         }
                     }
                 }
@@ -54,3 +68,4 @@ struct HundredQuestionsListView_Previews: PreviewProvider {
         HundredQuestionsListView()
     }
 }
+

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "question": "Er morsomt"
+  },
+  {
+    "id": 2,
+    "question": "Sjølv trur den er morsomst"
+  },
+  {
+    "id": 3,
+    "question": "Har størst kjendisfaktor"
+  },
+  {
+    "id": 4,
+    "question": "Er best i senga"
+  },
+  {
+    "id": 5,
+    "question": "Spruta den mest massive cumshotten"
+  },
+  {
+    "id": 6,
+    "question": "Er mest opptatt av utsjånaden"
+  },
+  {
+    "id": 7,
+    "question": "Er mest fornøyd med eiga utsjånad"
+  },
+  {
+    "id": 8,
+    "question": "Komme raskast"
+  },
+  {
+    "id": 9,
+    "question": "Har størst penis"
+  },
+  {
+    "id": 10,
+    "question": "SKÅL 10!"
+  },
+  {
+    "id": 11,
+    "question": "Finast smil"
+  },
+  {
+    "id": 12,
+    "question": "Er mest overlegen"
+  },
+  {
+    "id": 13,
+    "question": "Er mest sporty"
+  },
+  {
+    "id": 14,
+    "question": "Bruker mest penger på byn?"
+  },
+  {
+    "id": 15,
+    "question": "Har hatt sex med flest"
+  },
+  {
+    "id": 16,
+    "question": "Har hatt flest orgasmar"
+  },
+  {
+    "id": 17,
+    "question": "Er mest vill?"
+  },
+  {
+    "id": 18,
+    "question": "Har best kropp"
+  },
+  {
+    "id": 19,
+    "question": "Er mest spontan"
+  },
+  {
+    "id": 20,
+    "question": "Er mest uskyldig"
+  },
+  {
+    "id": 21,
+    "question": "Laga dei sjukaste lydene i senga"
+  },
+  {
+    "id": 22,
+    "question": "Har størst lommebok"
+  },
+  {
+    "id": 23,
+    "question": "Har finast antrekk"
+  },
+  {
+    "id": 24,
+    "question": "Har finast legga"
+  },
+  {
+    "id": 25,
+    "question": "Har finast rumpe"
+  },
+  {
+    "id": 26,
+    "question": "Har finast frisyre/hår"
+  },
+  {
+    "id": 27,
+    "question": "Har dei vakraste auga"
+  },
+  {
+    "id": 28,
+    "question": "Er mest breiskuldra."
+  },
+  {
+    "id": 29,
+    "question": "Har dei mest spennande brysta"
+  },
+  {
+    "id": 30,
+    "question": "Er festens høgste"
+  },
+  {
+    "id": 31,
+    "question": "Du har eit lite auge til"
+  },
+  {
+    "id": 32,
+    "question": "Trodde du var mest bitch første gang dere møttes"
+  },
+  {
+    "id": 33,
+    "question": "Slippe dei verste fisane"
+  },
+  {
+    "id": 34,
+    "question": "Du får vakrast barn saman med"
+  },
+  {
+    "id": 35,
+    "question": "Er mest skuleflinke"
+  },
+  {
+    "id": 36,
+    "question": "Har shava og er forberedt på alt"
+  },
+  {
+    "id": 37,
+    "question": "Gått lengst uten å ha sex"
+  },
+  {
+    "id": 38,
+    "question": "Mest sannsynlig å være hangover i en hverdag"
+  },
+  {
+    "id": 39,
+    "question": "Har lengst tånegler"
+  },
+  {
+    "id": 40,
+    "question": "Er den største fylliken"
+  },
+  {
+    "id": 41,
+    "question": "Er den beste til å kysse"
+  },
+  {
+    "id": 42,
+    "question": "Gir best strippeshow"
+  },
+  {
+    "id": 43,
+    "question": "Har lyst å komme i buksa på i kveld"
+  },
+  {
+    "id": 44,
+    "question": "Blir raskast sjalu"
+  },
+  {
+    "id": 45,
+    "question": "Ligna mest på en taco"
+  },
+  {
+    "id": 46,
+    "question": "Har hatt sex med flest eldre"
+  },
+  {
+    "id": 47,
+    "question": "Har hatt trekant"
+  },
+  {
+    "id": 48,
+    "question": "Lika å bruke butplug"
+  },
+  {
+    "id": 49,
+    "question": "Har best musikksmak"
+  },
+  {
+    "id": 50,
+    "question": "Har hatt sex med flest nasjonaliteta"
+  },
+  {
+    "id": 51,
+    "question": "Synge finast"
+  },
+  {
+    "id": 52,
+    "question": "Synge jævligast"
+  },
+  {
+    "id": 53,
+    "question": "Snusa mest"
+  },
+  {
+    "id": 54,
+    "question": "Tar med seg nåken heim ai kvelds"
+  },
+  {
+    "id": 55,
+    "question": "Får kjæreste i år"
+  },
+  {
+    "id": 56,
+    "question": "Blir gravid første"
+  },
+  {
+    "id": 57,
+    "question": "Spyr i kveld"
+  },
+  {
+    "id": 58,
+    "question": "Slutta på studiet"
+  },
+  {
+    "id": 59,
+    "question": "Blir mest drita i kveld"
+  },
+  {
+    "id": 60,
+    "question": "Blir pappa først"
+  },
+  {
+    "id": 61,
+    "question": "Gifta seg først"
+  },
+  {
+    "id": 62,
+    "question": "Har finast lepper"
+  },
+  {
+    "id": 63,
+    "question": "Har størst fot"
+  },
+  {
+    "id": 64,
+    "question": "Er mest klar for arbeidslivet"
+  },
+  {
+    "id": 65,
+    "question": "Kler briller best"
+  },
+  {
+    "id": 66,
+    "question": "Skiller seg mest ut i mengden"
+  },
+  {
+    "id": 67,
+    "question": "Ligna mest på ei høne"
+  },
+  {
+    "id": 68,
+    "question": "Rir best"
+  },
+  {
+    "id": 69,
+    "question": "Lukta best"
+  },
+  {
+    "id": 70,
+    "question": "Skål 70!"
+  },
+  {
+    "id": 71,
+    "question": "Lyser opp rommet"
+  },
+  {
+    "id": 72,
+    "question": "Drikke raskast"
+  },
+  {
+    "id": 73,
+    "question": "Er en svett gamer"
+  },
+  {
+    "id": 74,
+    "question": "Mest fotogen"
+  },
+  {
+    "id": 75,
+    "question": "Blitt pumpa?"
+  },
+  {
+    "id": 76,
+    "question": "Verste sjåføren"
+  },
+  {
+    "id": 77,
+    "question": "Mest religiøs"
+  },
+  {
+    "id": 78,
+    "question": "Hatt sex i et telt"
+  },
+  {
+    "id": 79,
+    "question": "Du ville vært på en øde øy med"
+  },
+  {
+    "id": 80,
+    "question": "Skål 80!"
+  },
+  {
+    "id": 81,
+    "question": "Ofast er forsinka"
+  },
+  {
+    "id": 82,
+    "question": "Er mest ubesluttsom"
+  },
+  {
+    "id": 83,
+    "question": "Trur på sysnke"
+  },
+  {
+    "id": 84,
+    "question": "Stoler du mest på"
+  },
+  {
+    "id": 85,
+    "question": "Hadde gjort mest for minst penger"
+  },
+  {
+    "id": 86,
+    "question": "Hooker mest"
+  },
+  {
+    "id": 87,
+    "question": "Verst på å bruke prevensjon?"
+  },
+  {
+    "id": 88,
+    "question": "Ser på The Kardashians"
+  },
+  {
+    "id": 89,
+    "question": "Er mest bortskjemt?"
+  },
+  {
+    "id": 90,
+    "question": "Juksa mest"
+  },
+  {
+    "id": 91,
+    "question": "Har hatt flest kjønnsjukdommar"
+  },
+  {
+    "id": 92,
+    "question": "Har mest humørsvingninger"
+  },
+  {
+    "id": 93,
+    "question": "Er lengst i dusjen"
+  },
+  {
+    "id": 94,
+    "question": "Skal ta bonski med deg!"
+  },
+  {
+    "id": 95,
+    "question": "Hvem er mest horoskop freak"
+  },
+  {
+    "id": 96,
+    "question": "Er mest overlegen"
+  },
+  {
+    "id": 97,
+    "question": "Blir spandert mest på byen"
+  },
+  {
+    "id": 98,
+    "question": "Tømmer og rømmer"
+  },
+  {
+    "id": 99,
+    "question": "Googla seg sjøvl oftast"
+  },
+  {
+    "id": 100,
+    "question": "SKÅL 100!!"
+  }
+]
