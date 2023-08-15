@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "question": "Hvem søler mest på vors"
+  },
+  {
+    "id": 2,
+    "question": "JEG HAR ALDRI dansa på bordet på heidis"
+  },
+  {
+    "id": 3,
+    "question": "Hvem ville du hatt som livvakt når du blir kjendis"
+  },
+  {
+    "id": 4,
+    "question": "JEG HAR ALDRI besteget en fjelltopp over 2000"
+  },
+  {
+    "id": 5,
+    "question": "Hvem ville du helst laget podcast med"
+  },
+  {
+    "id": 6,
+    "question": "Jeg har aldri ligget med en fadder."
+  },
+  {
+    "id": 7,
+    "question": "Blir den beste moren/faren."
+  },
+  {
+    "id": 8,
+    "question": "Hvem er den største snaphora"
+  },
+  {
+    "id": 9,
+    "question": "Jeg har aldri «glemt» kortet for å få påspandert en kveld på byen"
+  },
+  {
+    "id": 10,
+    "question": "jeg har aldri ryddet i fylla"
+  },
+  {
+    "id": 11,
+    "question": "Hvem er mest på dragvoll uten å gjøre noe"
+  },
+  {
+    "id": 12,
+    "question": "Jeg har aldri drukket hiroshima"
+  },
+  {
+    "id": 13,
+    "question": "Mest sannsynlig til å ikke huske noe imorgen"
+  },
+  {
+    "id": 14,
+    "question": "Jeg har aldri spydd hos et ons"
+  },
+  {
+    "id": 15,
+    "question": "Hvem kommer til å bli tiktok famous"
+  },
+  {
+    "id": 16,
+    "question": "JEG HAR ALDRI fått eller gitt en tiss i toerrn"
+  },
+  {
+    "id": 17,
+    "question": "Hvem er student kun for å få med seg fadderuka"
+  },
+  {
+    "id": 18,
+    "question": "Jeg har aldri kommet på under 1 minutt"
+  },
+  {
+    "id": 19,
+    "question": "Hvem bruker womanizeren flittigst"
+  },
+  {
+    "id": 20,
+    "question": "Jeg har aldri twerka på byen"
+  },
+  {
+    "id": 21,
+    "question": "Hvem kommer til å bo i et kollektiv for resten av livet"
+  },
+  {
+    "id": 22,
+    "question": "Jeg har aldri hatt sex på en strand"
+  },
+  {
+    "id": 23,
+    "question": "Hvem har mest attitudeproblem ifølge karpe"
+  },
+  {
+    "id": 24,
+    "question": "Jeg har aldri svelget cum"
+  },
+  {
+    "id": 25,
+    "question": "Hvem har en greie for noen i dette rommet"
+  },
+  {
+    "id": 26,
+    "question": "Jeg har aldri hørt foreldrene mine ha sex."
+  },
+  {
+    "id": 27,
+    "question": "Hvem har kulest dialekt"
+  },
+  {
+    "id": 28,
+    "question": "Jeg har aldri filmet en sexvideo"
+  },
+  {
+    "id": 29,
+    "question": "Hvem kler alt de går med"
+  },
+  {
+    "id": 30,
+    "question": "Jeg har aldri hatt flere fuckfriends samtidig"
+  },
+  {
+    "id": 31,
+    "question": "Hvem liker å bli kvelt"
+  },
+  {
+    "id": 32,
+    "question": "Jeg har aldri hatt sex i løpet av fadderuka"
+  },
+  {
+    "id": 33,
+    "question": "Hvem gleder seg til bursdagen sin i 364 dager i året"
+  },
+  {
+    "id": 34,
+    "question": "Jeg har aldri sett eksen på eotb"
+  },
+  {
+    "id": 35,
+    "question": "Hvem forblir singel i en evighet"
+  },
+  {
+    "id": 36,
+    "question": "Jeg har aldri hatt sex med noen tre år yngre"
+  },
+  {
+    "id": 37,
+    "question": "Hvem røsker med seg hva som helst hjem fra byen"
+  },
+  {
+    "id": 38,
+    "question": "Jeg har aldri tatt en jomfrudom"
+  },
+  {
+    "id": 39,
+    "question": "Hvem har mest draget uten å skjønne det selv"
+  },
+  {
+    "id": 40,
+    "question": "Jeg har aldri blitt kastet ut av byen"
+  },
+  {
+    "id": 41,
+    "question": "Hvem er mest sannsynlig for å være på onlyfans (tolk det som du vil)"
+  },
+  {
+    "id": 42,
+    "question": "Jeg har aldri kjøpt klær jeg aldri har brukt"
+  },
+  {
+    "id": 43,
+    "question": "hvem er mest sannsyblig til å havne på omgjustdont"
+  },
+  {
+    "id": 44,
+    "question": "jeg har aldri stjelt fra et vors"
+  },
+  {
+    "id": 45,
+    "question": "hvem faker flest orgasmer"
+  },
+  {
+    "id": 46,
+    "question": "jeg har aldri ligget med flere enn 1 på 24 timer"
+  },
+  {
+    "id": 47,
+    "question": "hvem har finest smil"
+  },
+  {
+    "id": 48,
+    "question": "jeg har aldri hatt sex i foreldrene mine sin seng"
+  },
+  {
+    "id": 49,
+    "question": "hvem får du vakrest barn sammen med"
+  },
+  {
+    "id": 50,
+    "question": "jeg har aldri blitt stangsøster/tunnelbror med en venn"
+  },
+  {
+    "id": 51,
+    "question": "hvem har et skummelt forhold til alkohol"
+  },
+  {
+    "id": 52,
+    "question": "jeg har aldri strippet"
+  },
+  {
+    "id": 53,
+    "question": "hvem har puls og to bein i følge even kvam"
+  },
+  {
+    "id": 54,
+    "question": "jeg har aldri hatt trekant"
+  },
+  {
+    "id": 55,
+    "question": "hvem kommer sannsynligvis til å ha trekant"
+  },
+  {
+    "id": 56,
+    "question": "jeg har aldri ligget med en venns familiemedlem"
+  },
+  {
+    "id": 57,
+    "question": "hvem har hart sex med flest eldre"
+  },
+  {
+    "id": 58,
+    "question": "jeg har aldri hoppet i fallskjerm"
+  },
+  {
+    "id": 59,
+    "question": "hvem liker å bruke buttplug"
+  },
+  {
+    "id": 60,
+    "question": "jeg har aldri ligget med en venn av broren/søsteren min. Skål 60!"
+  },
+  {
+    "id": 61,
+    "question": "hvem taper mot dag otto i huskestue"
+  },
+  {
+    "id": 62,
+    "question": "Jeg har aldri vært på fyllatur i utlandet"
+  },
+  {
+    "id": 63,
+    "question": "Hvem har best radiostemme"
+  },
+  {
+    "id": 64,
+    "question": "jeg har aldri hatt sex på et utested"
+  },
+  {
+    "id": 65,
+    "question": "hvem blir finest på vin"
+  },
+  {
+    "id": 66,
+    "question": "jeg har aldri blitt bustet i å se på porno"
+  },
+  {
+    "id": 67,
+    "question": "hvem er alltid med på fylla"
+  },
+  {
+    "id": 68,
+    "question": "jeg har aldri gitt videre gaver jeg har fått"
+  },
+  {
+    "id": 69,
+    "question": "hvem er mest bol"
+  },
+  {
+    "id": 70,
+    "question": "Jeg har aldri sendt nudes. Skål 70!"
+  },
+  {
+    "id": 71,
+    "question": "hvem er mest cocky"
+  },
+  {
+    "id": 72,
+    "question": "jeg har aldri solgt sokker eller undertøy"
+  },
+  {
+    "id": 73,
+    "question": "hvem drar på andre campus kun for å jakte på gutter eller jenter"
+  },
+  {
+    "id": 74,
+    "question": "jeg har aldri squirtet"
+  },
+  {
+    "id": 75,
+    "question": "hvem ser best ut i kveld"
+  },
+  {
+    "id": 76,
+    "question": "jeg har aldri tettet et toalett"
+  },
+  {
+    "id": 77,
+    "question": "hvem bruker mest penger på burger king"
+  },
+  {
+    "id": 78,
+    "question": "jeg har aldri kjøpt et leketøy til meg selv som voksen"
+  },
+  {
+    "id": 79,
+    "question": "hvem synes de selv er den morsomeste i rommet"
+  },
+  {
+    "id": 80,
+    "question": "Jeg har aldri skulket skole eller jobb for sex. Skål 80!"
+  },
+  {
+    "id": 81,
+    "question": "hvem blir fullest i kveld"
+  },
+  {
+    "id": 82,
+    "question": "jeg har aldri blitt sparket ut/dratt hjem rett etter sex"
+  },
+  {
+    "id": 83,
+    "question": "hvem reiser lengst for et ligg"
+  },
+  {
+    "id": 84,
+    "question": "Jeg har aldri vært utenfor Europa"
+  },
+  {
+    "id": 85,
+    "question": "hvem er den største sports-idioten"
+  },
+  {
+    "id": 86,
+    "question": "jeg har aldri skadet meg under sex"
+  },
+  {
+    "id": 87,
+    "question": "hvem blir flauest når de blir kastet til"
+  },
+  {
+    "id": 88,
+    "question": "jeg har aldri krasjet en bil"
+  },
+  {
+    "id": 89,
+    "question": "hvem roper høyest under sex"
+  },
+  {
+    "id": 90,
+    "question": "jeg har aldri brukket noe"
+  },
+  {
+    "id": 91,
+    "question": "hvem i rommet er alltid forsinka"
+  },
+  {
+    "id": 92,
+    "question": "jeg har aldri sagt feil navn under sex"
+  },
+  {
+    "id": 93,
+    "question": "hvem i rommet ville du hatt med på en trekant (kast kun til en)"
+  },
+  {
+    "id": 94,
+    "question": "jeg har aldri løyet om egen alder for å få med meg noen hjem"
+  },
+  {
+    "id": 95,
+    "question": "hvem spyr i kveld"
+  },
+  {
+    "id": 96,
+    "question": "jeg har aldri sett noen i dette rommet naken"
+  },
+  {
+    "id": 97,
+    "question": "hvem er mest sjalu"
+  },
+  {
+    "id": 98,
+    "question": "jeg har aldri slått opp med noen over tekstmelding"
+  },
+  {
+    "id": 99,
+    "question": "hvem ser mest på porno"
+  },
+  {
+    "id": 100,
+    "question": "jeg har aldri jugd i løpet av dette spillet. SKÅL 100!!"
+  }
+]
