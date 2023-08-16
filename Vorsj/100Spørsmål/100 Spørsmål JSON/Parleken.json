@@ -1,0 +1,575 @@
+[
+  {
+    "id": 1,
+    "question": "Hvem skal chugge sammen?",
+    "rule": "1. Finn frem to snusbokser\n2. Finn en måte å skille disse to snusboksene fra hverandre.\n\nNumrer boksene med 1&2, enten med tusj eller gjennom type snus (feks: Epok 03 er nr.1, og epok 01 er nr.2)\n\nEierne av snusboksene starter, med hver sin snusboks.\n\nStill første spørsmål.\n\nEieren som har snusboks nr.1 kaster boksen til en person i rommet.\n\nEtter første snusboks har blitt kastet til en utvalgt person, skal eieren av snusboks nr.2 kaste sin Snusboks nr.2 blir kastet basert på hvem som fikk nr.1\n\nEksempel: \"Hvem kunne vært søsken?\". Kari Nordmann fikk snusboks nr.1 kastet til seg. Snusboks nr.2 skal bli kastet til personen som kunne vært søsken med Kari Nordmann?."
+  },
+  {
+    "id": 2,
+    "question": "Hvem skal ta en slurk sammen?"
+  },
+  {
+    "id": 3,
+    "question": "Hvem kunne vært søsken?"
+  },
+  {
+    "id": 4,
+    "question": "Hvem er hemmelig forelska i hverandre?"
+  },
+  {
+    "id": 5,
+    "question": "Hvem hadde passet bra sammen?"
+  },
+  {
+    "id": 6,
+    "question": "Hvem hadde ikke passet bra sammen?"
+  },
+  {
+    "id": 7,
+    "question": "Hvem er en farlig duo?"
+  },
+  {
+    "id": 8,
+    "question": "Hvem er partners in crime?"
+  },
+  {
+    "id": 9,
+    "question": "Hvem er friendzona?"
+  },
+  {
+    "id": 10,
+    "question": "Hvem gifter seg om 10 år?"
+  },
+  {
+    "id": 11,
+    "question": "Hvem kunne vært sammen, men som hadde sjokket alle?"
+  },
+  {
+    "id": 12,
+    "question": "Hvem skal pule ikveld?"
+  },
+  {
+    "id": 13,
+    "question": "Hvem kunne vært hemmelige fuckfriends?"
+  },
+  {
+    "id": 14,
+    "question": "Hvem crusher på hverandre?"
+  },
+  {
+    "id": 15,
+    "question": "Hvem skal ta bonski sammen?"
+  },
+  {
+    "id": 16,
+    "question": "Hvem er modellparet?"
+  },
+  {
+    "id": 17,
+    "question": "Hvem hadde det vært gøyest å sett på tv?"
+  },
+  {
+    "id": 18,
+    "question": "Hvem hadde hatt mest penger samlet?"
+  },
+  {
+    "id": 19,
+    "question": "Hvem hadde hatt minst penger samlet?"
+  },
+  {
+    "id": 20,
+    "question": "Hvem er hoes sammen?"
+  },
+  {
+    "id": 21,
+    "question": "Hvem blir business partnere?"
+  },
+  {
+    "id": 22,
+    "question": "Hvem skal drikke en slurk av hverandres drikke?"
+  },
+  {
+    "id": 23,
+    "question": "Hvem kommer på noe revolusjonerende sammen og tjener mæd cash på det?"
+  },
+  {
+    "id": 24,
+    "question": "Hvem hadde bråket mest i klasserommet sammen?"
+  },
+  {
+    "id": 25,
+    "question": "Hvem skulle ønske de kunne pult en den andre personen har pult?"
+  },
+  {
+    "id": 26,
+    "question": "Hvem hadde du betalt penger for å se sextapen til?"
+  },
+  {
+    "id": 27,
+    "question": "Hvem får det peneste barnet sammen?"
+  },
+  {
+    "id": 28,
+    "question": "Hvem hadde vært de kuleste foreldrene?"
+  },
+  {
+    "id": 29,
+    "question": "Hvem kunne giftet seg i Vegas?"
+  },
+  {
+    "id": 30,
+    "question": "Hvem er Batman & Robin i gjengen?"
+  },
+  {
+    "id": 31,
+    "question": "Hvem er Maddy & Cassie i gjengen?"
+  },
+  {
+    "id": 32,
+    "question": "Hvem er knoll og tott?"
+  },
+  {
+    "id": 33,
+    "question": "Hvem hadde vært incest hvis de hadde gjort noe?"
+  },
+  {
+    "id": 34,
+    "question": "Hvem kunne aldri ha jobbet sammen?"
+  },
+  {
+    "id": 35,
+    "question": "Hvem oppfører seg som et gammelt ektepar?"
+  },
+  {
+    "id": 36,
+    "question": "Hvem blir irriterende når de er sammen på fylla?"
+  },
+  {
+    "id": 37,
+    "question": "Hvem kunne inngått en pakt om å gifte seg med hverandre hvis de ikke fant noen innen de er 40 år?"
+  },
+  {
+    "id": 38,
+    "question": "Hvem hadde planlagt reunion sammen om noen titalls år?"
+  },
+  {
+    "id": 39,
+    "question": "Hvem er de beste wingmanene for hverandre?"
+  },
+  {
+    "id": 40,
+    "question": "Hvem i gjengen av samme kjønn kunne ligget med hverandre?"
+  },
+  {
+    "id": 41,
+    "question": "Hvem er alltid med ut sammen?"
+  },
+  {
+    "id": 42,
+    "question": "Hvem er drinking buddies?"
+  },
+  {
+    "id": 43,
+    "question": "Hvem drikker mest til sammen?"
+  },
+  {
+    "id": 44,
+    "question": "Hvem danser alltid sammen?"
+  },
+  {
+    "id": 45,
+    "question": "Hvem stoler på hverandre til å være alene med hverandres kjærester?"
+  },
+  {
+    "id": 46,
+    "question": "Hvem stoler ikke på hverandre til å være alene med hverandres kjærester?"
+  },
+  {
+    "id": 47,
+    "question": "Hvem stoler på hverandre med en hemmelighet?"
+  },
+  {
+    "id": 48,
+    "question": "Hvem i gjengen av samme kjønn kunne ligget med hverandre?"
+  },
+  {
+    "id": 49,
+    "question": "Hvem hadde hatt best sex?"
+  },
+  {
+    "id": 50,
+    "question": "Hvem hadde ikke funket sammen i senga?"
+  },
+  {
+    "id": 51,
+    "question": "Hvem er mest ulik personlighetsmessig?"
+  },
+  {
+    "id": 52,
+    "question": "Hvem er mest ulik utseendemessig?"
+  },
+  {
+    "id": 53,
+    "question": "Hvem tar restene til hverandre?"
+  },
+  {
+    "id": 54,
+    "question": "Hvem blir mest retards sammen?"
+  },
+  {
+    "id": 55,
+    "question": "Hvem driter i brocode sammen?"
+  },
+  {
+    "id": 56,
+    "question": "Hvem liker samme person?"
+  },
+  {
+    "id": 57,
+    "question": "Hvem kunne blitt sammen med moren/faren til nr.1?"
+  },
+  {
+    "id": 58,
+    "question": "Hvem er personens favoritt person i rommet?"
+  },
+  {
+    "id": 59,
+    "question": "Hvem skal ta en den største slurken de klarer sammen?"
+  },
+  {
+    "id": 60,
+    "question": "Hvem kunne faktisk klart seg på en øde øy sammen?"
+  },
+  {
+    "id": 61,
+    "question": "Hvem kunne ikke klart seg på en øde øy sammen?"
+  },
+  {
+    "id": 62,
+    "question": "Hvem hadde ikke klart å holde hendene fra hverandre hvis de to hadde vært alene sammen?"
+  },
+  {
+    "id": 63,
+    "question": "Hvem ville du hatt som gudfedre til barnet ditt?"
+  },
+  {
+    "id": 64,
+    "question": "Hvis barnet ditt skulle vært en kombinasjon av to personer i rommet, hvem ville du valgt?"
+  },
+  {
+    "id": 65,
+    "question": "Hvem jukser sammen på prøver?"
+  },
+  {
+    "id": 66,
+    "question": "Hvem gjør hverandre bedre?"
+  },
+  {
+    "id": 67,
+    "question": "Hvis du og den andre personen som har snusboksen skulle hatt et barn, hvem i rommet hadde vært avkommet (utseendemessig)?"
+  },
+  {
+    "id": 68,
+    "question": "Hvem hadde du ikke overrasket deg over å ha sett på Charterfeber sammen om en del år?"
+  },
+  {
+    "id": 69,
+    "question": "Hvem i rommet skjuler noe sammen, som de må fortelle?"
+  },
+  {
+    "id": 70,
+    "question": "Hvem i rommet har likest musikksmak?"
+  },
+  {
+    "id": 71,
+    "question": "Hvem i rommet har likest smak i jenter/gutter++?"
+  },
+  {
+    "id": 72,
+    "question": "Hvem i rommet hadde vært stjerneparet hvis de hadde vært kjendiser?"
+  },
+  {
+    "id": 73,
+    "question": "Hvis alle i rommet var single og med på et dating program sammen, hvem hadde vunnet?"
+  },
+  {
+    "id": 74,
+    "question": "Hvem hadde vunnet Paradise Hotel sammen?"
+  },
+  {
+    "id": 75,
+    "question": "Hvis hele gjengen skulle ut i en kunnskapskonkurranse, hvem hadde vært finalistene?"
+  },
+  {
+    "id": 76,
+    "question": "Hvis hele gjengen skulle vært med i 71 grader nord, hvem hadde vært finalistene?"
+  },
+  {
+    "id": 77,
+    "question": "Hvis hele gjengen skulle vært med i Farmen, hvem hadde vært finalistene?"
+  },
+  {
+    "id": 78,
+    "question": "Hvis hele gjengen skulle vært med i Camp Kulinaris, hvem hadde vært finalistene?"
+  },
+  {
+    "id": 79,
+    "question": "Hvis hele gjengen skulle vært med på The Voice, hvem hadde vært finalistene?"
+  },
+  {
+    "id": 80,
+    "question": "Hvem er Blair og Serena i gjengen?"
+  },
+  {
+    "id": 81,
+    "question": "Hvem er Meredith Grey og Christina i gjengen?"
+  },
+  {
+    "id": 82,
+    "question": "Hvem er kranglefantene i gjengen?"
+  },
+  {
+    "id": 83,
+    "question": "Hvem sitt barn får det fineste håret?"
+  },
+  {
+    "id": 84,
+    "question": "Hvem ville fått det perfekte barnet?"
+  },
+  {
+    "id": 85,
+    "question": "Hvem ville fått det høyeste barnet?"
+  },
+  {
+    "id": 86,
+    "question": "Hvem er du redd for når de to er sammen?"
+  },
+  {
+    "id": 87,
+    "question": "Hvis du og nr2 skulle dratt på dobbel date, hvem ville dere tatt med?"
+  },
+  {
+    "id": 88,
+    "question": "Hvem ville laget det beste underholdnings showet?"
+  },
+  {
+    "id": 89,
+    "question": "Hvis dere hatt hatt fem minutter til å skrevet en fortelling, hvem ville skrevet den beste sammen?"
+  },
+  {
+    "id": 90,
+    "question": "Hvem ville du hatt med deg på quiz sammen?"
+  },
+  {
+    "id": 91,
+    "question": "Hvem er den morsomste duoen?"
+  },
+  {
+    "id": 92,
+    "question": "Hvem havner i fyllarresten sammen?"
+  },
+  {
+    "id": 93,
+    "question": "Hvem er svigefar og svigemors drøm?"
+  },
+  {
+    "id": 94,
+    "question": "Hvem blir festens midtpunkt sammen?"
+  },
+  {
+    "id": 95,
+    "question": "Hvem er vorsets main characters?"
+  },
+  {
+    "id": 96,
+    "question": "Hvem kunne sendt nudes sammen til en person?"
+  },
+  {
+    "id": 97,
+    "question": "Hvem skal snusboks 1&2 chugge med?"
+  },
+  {
+    "id": 98,
+    "question": "Hvem har den fineste navnkombinasjonen? Nr1: Fornavn, Nr2: Etternavn"
+  },
+  {
+    "id": 99,
+    "question": "Hvem er milf/dilfs hunters?"
+  },
+  {
+    "id": 100,
+    "question": "Hvem kunne du shippet?"
+  },
+  {
+    "id": 101,
+    "question": "Hvem hadde blitt milf og dilf sammen?"
+  },
+  {
+    "id": 102,
+    "question": "Hvem soccer moms sammen?"
+  },
+  {
+    "id": 103,
+    "question": "Hvem kunne datet hver sin bestevenn?"
+  },
+  {
+    "id": 104,
+    "question": "Hvem er Tanya og Rosie om noen år (Mamma Mia)?"
+  },
+  {
+    "id": 105,
+    "question": "Hvem bør confesse følesene sine til hverandre å bare bli ferdige med det?"
+  },
+  {
+    "id": 106,
+    "question": "Hvem blander inn alle andre når det er kun draam mellom de to?"
+  },
+  {
+    "id": 107,
+    "question": "Hvem er eksperter på å lage drama sammen?"
+  },
+  {
+    "id": 108,
+    "question": "Hvem ville du hatt som guforeldre til barna dine?"
+  },
+  {
+    "id": 109,
+    "question": "Hvem ville du ikke hatt som gudforeldre til barna dine?"
+  },
+  {
+    "id": 110,
+    "question": "Hvem kunne spilt lovers i en romantisk film?"
+  },
+  {
+    "id": 111,
+    "question": "Hvem hadde ikke klart seg i en seriøs setting sammen?"
+  },
+  {
+    "id": 112,
+    "question": "Hvem ler høyest sammen?"
+  },
+  {
+    "id": 113,
+    "question": "Hvem vil du ikke ha sittende ved siden av deg under en døds viktig presentasjon?"
+  },
+  {
+    "id": 114,
+    "question": "Du har vip billetter til noe kult, hvem ville du tatt med for å gjøre opplevelsen minnerik?"
+  },
+  {
+    "id": 115,
+    "question": "Hvem ville gjort en Eurpris tur like gøy som en Disney World tur sammen?"
+  },
+  {
+    "id": 116,
+    "question": "Hvem burde ha et reality program sammen?"
+  },
+  {
+    "id": 117,
+    "question": "Hvis du hadde hatt 24 timer uten mobilen, hvem hadde fått deg til å glemme den?"
+  },
+  {
+    "id": 118,
+    "question": "Hvem ville du latt planlegge en fremtidig reise for deg?"
+  },
+  {
+    "id": 119,
+    "question": "Hvem er klassens klovner?"
+  },
+  {
+    "id": 120,
+    "question": "Hvilke jenter hadde kverket Nate Jacobs sammen?"
+  },
+  {
+    "id": 121,
+    "question": "Hvilken duo hadde fått Putin til å grine?"
+  },
+  {
+    "id": 122,
+    "question": "Hvis gjengen hadde gjort noe kriminelt, hvem skulle vært masterminds bak det?"
+  },
+  {
+    "id": 123,
+    "question": "Hvis gjengen hadde vært The Avengers, hvem hadde vært lederne?"
+  },
+  {
+    "id": 124,
+    "question": "Hvem svettgamer sammen?"
+  },
+  {
+    "id": 125,
+    "question": "Hvem svett tindrer sammen?"
+  },
+  {
+    "id": 126,
+    "question": "Hvem blir homofil sammen på fylla?"
+  },
+  {
+    "id": 127,
+    "question": "Hvem er du usikker er på om de er kun venner, kjærester eller søsken?"
+  },
+  {
+    "id": 128,
+    "question": "Hvem ville ikke kledd barnet sitt sammen i Cubus?"
+  },
+  {
+    "id": 129,
+    "question": "Hvem hadde dannet den sossete familien?"
+  },
+  {
+    "id": 130,
+    "question": "Hvem hadde blitt turfamilien?"
+  },
+  {
+    "id": 131,
+    "question": "Hvem hadde blitt en typisk A4 familie?"
+  },
+  {
+    "id": 132,
+    "question": "Hvem er et par som du kunne dannet en familie du skulle ønske du kunne værten del av?"
+  },
+  {
+    "id": 133,
+    "question": "Hvem er klassens pøbler?"
+  },
+  {
+    "id": 134,
+    "question": "Hvem er klassens kløner?"
+  },
+  {
+    "id": 135,
+    "question": "Hvis det blir krig i landet, hvem hadde hatt photoshoot sammen?"
+  },
+  {
+    "id": 136,
+    "question": "Hvem får det mest diverse barnet?"
+  },
+  {
+    "id": 137,
+    "question": "Hvis dere som gjeng hadde dannet et land, hvem hadde vært kongen og dronningen?"
+  },
+  {
+    "id": 138,
+    "question": "Hvem kunne deltatt i debatten - mot hverandre?"
+  },
+  {
+    "id": 139,
+    "question": "Hvem er to du ville hatt på laget ditt sammen i kroppsøving?"
+  },
+  {
+    "id": 140,
+    "question": "Kast den til to personer, de skal beskrive alle i rommet med et ord"
+  },
+  {
+    "id": 141,
+    "question": "Hvem er to du kunne tenkt deg høre historien om hvordan de møttes?"
+  },
+  {
+    "id": 142,
+    "question": "Hvem er to som du kunne tenkt deg hadde sveipet ja til hverandre på tinder?"
+  },
+  {
+    "id": 143,
+    "question": "Hvem er to du kunne likt å ha hørt podcasten til?"
+  }
+]

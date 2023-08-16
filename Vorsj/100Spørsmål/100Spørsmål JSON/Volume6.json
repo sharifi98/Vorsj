@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "question": "Mest utadvendt/frempå? (Drikk og hold en liten tale for å starte leken)"
+  },
+  {
+    "id": 2,
+    "question": "Er mest romantisk (Drikk og si noe romantisk til personen til høyre for deg)"
+  },
+  {
+    "id": 3,
+    "question": "Er mest flørtete (Drikk og gi personen til venstre et kyss på kinnet)"
+  },
+  {
+    "id": 4,
+    "question": "Hooker mest (Fortell antall personer du har klint med på en kveld og drikk antall slurker)"
+  },
+  {
+    "id": 5,
+    "question": "Trenger å få seg noe i kveld (Drikk og del ut tre slurker til en annen i rommet som du også synes burde få seg noe)"
+  },
+  {
+    "id": 6,
+    "question": "Er ærligst? (Drikk og la personen til høyre spørre deg om en sannhet)"
+  },
+  {
+    "id": 7,
+    "question": "Er mest stolt av kroppen sin? (Drikk og ta av et plagg som du skal sitte uten resten av spillet)"
+  },
+  {
+    "id": 8,
+    "question": "Kunne kysset noen for en drink på byen (Gi noen et kyss og spør om å få smake på drinken)"
+  },
+  {
+    "id": 9,
+    "question": "Har hatt flest one night stands?"
+  },
+  {
+    "id": 10,
+    "question": "Gruppeskål🥂"
+  },
+  {
+    "id": 11,
+    "question": "Hvem skal være din drikkekompis resten av spillet? (Ta en felles skål)"
+  },
+  {
+    "id": 12,
+    "question": "Hvem her kunne spydd av tre shots? (Ta en shot)"
+  },
+  {
+    "id": 13,
+    "question": "Hvem lager de villeste lydene i senga?"
+  },
+  {
+    "id": 14,
+    "question": "Hvem gifter seg først? (Drikk og hold hånden til personen til høyre for deg i minst fem minutter som et tegn på troskap)"
+  },
+  {
+    "id": 15,
+    "question": "Hvem er mest fotogen? (Drikk og post et selfie med et snapfilter på privat story)"
+  },
+  {
+    "id": 16,
+    "question": "Hvem kunne dumpa noen over sms? (Drikk og finn opp en eventuell dumpemelding)"
+  },
+  {
+    "id": 17,
+    "question": "Har vært singel lengst? (På tide å gjøre noe med dette, endre navn på den øverste av det motsatte kjønn på snaplista til «kjæresten min»)"
+  },
+  {
+    "id": 18,
+    "question": "Får mest oppmerksomhet på byen? (Drikk og hvisk personen til høyre for deg hva du ville sagt til en i baren for å få spandert drikke)"
+  },
+  {
+    "id": 19,
+    "question": "Hvem får flest barn? (Drikk antall slurker per barn du har planlagt)"
+  },
+  {
+    "id": 20,
+    "question": "Ender opp med å jobbe på McDonalds? (Drikk og skyll ned burgeren med tre slurker)"
+  },
+  {
+    "id": 21,
+    "question": "Har høyest snapscore? (Fortell hvor høy den er og skam deg med tre slurker)"
+  },
+  {
+    "id": 22,
+    "question": "Drukket mest alkohol ila livet (Blir ikke mindre i dag, drikk fire slurker)"
+  },
+  {
+    "id": 23,
+    "question": "Kunne endt opp i senga med en som bare er en «venn» (Drikk og fortell hvem denne vennen er)"
+  },
+  {
+    "id": 24,
+    "question": "Er mest dramaqueen (Ro ned med fem store slurker)"
+  },
+  {
+    "id": 25,
+    "question": "Hadde sett flest folk nakne (Drikk to slurker og fortell de to siste personene du så nakne)"
+  },
+  {
+    "id": 26,
+    "question": "Hvem får førsteplassen for mest tinder-hoe? (Drikk tre slurker og del ut andre og tredjeplassen til to andre i rommet)"
+  },
+  {
+    "id": 27,
+    "question": "Hvem må lese siste tindermelding sendt? (Drikk tre store slurker før du kleiner ut)"
+  },
+  {
+    "id": 28,
+    "question": "Flinkest til å diskutere (Diskuter deg til en slurk/shot av personen ved siden av)"
+  },
+  {
+    "id": 29,
+    "question": "Mest slutty (fortell om ditt mest horete øyeblikk, de andre rangerer øyeblikket fra en til fem, drikk antall slurker)"
+  },
+  {
+    "id": 30,
+    "question": "Har hatt sex med flest på en dag? (Drikk antallet)"
+  },
+  {
+    "id": 31,
+    "question": "Hvem holder aldri kjeft? (La personen til høyre for deg velge en dialekt du må snakke resten av spillet)"
+  },
+  {
+    "id": 32,
+    "question": "Snakker minst?"
+  },
+  {
+    "id": 33,
+    "question": "Hvem ser yngst ut (Vis leg, under 20 to slurker vann, over 20 to slurker alkohol)"
+  },
+  {
+    "id": 34,
+    "question": "Dette er ikke får å være grusom Men hvem her har båret mest kjønnssykdom"
+  },
+  {
+    "id": 35,
+    "question": "Dette handler ikke bare om silikon Men hvem her har tatt eller planlegger en skjønnhets operasjon"
+  },
+  {
+    "id": 36,
+    "question": "Hvem er mest luremus? (Drikk og skam deg)"
+  },
+  {
+    "id": 37,
+    "question": "Hvem har vært slem og må sitte på fanget til den til høyre for deg? (Ta en slurk for å være god wingman)"
+  },
+  {
+    "id": 38,
+    "question": "Hvem fortjener litt oppmerksomhet? (Gi vedkommende en smask og drikk 1 slurk hver)"
+  },
+  {
+    "id": 39,
+    "question": "Har problemer med å holde på en hemmelighet (Drikk en stor slurk og fortell en hemmelighet)"
+  },
+  {
+    "id": 40,
+    "question": "Er mest crybaby? (Tørk tårene og drikk tre slurker)"
+  },
+  {
+    "id": 41,
+    "question": "Best i senga (fortell om favorittstillingen, er svaret misjonær drikk fire slurker, hvis ikke drikk to)"
+  },
+  {
+    "id": 42,
+    "question": "Drukket mest i dag (Hent deg et glass vann)"
+  },
+  {
+    "id": 43,
+    "question": "Hvem tar seg mest på puppene? (Sitt med en hånd på brystet frem til femti spørsmål, glemmer du deg drikk fire slurker)"
+  },
+  {
+    "id": 44,
+    "question": "Er den beste skuespilleren? (Lat som du er en person i rommet, la personen til høyre gjette)"
+  },
+  {
+    "id": 45,
+    "question": "Ville du spurt om kjærlighetsråd (Fortell ditt beste kjærlighetsråd til gruppen, husk å avslutt med en slurk og «men jeg vet ikke altså)"
+  },
+  {
+    "id": 46,
+    "question": "Byr mest på seg selv? (Ta med deg to andre og fremfør en dans foran gruppen)"
+  },
+  {
+    "id": 47,
+    "question": "Er mest blond? (Ta en felles skål med alle blonde i rommet)"
+  },
+  {
+    "id": 48,
+    "question": "Drikker for sakte? (Chug glasset!)"
+  },
+  {
+    "id": 49,
+    "question": "Hvem her må bytte plass, og sette seg der du bestemmer (Skål med dine nye naboer)"
+  },
+  {
+    "id": 50,
+    "question": "Gruppeskål! 50!"
+  },
+  {
+    "id": 51,
+    "question": "Hvem er mest gris? (Siden du søler mest må du drikke med to hender resten av spillet)"
+  },
+  {
+    "id": 52,
+    "question": "Har shavet og er klar for alt i kveld? (Blunk to ganger om dette stemmer og drikk)"
+  },
+  {
+    "id": 53,
+    "question": "Hvem her er mest sjefete?"
+  },
+  {
+    "id": 54,
+    "question": "Ville hatt sex først på paradise hotel (Drikk som du mener det 110% og velg en drikkepartner du skal ha ut spillet)"
+  },
+  {
+    "id": 55,
+    "question": "Hvem er den beste til å sjekke opp andre (Prøv ut sjekketrikset på personen til høyre og ta en slurk sammen)"
+  },
+  {
+    "id": 56,
+    "question": "Hvem er mest på instagram? (Drikk og lik et gammelt bilde til den du nyligst har søkt opp)"
+  },
+  {
+    "id": 57,
+    "question": "Hvem har sterkest meninger? (Fortell en hard truth til den til venste side og drikk sammen)"
+  },
+  {
+    "id": 58,
+    "question": "Bryr seg mest om utseendet? (Drikk og velg en person i rommet du kunne byttet utseendet med)"
+  },
+  {
+    "id": 59,
+    "question": "Hvem er mest sjenert? (Ta tre store slurker/shots som straff og ta en skål med den i rommet du føler du kjenner minst)"
+  },
+  {
+    "id": 60,
+    "question": "60! gruppeskål"
+  },
+  {
+    "id": 61,
+    "question": "Hvem her kunne vunnet miss norway? (Drikk og klapp deg selv på skuldra)"
+  },
+  {
+    "id": 62,
+    "question": "Mest glemsk? (Vi får se om du glemmer denne kvelden, chug resten av drikka)"
+  },
+  {
+    "id": 63,
+    "question": "Hvem har finest klær (Ta en catwalkrunde foran gruppa eller drikk fem slurker)"
+  },
+  {
+    "id": 64,
+    "question": "Hvem har høyest selvtillit? (Drikk og gi deg selv et kompliment eller to)"
+  },
+  {
+    "id": 65,
+    "question": "Kunne blitt arrestert for offentlig sex (Drikk og fortell)"
+  },
+  {
+    "id": 66,
+    "question": "Mest populære bloggen (Drikk og fortell tittelen på et blogginnlegg du kunne laget)"
+  },
+  {
+    "id": 67,
+    "question": "Har den verste eksen? (Drikk tre slurker og vær glad for at den tid er over)"
+  },
+  {
+    "id": 68,
+    "question": "Er svigermors drøm? (Drikk og fortell hemmeligheten til å vinne svigermors hjerte)"
+  },
+  {
+    "id": 69,
+    "question": "Har blitt valgt minst i løpet av leken (Chug drikka)"
+  }
+]
