@@ -90,15 +90,6 @@
 				03ADF4182A8B905B004C3D8C /* 100Spørsmål */,
 				03ADF4162A8B8FAA004C3D8C /* ModelData.swift */,
 				03ADF41A2A8B917B004C3D8C /* Question.swift */,
-				03ADF4242A8BA380004C3D8C /* 5050.json */,
-				03ADF42F2A8BA80E004C3D8C /* Volume1.json */,
-				03ADF4342A8BA923004C3D8C /* Volume2.json */,
-				03ADF4392A8BAAF3004C3D8C /* Volume3.json */,
-				03ADF4122A8B8F1D004C3D8C /* Volume5BI.json */,
-				03ADF4402A8CC4E8004C3D8C /* Volume6.json */,
-				03ADF4422A8CC6A3004C3D8C /* Volume7.json */,
-				03ADF4442A8CC783004C3D8C /* Parleken.json */,
-				03ADF4462A8CCA6C004C3D8C /* kompliment.json */,
 				03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */,
 				03ADF4072A8B8E9B004C3D8C /* Preview Content */,
 			);
@@ -118,6 +109,7 @@
 			children = (
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
+				03ADF4482A8CCB15004C3D8C /* 100 Spørsmål JSON */,
 				03ADF4192A8B9130004C3D8C /* Volume 5 BI */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
 				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
@@ -133,6 +125,23 @@
 				03ADF4222A8BA049004C3D8C /* Volume5BI.swift */,
 			);
 			path = "Volume 5 BI";
+			sourceTree = "<group>";
+		};
+		03ADF4482A8CCB15004C3D8C /* 100 Spørsmål JSON */ = {
+			isa = PBXGroup;
+			children = (
+				03ADF4242A8BA380004C3D8C /* 5050.json */,
+				03ADF42F2A8BA80E004C3D8C /* Volume1.json */,
+				03ADF4342A8BA923004C3D8C /* Volume2.json */,
+				03ADF4392A8BAAF3004C3D8C /* Volume3.json */,
+				03ADF4122A8B8F1D004C3D8C /* Volume5BI.json */,
+				03ADF4402A8CC4E8004C3D8C /* Volume6.json */,
+				03ADF4422A8CC6A3004C3D8C /* Volume7.json */,
+				03ADF4442A8CC783004C3D8C /* Parleken.json */,
+				03ADF4462A8CCA6C004C3D8C /* kompliment.json */,
+			);
+			name = "100 Spørsmål JSON";
+			path = "100 Spørsmål JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
