@@ -16,7 +16,7 @@ struct HundredQuestionsListView: View {
         ("Volume2.json", "Volume 2", "📚", Color.blue),
         ("Volume3.json", "Volume 3", "📘", Color.orange),
         ("Volume5BI.json", "Volume 5 (BI)", "🎓", Color.purple),
-        ("Volume5BI.json", "Volume 6", "📕", Color.yellow),
+        ("Volume6.json", "Volume 6", "📕", Color.yellow),
         ("Volume5BI.json", "Volume 7", "📗", Color.pink),
         ("Volume5BI.json", "Parleken", "📓", Color.gray)
     ]
@@ -49,12 +49,18 @@ struct HundredQuestionsListView: View {
                                 Text(title)
                             }
                             .padding()
-                            .frame(minWidth: 180, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
+                            .frame(minWidth: 100, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
                             .background(color)
                             .cornerRadius(10)
                             .foregroundColor(.white)
-                            .shadow(radius: 5)
+                            .shadow(color: Color.black.opacity(0.7), radius: 10, x: 0, y: 10)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(Color.black.opacity(0.1), lineWidth: 0.5)
+                            )
+                            .scaleEffect(1.03) // Slight scaling to give the hovering effect
                         }
+
                     }
                 }
                 .padding()

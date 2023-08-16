@@ -24,6 +24,10 @@
 		03ADF43A2A8BAAF3004C3D8C /* Volume3.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4392A8BAAF3004C3D8C /* Volume3.json */; };
 		03ADF43C2A8BACA6004C3D8C /* HundredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF43B2A8BACA6004C3D8C /* HundredView.swift */; };
 		03ADF43E2A8BAE4B004C3D8C /* HundredQuestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */; };
+		03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4402A8CC4E8004C3D8C /* Volume6.json */; };
+		03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4422A8CC6A3004C3D8C /* Volume7.json */; };
+		03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4442A8CC783004C3D8C /* Parleken.json */; };
+		03ADF4472A8CCA6C004C3D8C /* kompliment.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4462A8CCA6C004C3D8C /* kompliment.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		03ADF4392A8BAAF3004C3D8C /* Volume3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume3.json; sourceTree = "<group>"; };
 		03ADF43B2A8BACA6004C3D8C /* HundredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredView.swift; sourceTree = "<group>"; };
 		03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredQuestionsListView.swift; sourceTree = "<group>"; };
+		03ADF4402A8CC4E8004C3D8C /* Volume6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume6.json; sourceTree = "<group>"; };
+		03ADF4422A8CC6A3004C3D8C /* Volume7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume7.json; sourceTree = "<group>"; };
+		03ADF4442A8CC783004C3D8C /* Parleken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parleken.json; sourceTree = "<group>"; };
+		03ADF4462A8CCA6C004C3D8C /* kompliment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kompliment.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 				03ADF4342A8BA923004C3D8C /* Volume2.json */,
 				03ADF4392A8BAAF3004C3D8C /* Volume3.json */,
 				03ADF4122A8B8F1D004C3D8C /* Volume5BI.json */,
+				03ADF4402A8CC4E8004C3D8C /* Volume6.json */,
+				03ADF4422A8CC6A3004C3D8C /* Volume7.json */,
+				03ADF4442A8CC783004C3D8C /* Parleken.json */,
+				03ADF4462A8CCA6C004C3D8C /* kompliment.json */,
 				03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */,
 				03ADF4072A8B8E9B004C3D8C /* Preview Content */,
 			);
@@ -110,7 +122,6 @@
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
 				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
 				03ADF41E2A8B92BC004C3D8C /* QuestionView.swift */,
-				03ADF43F2A8BC25F004C3D8C /* 100 Spørsmål JSON */,
 			);
 			name = "100Spørsmål";
 			path = "100Spørsmål";
@@ -122,14 +133,6 @@
 				03ADF4222A8BA049004C3D8C /* Volume5BI.swift */,
 			);
 			path = "Volume 5 BI";
-			sourceTree = "<group>";
-		};
-		03ADF43F2A8BC25F004C3D8C /* 100 Spørsmål JSON */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "100 Spørsmål JSON";
-			path = "100Spørsmål JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +195,11 @@
 			files = (
 				03ADF4092A8B8E9B004C3D8C /* Preview Assets.xcassets in Resources */,
 				03ADF43A2A8BAAF3004C3D8C /* Volume3.json in Resources */,
+				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,
 				03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */,
+				03ADF4472A8CCA6C004C3D8C /* kompliment.json in Resources */,
+				03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */,
+				03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */,
 				03ADF4132A8B8F1D004C3D8C /* Volume5BI.json in Resources */,
 				03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */,
 				03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */,
