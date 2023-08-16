@@ -10,5 +10,8 @@ import Foundation
 struct Question: Decodable, Identifiable {
     var id: Int
     var question: String
+    var rule: String?
+    var isChecked: Bool?
 }
+
 

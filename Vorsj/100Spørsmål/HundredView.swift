@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct HundredView: View {
         
     var filename: String
@@ -25,6 +23,12 @@ struct HundredView: View {
         NavigationStack {
             ScrollView {
                 VStack {
+                    // Display rule if it exists in the first question
+                    if let rule = questions.first?.rule {
+                        MessageBubble(text: rule, type: .rules)
+                            .padding(.bottom, 10)
+                    }
+                    
                     ForEach(questions) { question in
                         QuestionCardView(question: question)
                     }
@@ -35,11 +39,12 @@ struct HundredView: View {
             .navigationBarTitleDisplayMode(.inline)
         }
     }
-    
 }
+
 
 struct HundredView_Previews: PreviewProvider {
     static var previews: some View {
-        HundredView(filename: "5050.json", title: "50/50")
+        HundredView(filename: "Kompliment.json", title: "50/50")
     }
 }
+

@@ -19,7 +19,6 @@ struct QuestionCardView: View {
     }
 }
 
-
 struct QuestionCardView_Previews: PreviewProvider {
     static var previews: some View {
         Group {

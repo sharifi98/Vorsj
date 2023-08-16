@@ -27,7 +27,15 @@
 		03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4402A8CC4E8004C3D8C /* Volume6.json */; };
 		03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4422A8CC6A3004C3D8C /* Volume7.json */; };
 		03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4442A8CC783004C3D8C /* Parleken.json */; };
-		03ADF4472A8CCA6C004C3D8C /* kompliment.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4462A8CCA6C004C3D8C /* kompliment.json */; };
+		03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4462A8CCA6C004C3D8C /* Kompliment.json */; };
+		03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */; };
+		03ADF44C2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF44B2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json */; };
+		03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */; };
+		03ADF4522A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */; };
+		03ADF4542A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4532A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json */; };
+		03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */; };
+		03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */; };
+		03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +60,15 @@
 		03ADF4402A8CC4E8004C3D8C /* Volume6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume6.json; sourceTree = "<group>"; };
 		03ADF4422A8CC6A3004C3D8C /* Volume7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume7.json; sourceTree = "<group>"; };
 		03ADF4442A8CC783004C3D8C /* Parleken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parleken.json; sourceTree = "<group>"; };
-		03ADF4462A8CCA6C004C3D8C /* kompliment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kompliment.json; sourceTree = "<group>"; };
+		03ADF4462A8CCA6C004C3D8C /* Kompliment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kompliment.json; sourceTree = "<group>"; };
+		03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume1.swift; sourceTree = "<group>"; };
+		03ADF44B2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChuggEllerSannhetVolume1.json; sourceTree = "<group>"; };
+		03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
+		03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume2.swift; sourceTree = "<group>"; };
+		03ADF4532A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChuggEllerSannhetVolume2.json; sourceTree = "<group>"; };
+		03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume3.swift; sourceTree = "<group>"; };
+		03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChuggEllerSannhetVolume3.json; sourceTree = "<group>"; };
+		03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +103,10 @@
 			children = (
 				03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */,
 				03ADF4032A8B8E99004C3D8C /* ContentView.swift */,
+				03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */,
 				03ADF4182A8B905B004C3D8C /* 100Spørsmål */,
 				03ADF4162A8B8FAA004C3D8C /* ModelData.swift */,
+				03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */,
 				03ADF41A2A8B917B004C3D8C /* Question.swift */,
 				03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */,
 				03ADF4072A8B8E9B004C3D8C /* Preview Content */,
@@ -109,7 +127,7 @@
 			children = (
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
-				03ADF4482A8CCB15004C3D8C /* 100 Spørsmål JSON */,
+				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				03ADF4192A8B9130004C3D8C /* Volume 5 BI */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
 				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
@@ -127,7 +145,7 @@
 			path = "Volume 5 BI";
 			sourceTree = "<group>";
 		};
-		03ADF4482A8CCB15004C3D8C /* 100 Spørsmål JSON */ = {
+		03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */ = {
 			isa = PBXGroup;
 			children = (
 				03ADF4242A8BA380004C3D8C /* 5050.json */,
@@ -138,10 +156,32 @@
 				03ADF4402A8CC4E8004C3D8C /* Volume6.json */,
 				03ADF4422A8CC6A3004C3D8C /* Volume7.json */,
 				03ADF4442A8CC783004C3D8C /* Parleken.json */,
-				03ADF4462A8CCA6C004C3D8C /* kompliment.json */,
+				03ADF4462A8CCA6C004C3D8C /* Kompliment.json */,
 			);
-			name = "100 Spørsmål JSON";
+			name = "JSON 100 Spørsmål ";
 			path = "100 Spørsmål JSON";
+			sourceTree = "<group>";
+		};
+		03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */ = {
+			isa = PBXGroup;
+			children = (
+				03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */,
+				03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */,
+				03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */,
+				03ADF4502A8CE53D004C3D8C /* JSON Chugg eller sannhet */,
+				03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */,
+			);
+			path = "Chugg eller sannhet";
+			sourceTree = "<group>";
+		};
+		03ADF4502A8CE53D004C3D8C /* JSON Chugg eller sannhet */ = {
+			isa = PBXGroup;
+			children = (
+				03ADF44B2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json */,
+				03ADF4532A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json */,
+				03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */,
+			);
+			path = "JSON Chugg eller sannhet";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,13 +244,16 @@
 			files = (
 				03ADF4092A8B8E9B004C3D8C /* Preview Assets.xcassets in Resources */,
 				03ADF43A2A8BAAF3004C3D8C /* Volume3.json in Resources */,
+				03ADF4542A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json in Resources */,
 				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,
 				03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */,
-				03ADF4472A8CCA6C004C3D8C /* kompliment.json in Resources */,
+				03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */,
 				03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */,
 				03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */,
 				03ADF4132A8B8F1D004C3D8C /* Volume5BI.json in Resources */,
 				03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */,
+				03ADF44C2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json in Resources */,
+				03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */,
 				03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */,
 				03ADF4252A8BA380004C3D8C /* 5050.json in Resources */,
 			);
@@ -226,13 +269,18 @@
 				03ADF41B2A8B917B004C3D8C /* Question.swift in Sources */,
 				03ADF43E2A8BAE4B004C3D8C /* HundredQuestionsListView.swift in Sources */,
 				03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */,
+				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
+				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
 				03ADF4232A8BA049004C3D8C /* Volume5BI.swift in Sources */,
 				03ADF41F2A8B92BC004C3D8C /* QuestionView.swift in Sources */,
+				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */,
 				03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,
+				03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */,
 				03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */,
 				03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */,
 				03ADF43C2A8BACA6004C3D8C /* HundredView.swift in Sources */,
+				03ADF4522A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-// Represents a styled message bubble that can be either incoming or outgoing.
 struct MessageBubble: View {
     
     // Defines the direction and style of the message (incoming vs outgoing).
     enum MessageType {
         case incoming
         case outgoing
+        case rules  // New case for rules
     }
 
     var text: String
@@ -21,8 +21,8 @@ struct MessageBubble: View {
 
     var body: some View {
         HStack {
-            // Push outgoing messages to the right
-            if type == .outgoing { Spacer() }
+            // Push outgoing messages to the right and incoming to the left
+            if type == .outgoing || type == .rules { Spacer() }
             
             // The main text of the message with specific font, padding, and color based on its type.
             Text(text)
@@ -31,7 +31,7 @@ struct MessageBubble: View {
                 .foregroundColor(colorForTextType())
                 .background(BubbleShape().fill(colorForBubbleType()))
             
-            // Push incoming messages to the left
+            
             if type == .incoming { Spacer() }
         }
     }
@@ -48,7 +48,7 @@ struct MessageBubble: View {
         switch type {
         case .incoming:
             return EdgeInsets(top: 5, leading: 20, bottom: 5, trailing: 20)
-        case .outgoing:
+        case .outgoing, .rules:   // Apply same padding for outgoing and rules
             return EdgeInsets(top: 12, leading: 12, bottom: 12, trailing: 12)
         }
     }
@@ -56,8 +56,8 @@ struct MessageBubble: View {
     // Define text color based on message type
     private func colorForTextType() -> Color {
         switch type {
-        case .incoming: return .white
-        case .outgoing: return .white
+        case .incoming, .outgoing, .rules:  // All have white text for now
+            return .white
         }
     }
     
@@ -66,6 +66,7 @@ struct MessageBubble: View {
         switch type {
         case .incoming: return Color(UIColor.lightGray)
         case .outgoing: return Color.blue
+        case .rules: return Color.green  // New case for rules
         }
     }
 }
@@ -89,7 +90,9 @@ struct MessageBubble_Previews: PreviewProvider {
             MessageBubble(text: "Sample Question for Preview", type: .outgoing)
                 .background(Color.black)
                 .previewLayout(.sizeThatFits)
+            MessageBubble(text: "Sample Rules for Preview", type: .rules)
+                .background(Color.black)
+                .previewLayout(.sizeThatFits)
         }
     }
 }
-

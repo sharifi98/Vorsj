@@ -12,13 +12,14 @@ struct HundredQuestionsListView: View {
     // Sample data for demonstration. You can replace it with actual data.
     let buttonsData = [
         ("5050.json", "50/50", "%", Color.red),
-        ("Volume1.json", "Volume 1", "📖", Color.green),
-        ("Volume2.json", "Volume 2", "📚", Color.blue),
-        ("Volume3.json", "Volume 3", "📘", Color.orange),
+        ("Volume1.json", "Volume 1", "1", Color.green),
+        ("Volume2.json", "Volume 2", "2", Color.blue),
+        ("Volume3.json", "Volume 3", "3", Color.orange),
         ("Volume5BI.json", "Volume 5 (BI)", "🎓", Color.purple),
         ("Volume6.json", "Volume 6", "📕", Color.yellow),
-        ("Volume5BI.json", "Volume 7", "📗", Color.pink),
-        ("Volume5BI.json", "Parleken", "📓", Color.gray)
+        ("Volume7.json", "Volume 7", "📗", Color.pink),
+        ("Parleken.json", "Parleken", "📓", Color.gray),
+        ("Kompliment.json", "Kompliment", "📓", Color.pink)
     ]
     
     // Define the grid layout with 2 columns.
