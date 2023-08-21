@@ -51,6 +51,7 @@ struct ChuggEllerSannhetVolume1: View {
                 }
             }
         }
+    
     }
 }
 

@@ -15,6 +15,7 @@ struct HundredQuestionsListView: View {
         ("Volume1.json", "Volume 1", "1", Color.green),
         ("Volume2.json", "Volume 2", "2", Color.blue),
         ("Volume3.json", "Volume 3", "3", Color.orange),
+        ("Volume4.json", "Volume 4", "📕", Color.yellow),
         ("Volume5BI.json", "Volume 5 (BI)", "🎓", Color.purple),
         ("Volume6.json", "Volume 6", "📕", Color.yellow),
         ("Volume7.json", "Volume 7", "📗", Color.pink),
@@ -29,6 +30,35 @@ struct HundredQuestionsListView: View {
     ]
     
     var body: some View {
+        
+        NavigationStack {
+            
+            
+            List {
+                
+                HStack {
+                    Text("HUNDRE")
+                        .foregroundColor(.secondary)
+                        .font(.title)
+                    Text("SPØRSMÅL.")
+                        .foregroundColor(.pink)
+                        .font(.largeTitle)
+                }
+                
+                Section {
+                    ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
+                        NavigationLink(destination: HundredView(filename: filename, title: title)) {
+                            HStack {
+                                Text(emoji)
+                                Text(title)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        /*
         NavigationStack {
             ScrollView {
                 
@@ -51,13 +81,12 @@ struct HundredQuestionsListView: View {
                             }
                             .padding()
                             .frame(minWidth: 100, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
-                            .background(color)
+                            .background(.white)
                             .cornerRadius(10)
-                            .foregroundColor(.white)
-                            .shadow(color: Color.black.opacity(0.7), radius: 10, x: 0, y: 10)
+                            .foregroundColor(.black)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color.black.opacity(0.1), lineWidth: 0.5)
+                                    .stroke(Color.white.opacity(1), lineWidth: 3)
                             )
                             .scaleEffect(1.03) // Slight scaling to give the hovering effect
                         }
@@ -67,6 +96,7 @@ struct HundredQuestionsListView: View {
                 .padding()
             }
         }
+         */
     }
 }
 

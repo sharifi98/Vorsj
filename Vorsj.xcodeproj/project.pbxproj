@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033305A22A9383290084D323 /* Volume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 033305A12A9383290084D323 /* Volume4.json */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033305A12A9383290084D323 /* Volume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume4.json; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				03ADF42F2A8BA80E004C3D8C /* Volume1.json */,
 				03ADF4342A8BA923004C3D8C /* Volume2.json */,
 				03ADF4392A8BAAF3004C3D8C /* Volume3.json */,
+				033305A12A9383290084D323 /* Volume4.json */,
 				03ADF4122A8B8F1D004C3D8C /* Volume5BI.json */,
 				03ADF4402A8CC4E8004C3D8C /* Volume6.json */,
 				03ADF4422A8CC6A3004C3D8C /* Volume7.json */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03ADF4092A8B8E9B004C3D8C /* Preview Assets.xcassets in Resources */,
+				033305A22A9383290084D323 /* Volume4.json in Resources */,
 				03ADF43A2A8BAAF3004C3D8C /* Volume3.json in Resources */,
 				03ADF4542A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json in Resources */,
 				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,

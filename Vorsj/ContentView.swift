@@ -8,36 +8,62 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var searchText = ""
     
+    let items = [
+        Item(title: "100 spørsmål", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
+        Item(title: "Chugg eller sannhet", subtitle: "Volume 1-9", destinationView: AnyView(ChuggEllerSannhetListView())),
+        Item(title: "Dab or die", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
+        Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
+    ]
+    
+    var filteredItems: [Item] {
+        items.filter { item in
+            searchText.isEmpty || item.title.lowercased().contains(searchText.lowercased())
+        }
+    }
+
     var body: some View {
-        
         NavigationStack {
-            ScrollView {
-                VStack {
-                    Text("VELG EN")
-                        .foregroundColor(.secondary)
-                        .font(.largeTitle)
-                    
-                    Text("DRIKKELEK.")
-                        .foregroundColor(.pink)
-                        .font(.largeTitle)
-                    
+            List {
+                Section {
+                    ForEach(filteredItems) { item in
+                        NavigationLink(destination: item.destinationView) {
+                            HStack {
+                                Image(systemName: "person")
+                                VStack(alignment: .leading) {
+                                    Text(item.title)
+                                        .font(.headline)
+                                    Text(item.subtitle)
+                                }
+                            }
+                        }
+                    }
+
                 }
-                ExtractedView(destination: HundredQuestionsListView(), title: "100 Spørsmål", color: .blue)
-                ExtractedView(destination: HundredQuestionsListView(), title: "100 Spørsmål", color: .red)
-                ExtractedView(destination: HundredQuestionsListView(), title: "100 Spørsmål", color: .green)
-
-
             }
+            .listStyle(.grouped)
+            .navigationTitle("Vorsj-spill")
+            .searchable(text: $searchText, prompt: "Søk etter lek")
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+struct Item: Identifiable {
+    let id = UUID()
+    let title: String
+    let subtitle: String
+    let destinationView: AnyView
+}
+
+
 
 struct ExtractedView<Destination: View>: View {
     let destination: Destination
@@ -58,11 +84,11 @@ struct ExtractedView<Destination: View>: View {
         }
         .font(.title)
         .padding()
-        .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity)
+        .frame(minWidth: 100, maxWidth: 300, minHeight: 50, maxHeight: .infinity)
         .background(color)
-        .cornerRadius(10)
+        .clipShape(RoundedRectangle(cornerRadius: 50))
         .foregroundColor(.white)
-        .shadow(radius: 5)
+
     }
 }
 
