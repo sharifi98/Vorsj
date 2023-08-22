@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var searchText = ""
     
     let items = [
-        Item(title: "100 spørsmål", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
+        Item(title: "100 spørsmål", subtitle: "Snusboks leken, Volume 1-9 og mer", destinationView: AnyView(HundredQuestionsListView())),
         Item(title: "Chugg eller sannhet", subtitle: "Volume 1-9", destinationView: AnyView(ChuggEllerSannhetListView())),
         Item(title: "Dab or die", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
         Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
@@ -25,29 +25,37 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    ForEach(filteredItems) { item in
-                        NavigationLink(destination: item.destinationView) {
-                            HStack {
-                                Image(systemName: "person")
-                                VStack(alignment: .leading) {
-                                    Text(item.title)
-                                        .font(.headline)
-                                    Text(item.subtitle)
+            VStack {
+                HeaderView(searchText: $searchText)
+                List {
+                    Section {
+                        ForEach(filteredItems) { item in
+                            NavigationLink(destination: item.destinationView) {
+                                HStack {
+                                    Image("trym")
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 50, height: 50)
+                                        .clipShape(Circle())
+                                    VStack(alignment: .leading) {
+                                        Text(item.title)
+                                            .font(.headline)
+                                        Text(item.subtitle)
+                                            .foregroundColor(.secondary)
+                                    }
+                                    .padding(.horizontal)
                                 }
                             }
                         }
                     }
-
                 }
+                .listStyle(.plain)
+                .listRowBackground(Color.pink)
             }
-            .listStyle(.grouped)
-            .navigationTitle("Vorsj-spill")
-            .searchable(text: $searchText, prompt: "Søk etter lek")
         }
     }
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {

@@ -21,26 +21,30 @@ struct HundredView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack {
-                    // Display rule if it exists in the first question
-                    if let rule = questions.first?.rule {
-                        MessageBubble(text: rule, type: .rules)
-                            .padding(.bottom, 10)
-                    }
-                    
-                    ForEach(questions) { question in
-                        QuestionCardView(question: question)
+            VStack {
+                ScrollView {
+                    VStack {
+                        // Display rule if it exists in the first question
+                        if let rule = questions.first?.rule {
+                            MessageBubble(text: rule, type: .rules)
+                                .padding(.bottom, 10)
+                        }
+                        
+                        ForEach(questions) { question in
+                            QuestionCardView(question: question)
+                        }
                     }
                 }
+                .background(Color.gray.opacity(0.1))  // Light gray background for contrast
+
+                // Add the ComposeArea here at the bottom
+                ComposeArea()
             }
-            .background(Color.gray.opacity(0.1))  // Light gray background for contrast
             .navigationTitle(self.title)
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
-
 
 struct HundredView_Previews: PreviewProvider {
     static var previews: some View {

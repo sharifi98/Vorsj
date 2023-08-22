@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032C94722A94DB0300B4BD31 /* ComposeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C94712A94DB0300B4BD31 /* ComposeArea.swift */; };
 		033305A22A9383290084D323 /* Volume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 033305A12A9383290084D323 /* Volume4.json */; };
+		037F14552A94A923009163BA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037F14542A94A923009163BA /* HeaderView.swift */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -16,7 +18,6 @@
 		03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4162A8B8FAA004C3D8C /* ModelData.swift */; };
 		03ADF41B2A8B917B004C3D8C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41A2A8B917B004C3D8C /* Question.swift */; };
 		03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */; };
-		03ADF41F2A8B92BC004C3D8C /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41E2A8B92BC004C3D8C /* QuestionView.swift */; };
 		03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */; };
 		03ADF4232A8BA049004C3D8C /* Volume5BI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4222A8BA049004C3D8C /* Volume5BI.swift */; };
 		03ADF4252A8BA380004C3D8C /* 5050.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4242A8BA380004C3D8C /* 5050.json */; };
@@ -40,7 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032C94712A94DB0300B4BD31 /* ComposeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeArea.swift; sourceTree = "<group>"; };
 		033305A12A9383290084D323 /* Volume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume4.json; sourceTree = "<group>"; };
+		037F14542A94A923009163BA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		03ADF4162A8B8FAA004C3D8C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		03ADF41A2A8B917B004C3D8C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
-		03ADF41E2A8B92BC004C3D8C /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		03ADF4222A8BA049004C3D8C /* Volume5BI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume5BI.swift; sourceTree = "<group>"; };
 		03ADF4242A8BA380004C3D8C /* 5050.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5050.json; sourceTree = "<group>"; };
@@ -84,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032C94732A94DC7C00B4BD31 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
 		03ADF3F52A8B8E99004C3D8C = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +139,12 @@
 			children = (
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
+				037F14542A94A923009163BA /* HeaderView.swift */,
+				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
 				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				03ADF4192A8B9130004C3D8C /* Volume 5 BI */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
-				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
-				03ADF41E2A8B92BC004C3D8C /* QuestionView.swift */,
+				032C94732A94DC7C00B4BD31 /* Messages */,
 			);
 			name = "100Spørsmål";
 			path = "100Spørsmål";
@@ -276,15 +287,16 @@
 				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
 				03ADF4232A8BA049004C3D8C /* Volume5BI.swift in Sources */,
-				03ADF41F2A8B92BC004C3D8C /* QuestionView.swift in Sources */,
 				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */,
 				03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,
 				03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */,
+				032C94722A94DB0300B4BD31 /* ComposeArea.swift in Sources */,
 				03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */,
 				03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */,
 				03ADF43C2A8BACA6004C3D8C /* HundredView.swift in Sources */,
 				03ADF4522A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift in Sources */,
+				037F14552A94A923009163BA /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -455,6 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
