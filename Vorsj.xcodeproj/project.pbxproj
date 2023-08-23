@@ -19,7 +19,6 @@
 		03ADF41B2A8B917B004C3D8C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41A2A8B917B004C3D8C /* Question.swift */; };
 		03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */; };
 		03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */; };
-		03ADF4232A8BA049004C3D8C /* Volume5BI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4222A8BA049004C3D8C /* Volume5BI.swift */; };
 		03ADF4252A8BA380004C3D8C /* 5050.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4242A8BA380004C3D8C /* 5050.json */; };
 		03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF42F2A8BA80E004C3D8C /* Volume1.json */; };
 		03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4342A8BA923004C3D8C /* Volume2.json */; };
@@ -54,7 +53,6 @@
 		03ADF41A2A8B917B004C3D8C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
 		03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
-		03ADF4222A8BA049004C3D8C /* Volume5BI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume5BI.swift; sourceTree = "<group>"; };
 		03ADF4242A8BA380004C3D8C /* 5050.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5050.json; sourceTree = "<group>"; };
 		03ADF42F2A8BA80E004C3D8C /* Volume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume1.json; sourceTree = "<group>"; };
 		03ADF4342A8BA923004C3D8C /* Volume2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume2.json; sourceTree = "<group>"; };
@@ -142,20 +140,11 @@
 				037F14542A94A923009163BA /* HeaderView.swift */,
 				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
 				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
-				03ADF4192A8B9130004C3D8C /* Volume 5 BI */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
 				032C94732A94DC7C00B4BD31 /* Messages */,
 			);
 			name = "100Spørsmål";
 			path = "100Spørsmål";
-			sourceTree = "<group>";
-		};
-		03ADF4192A8B9130004C3D8C /* Volume 5 BI */ = {
-			isa = PBXGroup;
-			children = (
-				03ADF4222A8BA049004C3D8C /* Volume5BI.swift */,
-			);
-			path = "Volume 5 BI";
 			sourceTree = "<group>";
 		};
 		03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */ = {
@@ -179,11 +168,11 @@
 		03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */ = {
 			isa = PBXGroup;
 			children = (
+				03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */,
 				03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */,
 				03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */,
 				03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */,
 				03ADF4502A8CE53D004C3D8C /* JSON Chugg eller sannhet */,
-				03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */,
 			);
 			path = "Chugg eller sannhet";
 			sourceTree = "<group>";
@@ -286,7 +275,6 @@
 				03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */,
 				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
-				03ADF4232A8BA049004C3D8C /* Volume5BI.swift in Sources */,
 				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */,
 				03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,

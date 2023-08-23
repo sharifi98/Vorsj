@@ -16,7 +16,7 @@ struct CustomToggleStyle: ToggleStyle {
                 configuration.isOn.toggle()
             } label: {
                 Image(systemName: configuration.isOn ? "checkmark.circle.fill" : "circle")
-                    .foregroundColor(configuration.isOn ? .blue : .gray)
+                    .foregroundColor(configuration.isOn ? .yellow : .gray)
             }
         }
     }

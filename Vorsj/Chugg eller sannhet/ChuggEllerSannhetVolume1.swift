@@ -12,6 +12,7 @@ struct ChuggEllerSannhetVolume1: View {
     
     var filename: String
     var title: String
+    
 
     init(filename: String, title: String) {
         self.filename = filename
@@ -29,7 +30,7 @@ struct ChuggEllerSannhetVolume1: View {
                 HStack {
                     Text("SANNHET")
                             .font(.title)
-                        .foregroundColor(.pink)
+                            .foregroundColor(.yellow)
                     Text("VOL 1")
                         .font(.headline)
                 }
@@ -45,12 +46,19 @@ struct ChuggEllerSannhetVolume1: View {
                         get: { self.questions[index].isChecked ?? false },
                         set: { self.questions[index].isChecked = $0 }
                     )) {
-                        Text("\(index+1): \(questions[index].question)")
+                        HStack {
+                            Text("\(index+1)")
+                                .font(.headline)
+                                .foregroundColor(.yellow)
+                                .padding()
+                            Text("\(questions[index].question)")
+                        }
                     }
-                    .toggleStyle(CustomToggleStyle())  // Applying the custom toggle style here
+                    .toggleStyle(CustomToggleStyle())
                 }
             }
         }
+        .listStyle(.plain)
     
     }
 }

@@ -10,13 +10,16 @@ import SwiftUI
 struct ChuggEllerSannhetListView: View {
     
     let buttonsData = [
-        ("ChuggEllerSannhetVolume1.json", "Volume 1", "%", Color.red),
-        ("ChuggEllerSannhetVolume2", "Volume 2", "1", Color.green),
-        ("ChuggEllerSannhetVolume3", "Volume 2", "2", Color.blue)
+        ("ChuggEllerSannhetVolume1.json", "Volume 1", Color.red),
+        ("ChuggEllerSannhetVolume2.json", "Volume 2", "1", Color.green),
+        ("ChuggEllerSannhetVolume3.json", "Volume 2", "2", Color.blue)
     ]
     
     var body: some View {
-        Text("HEllo")
+        
+
+        
+        ChuggEllerSannhetVolume1(filename: "ChuggEllerSannhetVolume1.json", title: "Volume 1")
     }
 }
 
