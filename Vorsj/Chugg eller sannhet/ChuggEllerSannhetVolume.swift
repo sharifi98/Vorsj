@@ -7,35 +7,35 @@
 
 import SwiftUI
 
-struct ChuggEllerSannhetVolume1: View {
+struct ChuggEllerSannhetVolume: View {
     @State var questions: [Question]
     
     var filename: String
     var title: String
+    var volumeColor: Color
     
-
-    init(filename: String, title: String) {
+    init(filename: String, title: String, volumeColor: Color = .yellow) {
         self.filename = filename
         self.title = title
+        self.volumeColor = volumeColor
         _questions = State(initialValue: load(filename))
     }
-
+    
     var body: some View {
         List {
             Section(header:
                         VStack(alignment: .leading) {
-                    Text("CHUGG ELLER")
-                        .font(.title)
-                        .foregroundColor(.secondary)
+                Text("CHUGG ELLER")
+                    .font(.title)
+                    .foregroundColor(.secondary)
                 HStack {
                     Text("SANNHET")
-                            .font(.title)
-                            .foregroundColor(.yellow)
-                    Text("VOL 1")
+                        .font(.title)
+                        .foregroundColor(volumeColor)
+                    Text(title)
                         .font(.headline)
                 }
-                
-                }
+            }
             ) {
                 Text("Si et tall fra 1-105\n\nHuk av på boksen når tallet har blitt tatt hvis du vil holde styr\n\nSier noen samme tall, må de chugge\n\nGjør man ikke utfordringen drikker man 5 slurker og utfordringen står åpne for andre\n\nGjør man utfordringen drikker ALLE 2 slurker \n\nTipset blir nemlig å huske tallene som blir sagt for å unngå å chugge.")
             }
@@ -59,12 +59,12 @@ struct ChuggEllerSannhetVolume1: View {
             }
         }
         .listStyle(.plain)
-    
+        
     }
 }
 
-struct ChuggEllerSannhetVolume1_Previews: PreviewProvider {
+struct ChuggEllerSannhetVolume_Previews: PreviewProvider {
     static var previews: some View {
-        ChuggEllerSannhetVolume1(filename: "ChuggEllerSannhetVolume1.json", title: "Chugg eller sannhet")
+        ChuggEllerSannhetVolume(filename: "ChuggEllerSannhetVolume1.json", title: "Chugg eller sannhet", volumeColor: .blue)
     }
 }
