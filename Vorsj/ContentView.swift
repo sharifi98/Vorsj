@@ -12,8 +12,8 @@ struct ContentView: View {
     
     let items = [
         Item(title: "100 spørsmål", subtitle: "Snusboks leken, Volume 1-9 og mer", destinationView: AnyView(HundredQuestionsListView())),
-        Item(title: "Chugg eller sannhet", subtitle: "Volume 1-9", destinationView: AnyView(ChuggEllerSannhetListView())),
-        //Item(title: "Dab or die", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
+        Item(title: "Chugg eller sannhet", subtitle: "Volume 1-3", destinationView: AnyView(ChuggEllerSannhetListView())),
+        Item(title: "Karaoke", subtitle: "Sett en av sangene på, følg teksten og syng når det gjelder for deg. De som synger skal reise seg opp, mens de andre skal drikke.", destinationView: AnyView(HundredQuestionsListView())),
         //Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
     ]
     
