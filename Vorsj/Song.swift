@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Song: Decodable {
+    var hvem: String
+    var sangtekst: String
+}

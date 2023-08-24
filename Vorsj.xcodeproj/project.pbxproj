@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		032C94722A94DB0300B4BD31 /* ComposeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C94712A94DB0300B4BD31 /* ComposeArea.swift */; };
+		032C94792A96056800B4BD31 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C94782A96056800B4BD31 /* HeaderView.swift */; };
+		032C947B2A96058E00B4BD31 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C947A2A96058E00B4BD31 /* MessageBubble.swift */; };
 		033305A22A9383290084D323 /* Volume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 033305A12A9383290084D323 /* Volume4.json */; };
-		037F14552A94A923009163BA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037F14542A94A923009163BA /* HeaderView.swift */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4162A8B8FAA004C3D8C /* ModelData.swift */; };
 		03ADF41B2A8B917B004C3D8C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41A2A8B917B004C3D8C /* Question.swift */; };
 		03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */; };
-		03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */; };
 		03ADF4252A8BA380004C3D8C /* 5050.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4242A8BA380004C3D8C /* 5050.json */; };
 		03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF42F2A8BA80E004C3D8C /* Volume1.json */; };
 		03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4342A8BA923004C3D8C /* Volume2.json */; };
@@ -29,7 +29,7 @@
 		03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4422A8CC6A3004C3D8C /* Volume7.json */; };
 		03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4442A8CC783004C3D8C /* Parleken.json */; };
 		03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4462A8CCA6C004C3D8C /* Kompliment.json */; };
-		03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */; };
+		03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume.swift */; };
 		03ADF44C2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF44B2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json */; };
 		03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */; };
 		03ADF4522A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */; };
@@ -37,12 +37,17 @@
 		03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */; };
 		03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */; };
 		03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */; };
+		03E9CE152A96473A002EC676 /* KaraokeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE142A96473A002EC676 /* KaraokeListView.swift */; };
+		03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE162A964767002EC676 /* KaraokeView.swift */; };
+		03E9CE192A96481A002EC676 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE182A96481A002EC676 /* Song.swift */; };
+		03E9CE1C2A964BA3002EC676 /* livinonaprayer.json in Resources */ = {isa = PBXBuildFile; fileRef = 03E9CE132A964501002EC676 /* livinonaprayer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		032C94712A94DB0300B4BD31 /* ComposeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeArea.swift; sourceTree = "<group>"; };
+		032C94782A96056800B4BD31 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		032C947A2A96058E00B4BD31 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		033305A12A9383290084D323 /* Volume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume4.json; sourceTree = "<group>"; };
-		037F14542A94A923009163BA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +57,6 @@
 		03ADF4162A8B8FAA004C3D8C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		03ADF41A2A8B917B004C3D8C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
-		03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		03ADF4242A8BA380004C3D8C /* 5050.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5050.json; sourceTree = "<group>"; };
 		03ADF42F2A8BA80E004C3D8C /* Volume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume1.json; sourceTree = "<group>"; };
 		03ADF4342A8BA923004C3D8C /* Volume2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume2.json; sourceTree = "<group>"; };
@@ -63,7 +67,7 @@
 		03ADF4422A8CC6A3004C3D8C /* Volume7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume7.json; sourceTree = "<group>"; };
 		03ADF4442A8CC783004C3D8C /* Parleken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parleken.json; sourceTree = "<group>"; };
 		03ADF4462A8CCA6C004C3D8C /* Kompliment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kompliment.json; sourceTree = "<group>"; };
-		03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume1.swift; sourceTree = "<group>"; };
+		03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume.swift; sourceTree = "<group>"; };
 		03ADF44B2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChuggEllerSannhetVolume1.json; sourceTree = "<group>"; };
 		03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
 		03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume2.swift; sourceTree = "<group>"; };
@@ -71,6 +75,11 @@
 		03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetVolume3.swift; sourceTree = "<group>"; };
 		03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChuggEllerSannhetVolume3.json; sourceTree = "<group>"; };
 		03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuggEllerSannhetListView.swift; sourceTree = "<group>"; };
+		03E9CE132A964501002EC676 /* livinonaprayer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = livinonaprayer.json; sourceTree = "<group>"; };
+		03E9CE142A96473A002EC676 /* KaraokeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeListView.swift; sourceTree = "<group>"; };
+		03E9CE162A964767002EC676 /* KaraokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeView.swift; sourceTree = "<group>"; };
+		03E9CE182A96481A002EC676 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		03E9CE1F2A96572D002EC676 /* bestsongever.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bestsongever.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +96,7 @@
 		032C94732A94DC7C00B4BD31 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				03ADF4202A8B94EA004C3D8C /* MessageBubble.swift */,
+				032C947A2A96058E00B4BD31 /* MessageBubble.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -115,9 +124,10 @@
 				03ADF4032A8B8E99004C3D8C /* ContentView.swift */,
 				03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */,
 				03ADF4182A8B905B004C3D8C /* 100Spørsmål */,
+				03E9CE0F2A9644A5002EC676 /* Karaoke */,
 				03ADF4162A8B8FAA004C3D8C /* ModelData.swift */,
-				03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */,
 				03ADF41A2A8B917B004C3D8C /* Question.swift */,
+				03E9CE182A96481A002EC676 /* Song.swift */,
 				03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */,
 				03ADF4072A8B8E9B004C3D8C /* Preview Content */,
 			);
@@ -137,7 +147,7 @@
 			children = (
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
-				037F14542A94A923009163BA /* HeaderView.swift */,
+				032C94782A96056800B4BD31 /* HeaderView.swift */,
 				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
 				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
@@ -169,9 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */,
-				03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume1.swift */,
+				03ADF4492A8CDC79004C3D8C /* ChuggEllerSannhetVolume.swift */,
 				03ADF4512A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift */,
 				03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */,
+				03ADF44D2A8CE3DB004C3D8C /* CustomToggleStyle.swift */,
 				03ADF4502A8CE53D004C3D8C /* JSON Chugg eller sannhet */,
 			);
 			path = "Chugg eller sannhet";
@@ -185,6 +196,25 @@
 				03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */,
 			);
 			path = "JSON Chugg eller sannhet";
+			sourceTree = "<group>";
+		};
+		03E9CE0F2A9644A5002EC676 /* Karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				03E9CE122A964501002EC676 /* Karaoke JSON */,
+				03E9CE142A96473A002EC676 /* KaraokeListView.swift */,
+				03E9CE162A964767002EC676 /* KaraokeView.swift */,
+			);
+			path = Karaoke;
+			sourceTree = "<group>";
+		};
+		03E9CE122A964501002EC676 /* Karaoke JSON */ = {
+			isa = PBXGroup;
+			children = (
+				03E9CE132A964501002EC676 /* livinonaprayer.json */,
+				03E9CE1F2A96572D002EC676 /* bestsongever.json */,
+			);
+			path = "Karaoke JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +245,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					03ADF3FD2A8B8E99004C3D8C = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -259,6 +289,7 @@
 				03ADF44C2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json in Resources */,
 				03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */,
 				03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */,
+				03E9CE1C2A964BA3002EC676 /* livinonaprayer.json in Resources */,
 				03ADF4252A8BA380004C3D8C /* 5050.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,21 +301,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E9CE192A96481A002EC676 /* Song.swift in Sources */,
 				03ADF41B2A8B917B004C3D8C /* Question.swift in Sources */,
 				03ADF43E2A8BAE4B004C3D8C /* HundredQuestionsListView.swift in Sources */,
 				03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */,
 				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
+				03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
-				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume1.swift in Sources */,
+				03E9CE152A96473A002EC676 /* KaraokeListView.swift in Sources */,
+				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume.swift in Sources */,
 				03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */,
+				032C947B2A96058E00B4BD31 /* MessageBubble.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,
 				03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */,
 				032C94722A94DB0300B4BD31 /* ComposeArea.swift in Sources */,
+				032C94792A96056800B4BD31 /* HeaderView.swift in Sources */,
 				03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */,
-				03ADF4212A8B94EA004C3D8C /* MessageBubble.swift in Sources */,
 				03ADF43C2A8BACA6004C3D8C /* HundredView.swift in Sources */,
 				03ADF4522A8CE5A4004C3D8C /* ChuggEllerSannhetVolume2.swift in Sources */,
-				037F14552A94A923009163BA /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -327,6 +362,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -355,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -387,6 +424,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

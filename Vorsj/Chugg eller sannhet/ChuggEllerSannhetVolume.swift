@@ -23,8 +23,7 @@ struct ChuggEllerSannhetVolume: View {
     
     var body: some View {
         List {
-            Section(header:
-                        VStack(alignment: .leading) {
+            Section(header: VStack(alignment: .leading) {
                 Text("CHUGG ELLER")
                     .font(.title)
                     .foregroundColor(.secondary)

@@ -13,8 +13,8 @@ struct ContentView: View {
     let items = [
         Item(title: "100 spørsmål", subtitle: "Snusboks leken, Volume 1-9 og mer", destinationView: AnyView(HundredQuestionsListView())),
         Item(title: "Chugg eller sannhet", subtitle: "Volume 1-9", destinationView: AnyView(ChuggEllerSannhetListView())),
-        Item(title: "Dab or die", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
-        Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
+        //Item(title: "Dab or die", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView())),
+        //Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
     ]
     
     var filteredItems: [Item] {

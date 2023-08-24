@@ -7,19 +7,49 @@
 
 import SwiftUI
 
+
 struct ChuggEllerSannhetListView: View {
-    
     let buttonsData = [
-        ("ChuggEllerSannhetVolume1.json", "Volume 1", Color.red),
-        ("ChuggEllerSannhetVolume2.json", "Volume 2", "1", Color.green),
-        ("ChuggEllerSannhetVolume3.json", "Volume 2", "2", Color.blue)
+        ("ChuggEllerSannhetVolume1.json", "Volume 1", "1", Color.red),
+        ("ChuggEllerSannhetVolume2.json", "Volume 2", "2", Color.green),
+        ("ChuggEllerSannhetVolume3.json", "Volume 3", "3", Color.blue)
     ]
     
     var body: some View {
-        
-
-        
-        ChuggEllerSannhetVolume1(filename: "ChuggEllerSannhetVolume1.json", title: "Volume 1")
+        NavigationStack {
+            List {
+                Section {
+                    
+                    Text("Chugg eller sannhet")
+                    
+                    ForEach(buttonsData, id: \.0) { data in
+                        NavigationLink(destination: ChuggEllerSannhetVolume(filename: data.0, title: "Vol \(data.2)")) {
+                            ListItem(data: data)
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    func ListItem(data: (String, String, String, Color)) -> some View {
+        HStack {
+            Image(systemName: "note.text")
+                .foregroundStyle(.yellow)
+            
+            VStack(alignment: .leading) {
+                Text("Chugg eller Sannhet \(data.1)")
+                
+                HStack {
+                    Text(data.2 == "1" ? "30/06/2023" : "19/04/2023")
+                        .font(.caption)
+                    Text("1. Hvem er mest...")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
     }
 }
 
