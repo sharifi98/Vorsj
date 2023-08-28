@@ -33,18 +33,7 @@ struct HundredQuestionsListView: View {
         
         NavigationStack {
             
-            
             List {
-                
-                HStack {
-                    Text("HUNDRE")
-                        .foregroundColor(.secondary)
-                        .font(.title)
-                    Text("SPØRSMÅL.")
-                        .foregroundColor(.pink)
-                        .font(.largeTitle)
-                }
-                
                 Section {
                     ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
                         NavigationLink(destination: HundredView(filename: filename, title: title)) {
@@ -56,6 +45,22 @@ struct HundredQuestionsListView: View {
                     }
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    HStack {
+                        Image("trym")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 30, height: 30)
+                            .clipShape(Circle())
+                        Text("100 Spørsmål")
+                        Image(systemName: "chevron.right")
+                            .font(.system(size: 10))
+                    }
+                }
+            }
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
             
             ComposeArea()
         }

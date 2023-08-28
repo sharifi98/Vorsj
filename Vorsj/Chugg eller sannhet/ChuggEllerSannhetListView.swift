@@ -29,6 +29,22 @@ struct ChuggEllerSannhetListView: View {
                     }
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    HStack {
+                        Image("anders")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 30, height: 30)
+                            .clipShape(Circle())
+                        Text("Chugg eller sannhet")
+                        Image(systemName: "chevron.right")
+                            .font(.system(size: 10))
+                    }
+                }
+            }
+            
+            ComposeArea()
             
         }
     }
