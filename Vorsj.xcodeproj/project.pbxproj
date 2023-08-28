@@ -11,6 +11,17 @@
 		032C94792A96056800B4BD31 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C94782A96056800B4BD31 /* HeaderView.swift */; };
 		032C947B2A96058E00B4BD31 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C947A2A96058E00B4BD31 /* MessageBubble.swift */; };
 		033305A22A9383290084D323 /* Volume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 033305A12A9383290084D323 /* Volume4.json */; };
+		033733162A973BEA005DA72C /* sexonfire.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733152A973BEA005DA72C /* sexonfire.json */; };
+		033733182A97431D005DA72C /* dancingqueen.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733172A97431D005DA72C /* dancingqueen.json */; };
+		0337331A2A9747D3005DA72C /* iwantitthatway.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733192A9747D3005DA72C /* iwantitthatway.json */; };
+		0337331C2A974951005DA72C /* layallyourloveonme.json in Resources */ = {isa = PBXBuildFile; fileRef = 0337331B2A974951005DA72C /* layallyourloveonme.json */; };
+		0337331E2A974B27005DA72C /* rosahelikopter.json in Resources */ = {isa = PBXBuildFile; fileRef = 0337331D2A974B27005DA72C /* rosahelikopter.json */; };
+		033733202A974D22005DA72C /* foreveralone.json in Resources */ = {isa = PBXBuildFile; fileRef = 0337331F2A974D22005DA72C /* foreveralone.json */; };
+		033733222A975B1C005DA72C /* takeonme.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733212A975B1C005DA72C /* takeonme.json */; };
+		033733242A975CCE005DA72C /* fairytale.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733232A975CCE005DA72C /* fairytale.json */; };
+		033733262A975D56005DA72C /* sorry.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733252A975D56005DA72C /* sorry.json */; };
+		033733282A975DCF005DA72C /* newwayhome.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733272A975DCF005DA72C /* newwayhome.json */; };
+		0337332D2A976895005DA72C /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337332C2A976895005DA72C /* Spotify.swift */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -37,6 +48,7 @@
 		03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4552A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift */; };
 		03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4572A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json */; };
 		03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4592A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift */; };
+		03D7A2172A977517002F250D /* bestsongever.json in Resources */ = {isa = PBXBuildFile; fileRef = 03E9CE1F2A96572D002EC676 /* bestsongever.json */; };
 		03E9CE152A96473A002EC676 /* KaraokeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE142A96473A002EC676 /* KaraokeListView.swift */; };
 		03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE162A964767002EC676 /* KaraokeView.swift */; };
 		03E9CE192A96481A002EC676 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9CE182A96481A002EC676 /* Song.swift */; };
@@ -48,6 +60,17 @@
 		032C94782A96056800B4BD31 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		032C947A2A96058E00B4BD31 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		033305A12A9383290084D323 /* Volume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Volume4.json; sourceTree = "<group>"; };
+		033733152A973BEA005DA72C /* sexonfire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sexonfire.json; path = ../../../../../sexonfire.json; sourceTree = "<group>"; };
+		033733172A97431D005DA72C /* dancingqueen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dancingqueen.json; path = ../../../../../dancingqueen.json; sourceTree = "<group>"; };
+		033733192A9747D3005DA72C /* iwantitthatway.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = iwantitthatway.json; path = ../../../../../iwantitthatway.json; sourceTree = "<group>"; };
+		0337331B2A974951005DA72C /* layallyourloveonme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = layallyourloveonme.json; path = ../../../../../layallyourloveonme.json; sourceTree = "<group>"; };
+		0337331D2A974B27005DA72C /* rosahelikopter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rosahelikopter.json; path = ../../../../../rosahelikopter.json; sourceTree = "<group>"; };
+		0337331F2A974D22005DA72C /* foreveralone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = foreveralone.json; path = ../../../../../foreveralone.json; sourceTree = "<group>"; };
+		033733212A975B1C005DA72C /* takeonme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = takeonme.json; path = ../../../../../takeonme.json; sourceTree = "<group>"; };
+		033733232A975CCE005DA72C /* fairytale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fairytale.json; path = ../../../../../fairytale.json; sourceTree = "<group>"; };
+		033733252A975D56005DA72C /* sorry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sorry.json; path = ../../../../../sorry.json; sourceTree = "<group>"; };
+		033733272A975DCF005DA72C /* newwayhome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newwayhome.json; path = ../../../../../newwayhome.json; sourceTree = "<group>"; };
+		0337332C2A976895005DA72C /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,9 +119,18 @@
 		032C94732A94DC7C00B4BD31 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
 				032C947A2A96058E00B4BD31 /* MessageBubble.swift */,
 			);
 			path = Messages;
+			sourceTree = "<group>";
+		};
+		033733292A976853005DA72C /* SpotifyAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				0337332C2A976895005DA72C /* Spotify.swift */,
+			);
+			path = SpotifyAlbum;
 			sourceTree = "<group>";
 		};
 		03ADF3F52A8B8E99004C3D8C = {
@@ -148,7 +180,6 @@
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
 				032C94782A96056800B4BD31 /* HeaderView.swift */,
-				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
 				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
 				032C94732A94DC7C00B4BD31 /* Messages */,
@@ -204,6 +235,7 @@
 				03E9CE122A964501002EC676 /* Karaoke JSON */,
 				03E9CE142A96473A002EC676 /* KaraokeListView.swift */,
 				03E9CE162A964767002EC676 /* KaraokeView.swift */,
+				033733292A976853005DA72C /* SpotifyAlbum */,
 			);
 			path = Karaoke;
 			sourceTree = "<group>";
@@ -213,6 +245,16 @@
 			children = (
 				03E9CE132A964501002EC676 /* livinonaprayer.json */,
 				03E9CE1F2A96572D002EC676 /* bestsongever.json */,
+				033733152A973BEA005DA72C /* sexonfire.json */,
+				033733172A97431D005DA72C /* dancingqueen.json */,
+				033733192A9747D3005DA72C /* iwantitthatway.json */,
+				0337331B2A974951005DA72C /* layallyourloveonme.json */,
+				0337331D2A974B27005DA72C /* rosahelikopter.json */,
+				033733272A975DCF005DA72C /* newwayhome.json */,
+				0337331F2A974D22005DA72C /* foreveralone.json */,
+				033733232A975CCE005DA72C /* fairytale.json */,
+				033733212A975B1C005DA72C /* takeonme.json */,
+				033733252A975D56005DA72C /* sorry.json */,
 			);
 			path = "Karaoke JSON";
 			sourceTree = "<group>";
@@ -281,16 +323,27 @@
 				03ADF4542A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json in Resources */,
 				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,
 				03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */,
+				03D7A2172A977517002F250D /* bestsongever.json in Resources */,
 				03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */,
+				033733222A975B1C005DA72C /* takeonme.json in Resources */,
+				0337331A2A9747D3005DA72C /* iwantitthatway.json in Resources */,
 				03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */,
 				03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */,
+				033733282A975DCF005DA72C /* newwayhome.json in Resources */,
 				03ADF4132A8B8F1D004C3D8C /* Volume5BI.json in Resources */,
 				03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */,
 				03ADF44C2A8CDFAC004C3D8C /* ChuggEllerSannhetVolume1.json in Resources */,
+				033733202A974D22005DA72C /* foreveralone.json in Resources */,
+				033733262A975D56005DA72C /* sorry.json in Resources */,
+				033733162A973BEA005DA72C /* sexonfire.json in Resources */,
 				03ADF4582A8CE787004C3D8C /* ChuggEllerSannhetVolume3.json in Resources */,
 				03ADF4352A8BA924004C3D8C /* Volume2.json in Resources */,
+				033733182A97431D005DA72C /* dancingqueen.json in Resources */,
 				03E9CE1C2A964BA3002EC676 /* livinonaprayer.json in Resources */,
+				0337331E2A974B27005DA72C /* rosahelikopter.json in Resources */,
+				0337331C2A974951005DA72C /* layallyourloveonme.json in Resources */,
 				03ADF4252A8BA380004C3D8C /* 5050.json in Resources */,
+				033733242A975CCE005DA72C /* fairytale.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +359,7 @@
 				03ADF43E2A8BAE4B004C3D8C /* HundredQuestionsListView.swift in Sources */,
 				03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */,
 				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
+				0337332D2A976895005DA72C /* Spotify.swift in Sources */,
 				03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
 				03E9CE152A96473A002EC676 /* KaraokeListView.swift in Sources */,
@@ -377,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -454,11 +508,13 @@
 				DEVELOPMENT_TEAM = WP99484WGY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vorsj-spill";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,9 +523,13 @@
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,11 +544,13 @@
 				DEVELOPMENT_TEAM = WP99484WGY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vorsj-spill";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,9 +559,13 @@
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

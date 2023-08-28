@@ -17,7 +17,7 @@ struct HundredQuestionsListView: View {
         ("Volume3.json", "Volume 3", "3", Color.orange),
         ("Volume4.json", "Volume 4", "📕", Color.yellow),
         ("Volume5BI.json", "Volume 5 (BI)", "🎓", Color.purple),
-        ("Volume6.json", "Volume 6", "📕", Color.yellow),
+        ("Volume6.json", "Volume 69 (Sambucas)", "📕", Color.yellow),
         ("Volume7.json", "Volume 7", "📗", Color.pink),
         ("Parleken.json", "Parleken", "📓", Color.gray),
         ("Kompliment.json", "Kompliment", "📓", Color.pink)
@@ -56,6 +56,8 @@ struct HundredQuestionsListView: View {
                     }
                 }
             }
+            
+            ComposeArea()
         }
         
         /*

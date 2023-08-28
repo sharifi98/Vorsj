@@ -10,39 +10,61 @@ import SwiftUI
 
 struct Spotify: View {
     var body: some View {
-        ZStack{
-            Background()
-            VStack {
-                Cover()
-                
-                VStack{
-                    ArtistInfo()
-                    Controls()
-                    
-                    VStack(spacing: 24){
-                        Track(name: "Punjabi Top Hits", artists: "Diljit Dosanjh", explicit: false, playing: false)
-                        
-                        Track(name: "G.O.A.T.", artists: "Diljit Dosanjh", explicit: false, playing: true)
-                        
-                        Track(name: "Navi Navi Yaari", artists: "Diljit Dosanjh", explicit: false, playing: false)
-                        
-                        Track(name: "Taare", artists: "Diljit Dosanjh", explicit: false, playing: false)
-                        Track(name: "Born to Shine", artists: "Diljit Dosanjh", explicit: false, playing: false)
-                    }.padding(.top)
+        NavigationView {  // <-- 1. Wrap in NavigationView
+            ZStack{
+                Background()
+                VStack {
+
+                    ScrollView {
+                        Cover()
+
+                        VStack{
+                            ArtistInfo()
+                            Controls()
+
+                            VStack(spacing: 24){
+                                trackNavigationLink(name: "Livin On A Prayer", artists: "Bon Jovi", explicit: false, playing: false, filename: "livinonaprayer.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/1")
+                                
+                                trackNavigationLink(name: "Best Song Ever", artists: "One Direction", explicit: false, playing: false, filename: "bestsongever.json", title: "Best Song Ever - One Direction", url: "https://open.spotify.com/track/5T7ZFtCcOgkpjxcuaeZbw0?si=1e4398968b294b7b")
+                                
+                                trackNavigationLink(name: "Sex On Fire", artists: "Kings Of Leon", explicit: false, playing: false, filename: "sexonfire.json", title: "Sex On Fire - Kings Of Leon", url: "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45?si=bf6037e43165440a")
+                                
+                                trackNavigationLink(name: "Dancing Queen", artists: "ABBA", explicit: false, playing: false, filename: "dancingqueen.json", title: "Dancing Queen - ABBA", url: "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr?si=056b6868a1dc4a8a")
+                                
+                                trackNavigationLink(name: "I Want It That Way", artists: "Backstreet Boys", explicit: false, playing: false, filename: "iwantitthatway.json", title: "I Want It That Way - Backstreet Boys", url: "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya?si=8851ce5ccf4c4537")
+                                
+                                trackNavigationLink(name: "Lay All Your Love On Me", artists: "ABBA", explicit: false, playing: false, filename: "layallyourloveonme.json", title: "Lay All Your Love On Me - ABBA", url: "https://open.spotify.com/track/4euAGZTszWPrriggYK0HG9?si=592be5da6bec4afb")
+                                
+                                trackNavigationLink(name: "Forever Alone", artists: "Kakkmaddafakka", explicit: false, playing: false, filename: "foreveralone.json", title: "Forever Alone - Kakkmaddafakka", url: "https://open.spotify.com/track/2ABslCJtxwLFLCUHWctSaL?si=4ced1e4dbbc74e08")
+                                
+                                trackNavigationLink(name: "Fairy Tale", artists: "Alexander Rybak", explicit: false, playing: false, filename: "fairytale.json", title: "Fairy Tale - Alexander Rybak", url: "https://open.spotify.com/track/6NgYIETQ8U72CVfkzYhK30?si=f6ab3cc5d81a4d77")
+                                
+                                trackNavigationLink(name: "Take On Me", artists: "A-Ha", explicit: false, playing: false, filename: "takeonme.json", title: "Take On Me - A-Ha", url: "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L?si=a3080fc99b764186")
+                                trackNavigationLink(name: "Sorry", artists: "AF1", explicit: false, playing: false, filename: "sorry.json", title: "Sorry - AF1", url: "https://open.spotify.com/track/12C1wQ5YJMiOtwunC9Ds6N?si=071312f28a384e6d")
+                                
+                            }.padding(.top)
+                        }
+                        Spacer()
+                    }
                 }
-                Spacer()
-            }
-            
-            VStack{
-                MediaPlayer()
-                Menu()
-            }
-            .background(Color(#colorLiteral(red: 0.1568410099, green: 0.1568752527, blue: 0.1568388343, alpha: 1)))
-            .offset(y: UIScreen.main.bounds.height / 2 - 75)
-            
-        }.foregroundColor(.white)
+                .padding(.bottom, 60.0)
+                VStack{
+                    MediaPlayer()
+                }
+                .background(Color(#colorLiteral(red: 0.1568410099, green: 0.1568752527, blue: 0.1568388343, alpha: 1)))
+                .offset(y: UIScreen.main.bounds.height / 2 - 75)
+            }.foregroundColor(.white)
+        }  // <-- Closing NavigationView
+    }
+    
+    @ViewBuilder
+    func trackNavigationLink(name: String, artists: String, explicit: Bool, playing: Bool, filename: String, title: String, url: String) -> some View {
+        NavigationLink(destination: KaraokeView(filename: filename, title: title, url: url)) {
+            Track(name: name, artists: artists, explicit: explicit, playing: playing, filename: filename)
+        }
     }
 }
+
 
 struct Spotify_Previews: PreviewProvider {
     static var previews: some View {
@@ -65,7 +87,7 @@ struct Background: View{
 struct Cover: View{
     var body: some View{
         ZStack(alignment: .top){
-            Image("profilepic")
+            Image("amy2")
                 .resizable()
                 .frame(width: 220, height: 220)
                 .shadow(radius: 5)
@@ -73,7 +95,16 @@ struct Cover: View{
             Image(systemName: "chevron.left")
                 .offset(x: -165)
                 .font(.system(size: 20))
+            
+            
         }
+        VStack(alignment: .center) {
+            Text("Sett en av sangene på, følg teksten og syng når det gjelder for deg. De som synger skal reise seg opp, mens de andre skal drikke.")
+                .font(.caption)
+                .frame(maxWidth: 300)
+                .multilineTextAlignment(.center)  // This line aligns the text to the center
+        }
+        .padding(10)
     }
 }
 
@@ -81,16 +112,16 @@ struct ArtistInfo: View{
     var body: some View{
         HStack{
             VStack(alignment: .leading){
-                Text("G.O.A.T.")
+                Text("Tryminator")
                     .font(.system(size: 25, weight: .bold))
                 
                 HStack{
-                    Image("diljit")
+                    Image("trym")
                         .resizable()
                         .frame(width: 25, height: 25)
                         .clipShape(Circle())
                     
-                    Text("Diljit Dosanjh")
+                    Text("Trym Hjellbakk")
                         .font(.system(size: 14, weight: .bold))
                 }
             }
@@ -110,7 +141,7 @@ struct Controls: View{
                     Text("Album")
                     Circle()
                         .frame(width: 3, height: 3)
-                    Text("2020")
+                    Text("2017")
                 }
                 
                 HStack(spacing: 25){
@@ -150,50 +181,54 @@ struct Controls: View{
     }
 }
 
-struct Track: View{
+struct Track: View {
     let name: String
     let artists: String
     let explicit: Bool
     let playing: Bool
-    
-    var body: some View{
-        HStack{
-            VStack(alignment: .leading, spacing: 5){
+    // Note: The filename parameter isn't used directly in this view, but it's kept for consistency with the parent view.
+    let filename: String
+
+    var body: some View {
+        HStack {
+            // Maybe an icon or image representing the song
+            VStack(alignment: .leading) {
                 Text(name)
-                    .font(.system(size: 14))
-                    .foregroundColor(playing ? Color(#colorLiteral(red: 0.1079577729, green: 0.7236167789, blue: 0.3314852118, alpha: 1)) : .white)
-                
-                HStack{
-                    
-                    if explicit{
-                        Image(systemName: "e.square.fill")
-                    }
-                    
-                    Text(artists)
-                        .font(.system(size: 12))
-                }
-                .foregroundColor(Color(#colorLiteral(red: 0.6901075244, green: 0.6901670098, blue: 0.6941940188, alpha: 1)))
+                    .font(.headline)
+
+                Text(artists)
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
             }
-            
+
             Spacer()
-            
-            Image(systemName: "ellipsis")
+
+            if explicit {
+                Text("E")
+                    .font(.caption)
+                    .padding(.horizontal, 4)
+                    .padding(.vertical, 2)
+                    .background(Color.red)
+                    .cornerRadius(8)
+                    .foregroundColor(.white)
+            }
         }
         .padding(.horizontal)
     }
 }
 
+
 struct MediaPlayer: View{
     var body: some View{
         HStack{
             HStack{
-                Image("profilepic")
+                Image("trym")
                     .resizable()
                     .frame(width: 60, height: 60)
                 
                 VStack(alignment: .leading){
                     Text("G.O.A.T.")
-                    Text("Diljit Dosanjh")
+                    Text("Trym Hjellbakk")
                         .foregroundColor(Color(#colorLiteral(red: 0.6901075244, green: 0.6901670098, blue: 0.6941940188, alpha: 1)))
                 }
                 .font(.system(size: 14))

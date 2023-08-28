@@ -28,48 +28,58 @@ struct KaraokeView: View {
     ]
     
     
-    func backgroundColor(for index: Int) -> Color {
-        return index % 2 == 0 ? .green : .blue
+    func gradientBackgroundColor(for index: Int) -> LinearGradient {
+        if index % 2 == 0 {
+            return LinearGradient(gradient: Gradient(colors: [Color.pink.opacity(0.5), Color.purple.opacity(0.5)]), startPoint: .top, endPoint: .bottom)
+        } else {
+            return LinearGradient(gradient: Gradient(colors: [Color.green.opacity(0.5), Color.gray.opacity(0.5)]), startPoint: .top, endPoint: .bottom)
+        }
     }
+
     
     var body: some View {
-        ScrollView {
-            
-            Text(title)
-                .foregroundStyle(.white)
-                .font(.title)
-            
-            Link(destination: URL(string: url)!) {
-                HStack {
-                    Text("Spill av i Spotify")
-                        .foregroundColor(.green)
-                    Image(systemName: "music.note")
-                        .foregroundColor(.green)
-                }
-                .padding()
-                .background(Color.white)
-                .cornerRadius(10)
-            }
-
-            
-            LazyVGrid(columns: columns, spacing: 20) {
-                ForEach(Array(songs.enumerated()), id: \.element.hvem) { index, song in
+        NavigationStack {
+            ScrollView {
+                
+                Link(destination: URL(string: url)!) {
                     HStack {
-                        VStack(alignment: .trailing) {
-                            Text(song.hvem)
-                                .padding()
-                        }
-                        Spacer()
-                        VStack(alignment: .leading) {
-                            Text(song.sangtekst)
-                                .padding()
-                        }
+                        Text("Spill av i Spotify")
+                            .foregroundColor(.green)
+                        Image(systemName: "music.note")
+                            .foregroundColor(.green)
                     }
-                    .background(backgroundColor(for: index))
+                    .padding()
+                    .background(Color.white)
                     .cornerRadius(10)
                 }
+                
+                 
+                VStack(spacing: 10) {  // This spacing is the gap between each song entry
+                    ForEach(songs, id: \.hvem) { song in
+                        VStack {
+                            VStack(alignment: .trailing) {
+                                Text(song.hvem)
+
+                                    .font(.system(size: 12))
+                            }
+                            VStack(alignment: .leading) {
+                                Text(song.sangtekst)
+                                    .padding(5)
+                                    .bold()
+                                    .multilineTextAlignment(.center)
+                                
+                            }
+                        }
+                        .frame(width: 350, height: 120)  // Setting a fixed frame size here
+                        .background(gradientBackgroundColor(for: songs.firstIndex(where: { $0.hvem == song.hvem }) ?? 0))
+                        .cornerRadius(10)
+                    }
+                }
+                .padding()
+
             }
-            .padding()
+            .navigationTitle(title)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

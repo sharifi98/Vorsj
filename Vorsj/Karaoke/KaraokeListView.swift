@@ -9,10 +9,9 @@ import SwiftUI
 
 struct KaraokeListView: View {
     
-    
     var body: some View {
-        Text("hello")
-    }
+            Spotify()
+        }
 }
 
 #Preview {
