@@ -30,7 +30,7 @@ struct ChuggEllerSannhetVolume: View {
                 HStack {
                     Text("SANNHET")
                         .font(.title)
-                        .foregroundColor(volumeColor)
+                        .foregroundColor(.yellow)
                     Text(title)
                         .font(.headline)
                 }
@@ -38,6 +38,8 @@ struct ChuggEllerSannhetVolume: View {
             ) {
                 Text("Si et tall fra 1-105\n\nHuk av på boksen når tallet har blitt tatt hvis du vil holde styr\n\nSier noen samme tall, må de chugge\n\nGjør man ikke utfordringen drikker man 5 slurker og utfordringen står åpne for andre\n\nGjør man utfordringen drikker ALLE 2 slurker \n\nTipset blir nemlig å huske tallene som blir sagt for å unngå å chugge.")
             }
+            
+            Spacer()
             
             Section {
                 ForEach(0..<questions.count, id: \.self) { index in
@@ -51,11 +53,13 @@ struct ChuggEllerSannhetVolume: View {
                                 .foregroundColor(.yellow)
                                 .padding()
                             Text("\(questions[index].question)")
+                                .bold()
                         }
                     }
                     .toggleStyle(CustomToggleStyle())
                 }
             }
+            
         }
         .listStyle(.plain)
         
