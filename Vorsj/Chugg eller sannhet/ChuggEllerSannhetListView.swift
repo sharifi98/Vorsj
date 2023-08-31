@@ -29,6 +29,7 @@ struct ChuggEllerSannhetListView: View {
                     }
                 }
             }
+            .listStyle(.plain)
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     HStack {

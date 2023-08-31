@@ -33,6 +33,7 @@ struct HundredQuestionsListView: View {
         
         NavigationStack {
             
+            
             List {
                 Section {
                     ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
@@ -43,6 +44,7 @@ struct HundredQuestionsListView: View {
                             }
                         }
                     }
+                    .listRowBackground(Color(#colorLiteral(red: 0.1490196078, green: 0.1490196078, blue: 0.1607843137, alpha: 1)))
                 }
             }
             .toolbar {
@@ -62,47 +64,49 @@ struct HundredQuestionsListView: View {
             .navigationTitle("")
             .navigationBarTitleDisplayMode(.inline)
             
+            
+            
             ComposeArea()
         }
         
         /*
-        NavigationStack {
-            ScrollView {
-                
-                VStack {
-                    Text("HUNDRE")
-                        .foregroundColor(.secondary)
-                        .font(.largeTitle)
-                    Text("SPØRSMÅL.")
-                        .foregroundColor(.pink)
-                        .font(.largeTitle)
-                }
-                
-                LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
-                        NavigationLink(destination: HundredView(filename: filename, title: title)) {
-                            VStack {
-                                Text(emoji)
-                                    .font(.largeTitle)
-                                Text(title)
-                            }
-                            .padding()
-                            .frame(minWidth: 100, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
-                            .background(.white)
-                            .cornerRadius(10)
-                            .foregroundColor(.black)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color.white.opacity(1), lineWidth: 3)
-                            )
-                            .scaleEffect(1.03) // Slight scaling to give the hovering effect
-                        }
-
-                    }
-                }
-                .padding()
-            }
-        }
+         NavigationStack {
+         ScrollView {
+         
+         VStack {
+         Text("HUNDRE")
+         .foregroundColor(.secondary)
+         .font(.largeTitle)
+         Text("SPØRSMÅL.")
+         .foregroundColor(.pink)
+         .font(.largeTitle)
+         }
+         
+         LazyVGrid(columns: columns, spacing: 20) {
+         ForEach(buttonsData, id: \.0) { (filename, title, emoji, color) in
+         NavigationLink(destination: HundredView(filename: filename, title: title)) {
+         VStack {
+         Text(emoji)
+         .font(.largeTitle)
+         Text(title)
+         }
+         .padding()
+         .frame(minWidth: 100, maxWidth: .infinity, minHeight: 150, maxHeight: .infinity)
+         .background(.white)
+         .cornerRadius(10)
+         .foregroundColor(.black)
+         .overlay(
+         RoundedRectangle(cornerRadius: 10)
+         .stroke(Color.white.opacity(1), lineWidth: 3)
+         )
+         .scaleEffect(1.03) // Slight scaling to give the hovering effect
+         }
+         
+         }
+         }
+         .padding()
+         }
+         }
          */
     }
 }

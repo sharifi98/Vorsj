@@ -8,11 +8,56 @@
 import SwiftUI
 
 struct JegHarAldri: View {
+    
+    @State var questions: [Question]
+    
+    var filename: String
+    var title: String
+    
+    init(filename: String, title: String) {
+        self.filename = filename
+        self.title = title
+        _questions = State(initialValue: load(filename))
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Section {
+                HStack {
+                    Text("JEG HAR ALDRI")
+                        .font(.title)
+                    .foregroundColor(.red)
+                    Text("\(title)")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                }
+            }
+            
+                Text("Les opp en påstand, de som har gjort det skal drikke en slurk")
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .foregroundStyle(.secondary)
+            
+            Section {
+                ForEach(0..<questions.count, id: \.self) { index in
+                    HStack {
+                        Text("\(index+1)")
+                            .font(.headline)
+                            .foregroundColor(.red)
+                            .padding()
+                        Text("\(questions[index].question)")
+                            .bold()
+                    }
+                    
+                }
+            }
+            
+        }
+        .listStyle(.plain)
+        
     }
 }
 
 #Preview {
-    JegHarAldri()
+    JegHarAldri(filename: "JegHarAldriVolume1.json", title: "Volume 1")
 }

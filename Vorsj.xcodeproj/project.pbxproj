@@ -22,6 +22,14 @@
 		033733262A975D56005DA72C /* sorry.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733252A975D56005DA72C /* sorry.json */; };
 		033733282A975DCF005DA72C /* newwayhome.json in Resources */ = {isa = PBXBuildFile; fileRef = 033733272A975DCF005DA72C /* newwayhome.json */; };
 		0337332D2A976895005DA72C /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337332C2A976895005DA72C /* Spotify.swift */; };
+		033F53692AA0C3D0005D44B3 /* JegHarAldri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F53682AA0C3D0005D44B3 /* JegHarAldri.swift */; };
+		033F536C2AA0C660005D44B3 /* JegHarAldriVolume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F536B2AA0C660005D44B3 /* JegHarAldriVolume1.json */; };
+		033F536E2AA0C68D005D44B3 /* JegHarAldriVolume2.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F536D2AA0C68D005D44B3 /* JegHarAldriVolume2.json */; };
+		033F53722AA0C80D005D44B3 /* JegHarAldriVolume5.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F536F2AA0C80D005D44B3 /* JegHarAldriVolume5.json */; };
+		033F53732AA0C80D005D44B3 /* JegHarAldriVolume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F53702AA0C80D005D44B3 /* JegHarAldriVolume4.json */; };
+		033F53742AA0C80D005D44B3 /* JegHarAldriVolume3.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F53712AA0C80D005D44B3 /* JegHarAldriVolume3.json */; };
+		033F53762AA0C8F9005D44B3 /* JegHarAldriS3XEdition.json in Resources */ = {isa = PBXBuildFile; fileRef = 033F53752AA0C8F9005D44B3 /* JegHarAldriS3XEdition.json */; };
+		033F53782AA0C955005D44B3 /* JegHarAldriListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F53772AA0C955005D44B3 /* JegHarAldriListView.swift */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -71,6 +79,14 @@
 		033733252A975D56005DA72C /* sorry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sorry.json; path = ../../../../../sorry.json; sourceTree = "<group>"; };
 		033733272A975DCF005DA72C /* newwayhome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newwayhome.json; path = ../../../../../newwayhome.json; sourceTree = "<group>"; };
 		0337332C2A976895005DA72C /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		033F53682AA0C3D0005D44B3 /* JegHarAldri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JegHarAldri.swift; sourceTree = "<group>"; };
+		033F536B2AA0C660005D44B3 /* JegHarAldriVolume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriVolume1.json; path = ../../../../../JegHarAldriVolume1.json; sourceTree = "<group>"; };
+		033F536D2AA0C68D005D44B3 /* JegHarAldriVolume2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriVolume2.json; path = ../../../../../JegHarAldriVolume2.json; sourceTree = "<group>"; };
+		033F536F2AA0C80D005D44B3 /* JegHarAldriVolume5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriVolume5.json; path = ../../../../../JegHarAldriVolume5.json; sourceTree = "<group>"; };
+		033F53702AA0C80D005D44B3 /* JegHarAldriVolume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriVolume4.json; path = ../../../../../JegHarAldriVolume4.json; sourceTree = "<group>"; };
+		033F53712AA0C80D005D44B3 /* JegHarAldriVolume3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriVolume3.json; path = ../../../../../JegHarAldriVolume3.json; sourceTree = "<group>"; };
+		033F53752AA0C8F9005D44B3 /* JegHarAldriS3XEdition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JegHarAldriS3XEdition.json; path = ../../../../../JegHarAldriS3XEdition.json; sourceTree = "<group>"; };
+		033F53772AA0C955005D44B3 /* JegHarAldriListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JegHarAldriListView.swift; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +149,29 @@
 			path = SpotifyAlbum;
 			sourceTree = "<group>";
 		};
+		033F53672AA0C3A1005D44B3 /* Jeg har aldri */ = {
+			isa = PBXGroup;
+			children = (
+				033F53682AA0C3D0005D44B3 /* JegHarAldri.swift */,
+				033F53772AA0C955005D44B3 /* JegHarAldriListView.swift */,
+				033F536A2AA0C653005D44B3 /* JSON Jeg har aldri */,
+			);
+			path = "Jeg har aldri";
+			sourceTree = "<group>";
+		};
+		033F536A2AA0C653005D44B3 /* JSON Jeg har aldri */ = {
+			isa = PBXGroup;
+			children = (
+				033F536B2AA0C660005D44B3 /* JegHarAldriVolume1.json */,
+				033F536D2AA0C68D005D44B3 /* JegHarAldriVolume2.json */,
+				033F53712AA0C80D005D44B3 /* JegHarAldriVolume3.json */,
+				033F53702AA0C80D005D44B3 /* JegHarAldriVolume4.json */,
+				033F536F2AA0C80D005D44B3 /* JegHarAldriVolume5.json */,
+				033F53752AA0C8F9005D44B3 /* JegHarAldriS3XEdition.json */,
+			);
+			path = "JSON Jeg har aldri";
+			sourceTree = "<group>";
+		};
 		03ADF3F52A8B8E99004C3D8C = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +193,10 @@
 			children = (
 				03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */,
 				03ADF4032A8B8E99004C3D8C /* ContentView.swift */,
-				03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */,
 				03ADF4182A8B905B004C3D8C /* 100Spørsmål */,
+				03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */,
 				03E9CE0F2A9644A5002EC676 /* Karaoke */,
+				033F53672AA0C3A1005D44B3 /* Jeg har aldri */,
 				03ADF4162A8B8FAA004C3D8C /* ModelData.swift */,
 				03ADF41A2A8B917B004C3D8C /* Question.swift */,
 				03E9CE182A96481A002EC676 /* Song.swift */,
@@ -232,10 +272,10 @@
 		03E9CE0F2A9644A5002EC676 /* Karaoke */ = {
 			isa = PBXGroup;
 			children = (
-				03E9CE122A964501002EC676 /* Karaoke JSON */,
 				03E9CE142A96473A002EC676 /* KaraokeListView.swift */,
 				03E9CE162A964767002EC676 /* KaraokeView.swift */,
 				033733292A976853005DA72C /* SpotifyAlbum */,
+				03E9CE122A964501002EC676 /* Karaoke JSON */,
 			);
 			path = Karaoke;
 			sourceTree = "<group>";
@@ -324,11 +364,14 @@
 				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,
 				03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */,
 				03D7A2172A977517002F250D /* bestsongever.json in Resources */,
+				033F53742AA0C80D005D44B3 /* JegHarAldriVolume3.json in Resources */,
 				03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */,
 				033733222A975B1C005DA72C /* takeonme.json in Resources */,
 				0337331A2A9747D3005DA72C /* iwantitthatway.json in Resources */,
+				033F536E2AA0C68D005D44B3 /* JegHarAldriVolume2.json in Resources */,
 				03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */,
 				03ADF4452A8CC783004C3D8C /* Parleken.json in Resources */,
+				033F53762AA0C8F9005D44B3 /* JegHarAldriS3XEdition.json in Resources */,
 				033733282A975DCF005DA72C /* newwayhome.json in Resources */,
 				03ADF4132A8B8F1D004C3D8C /* Volume5BI.json in Resources */,
 				03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */,
@@ -341,9 +384,12 @@
 				033733182A97431D005DA72C /* dancingqueen.json in Resources */,
 				03E9CE1C2A964BA3002EC676 /* livinonaprayer.json in Resources */,
 				0337331E2A974B27005DA72C /* rosahelikopter.json in Resources */,
+				033F53722AA0C80D005D44B3 /* JegHarAldriVolume5.json in Resources */,
 				0337331C2A974951005DA72C /* layallyourloveonme.json in Resources */,
+				033F536C2AA0C660005D44B3 /* JegHarAldriVolume1.json in Resources */,
 				03ADF4252A8BA380004C3D8C /* 5050.json in Resources */,
 				033733242A975CCE005DA72C /* fairytale.json in Resources */,
+				033F53732AA0C80D005D44B3 /* JegHarAldriVolume4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +405,7 @@
 				03ADF43E2A8BAE4B004C3D8C /* HundredQuestionsListView.swift in Sources */,
 				03ADF41D2A8B9296004C3D8C /* QuestionCardView.swift in Sources */,
 				03ADF45A2A8CE7EE004C3D8C /* ChuggEllerSannhetListView.swift in Sources */,
+				033F53692AA0C3D0005D44B3 /* JegHarAldri.swift in Sources */,
 				0337332D2A976895005DA72C /* Spotify.swift in Sources */,
 				03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
@@ -368,6 +415,7 @@
 				032C947B2A96058E00B4BD31 /* MessageBubble.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,
 				03ADF44E2A8CE3DB004C3D8C /* CustomToggleStyle.swift in Sources */,
+				033F53782AA0C955005D44B3 /* JegHarAldriListView.swift in Sources */,
 				032C94722A94DB0300B4BD31 /* ComposeArea.swift in Sources */,
 				032C94792A96056800B4BD31 /* HeaderView.swift in Sources */,
 				03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */,

@@ -14,7 +14,7 @@ struct ContentView: View {
         Item(title: "100 spørsmål", subtitle: "Snusboks leken, Volume 1-7 og mer", destinationView: AnyView(HundredQuestionsListView()), image: Image("trym")),
         Item(title: "Chugg eller sannhet", subtitle: "Volume 1-3", destinationView: AnyView(ChuggEllerSannhetListView()), image: Image("anders")),
         Item(title: "Karaoke", subtitle: "Sett en av sangene på, følg teksten og syng når det gjeld..", destinationView: AnyView(KaraokeListView()), image: Image("sivert")),
-        //Item(title: "LFG", subtitle: "Volume 1-9", destinationView: AnyView(HundredQuestionsListView()))
+        Item(title: "Jeg har aldri", subtitle: "Volume 1-9", destinationView: AnyView(JegHarAldriListView()), image: Image("mats"))
     ]
     
     var filteredItems: [Item] {
@@ -50,7 +50,6 @@ struct ContentView: View {
                     }
                 }
                 .listStyle(.plain)
-                .listRowBackground(Color.pink)
             }
         }
     }
