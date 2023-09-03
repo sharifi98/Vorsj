@@ -87,14 +87,12 @@ struct Background: View{
 struct Cover: View{
     var body: some View{
         ZStack(alignment: .top){
-            Image("amy2")
+            Image("tobias")
                 .resizable()
                 .frame(width: 220, height: 220)
                 .shadow(radius: 5)
             
-            Image(systemName: "chevron.left")
-                .offset(x: -165)
-                .font(.system(size: 20))
+            
             
             
         }

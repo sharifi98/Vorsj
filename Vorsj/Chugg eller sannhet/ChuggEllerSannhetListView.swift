@@ -19,9 +19,6 @@ struct ChuggEllerSannhetListView: View {
         NavigationStack {
             List {
                 Section {
-                    
-                    Text("Chugg eller sannhet")
-                    
                     ForEach(buttonsData, id: \.0) { data in
                         NavigationLink(destination: ChuggEllerSannhetVolume(filename: data.0, title: "Vol \(data.2)")) {
                             ListItem(data: data)
@@ -29,7 +26,6 @@ struct ChuggEllerSannhetListView: View {
                     }
                 }
             }
-            .listStyle(.plain)
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     HStack {
