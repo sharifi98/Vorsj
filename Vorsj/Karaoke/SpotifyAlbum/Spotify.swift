@@ -23,7 +23,7 @@ struct Spotify: View {
                             Controls()
 
                             VStack(spacing: 24){
-                                trackNavigationLink(name: "Livin On A Prayer", artists: "Bon Jovi", explicit: false, playing: false, filename: "livinonaprayer.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/1")
+                                trackNavigationLink(name: "Livin On A Prayer", artists: "Bon Jovi", explicit: false, playing: false, filename: "livinonaprayer.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=5c56a9428ac343d3")
                                 
                                 trackNavigationLink(name: "Best Song Ever", artists: "One Direction", explicit: false, playing: false, filename: "bestsongever.json", title: "Best Song Ever - One Direction", url: "https://open.spotify.com/track/5T7ZFtCcOgkpjxcuaeZbw0?si=1e4398968b294b7b")
                                 
