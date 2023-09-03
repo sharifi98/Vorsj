@@ -10,7 +10,6 @@ import SwiftUI
 struct KaraokeView: View {
     
     let songs: [Song]
-    
     var filename: String
     var title: String
     var url: String
@@ -22,61 +21,47 @@ struct KaraokeView: View {
         self.url = url
     }
     
-    
-    let columns: [GridItem] = [
-        GridItem(.flexible())
-    ]
-    
-    
     func gradientBackgroundColor(for index: Int) -> LinearGradient {
-        if index % 2 == 0 {
-            return LinearGradient(gradient: Gradient(colors: [Color.pink.opacity(0.5), Color.purple.opacity(0.5)]), startPoint: .top, endPoint: .bottom)
-        } else {
-            return LinearGradient(gradient: Gradient(colors: [Color.green.opacity(0.5), Color.gray.opacity(0.5)]), startPoint: .top, endPoint: .bottom)
-        }
+        let baseColor: Color = index % 2 == 0 ? Color.blue : Color.green
+        return LinearGradient(gradient: Gradient(colors: [baseColor.opacity(0.5), baseColor]), startPoint: .top, endPoint: .bottom)
     }
-
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ScrollView {
-                
                 Link(destination: URL(string: url)!) {
                     HStack {
-                        Text("Spill av i Spotify")
-                            .foregroundColor(.green)
+                        Text("Play on Spotify")
+                            .font(.system(size: 18))
+                            .foregroundColor(.white)
                         Image(systemName: "music.note")
-                            .foregroundColor(.green)
+                            .foregroundColor(.white)
                     }
                     .padding()
-                    .background(Color.white)
+                    .background(Color.green)
                     .cornerRadius(10)
                 }
+                .padding(.top, 20)
                 
-                 
-                VStack(spacing: 10) {  // This spacing is the gap between each song entry
+                VStack(spacing: 20) {
                     ForEach(songs, id: \.hvem) { song in
                         VStack {
-                            VStack(alignment: .trailing) {
-                                Text(song.hvem)
-
-                                    .font(.system(size: 12))
-                            }
-                            VStack(alignment: .leading) {
-                                Text(song.sangtekst)
-                                    .padding(5)
-                                    .bold()
-                                    .multilineTextAlignment(.center)
-                                
-                            }
+                            Text(song.hvem)
+                                .font(.system(size: 18, weight: .bold))
+                                .padding(.bottom, 5)
+                                .multilineTextAlignment(.center)
+                            
+                            Text(song.sangtekst)
+                                .font(.system(size: 16))
+                                .padding(10)
+                                .multilineTextAlignment(.center)
                         }
-                        .frame(width: 350, height: 120)  // Setting a fixed frame size here
+                        .frame(width: 350, height: 150)
                         .background(gradientBackgroundColor(for: songs.firstIndex(where: { $0.hvem == song.hvem }) ?? 0))
                         .cornerRadius(10)
                     }
                 }
-                .padding()
-
+                .padding(20)
             }
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
@@ -84,8 +69,6 @@ struct KaraokeView: View {
     }
 }
 
-
-
 #Preview {
-    KaraokeView(filename: "livinonaprayer.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=3ee9c7113cc04e61")
+    KaraokeView(filename: "vivalavida.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=3ee9c7113cc04e61")
 }

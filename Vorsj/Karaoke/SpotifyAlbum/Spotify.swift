@@ -42,6 +42,8 @@ struct Spotify: View {
                                 trackNavigationLink(name: "Take On Me", artists: "A-Ha", explicit: false, playing: false, filename: "takeonme.json", title: "Take On Me - A-Ha", url: "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L?si=a3080fc99b764186")
                                 trackNavigationLink(name: "Sorry", artists: "AF1", explicit: false, playing: false, filename: "sorry.json", title: "Sorry - AF1", url: "https://open.spotify.com/track/12C1wQ5YJMiOtwunC9Ds6N?si=071312f28a384e6d")
                                 
+                                trackNavigationLink(name: "Viva La Vida", artists: "Coldplay", explicit: false, playing: false, filename: "vivalavida.json", title: "Viva La Vida - Coldplay", url: "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b?si=593889fd373147c2")
+                                
                             }.padding(.top)
                         }
                         Spacer()
@@ -110,7 +112,7 @@ struct ArtistInfo: View{
     var body: some View{
         HStack{
             VStack(alignment: .leading){
-                Text("Tryminator")
+                Text("Karaoke")
                     .font(.system(size: 25, weight: .bold))
                 
                 HStack{

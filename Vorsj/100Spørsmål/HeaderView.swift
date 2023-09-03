@@ -13,7 +13,7 @@ struct  HeaderView: View {
     @State private var showingSheet = false
     
     var body: some View {
-        NavigationView{
+        NavigationView {
             Text("Søker etter \(searchText)?")
                 .searchable(text: $searchText)
                 .navigationTitle("Vorsj-spill")
