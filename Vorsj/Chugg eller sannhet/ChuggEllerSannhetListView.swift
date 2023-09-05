@@ -48,7 +48,7 @@ struct ChuggEllerSannhetListView: View {
     
     func ListItem(data: (String, String, String, Color)) -> some View {
         HStack {
-            Image(systemName: "note.text")
+            Image(systemName: "folder.fill")
                 .foregroundStyle(.yellow)
             
             VStack(alignment: .leading) {
