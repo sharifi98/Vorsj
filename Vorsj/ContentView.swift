@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWelcomeSheet = false
     @State private var searchText = ""
+    
+    
+
     
     let items = [
         Item(title: "100 spørsmål",
@@ -67,7 +71,21 @@ struct ContentView: View {
                 }
                 .listStyle(.plain)
             }
+            
+            
         }
+        .onAppear {
+            if UserDefaults.standard.object(forKey: "appOpenedBefore") == nil {
+                showWelcomeSheet = true
+            }
+        }
+        .sheet(isPresented: $showWelcomeSheet) {
+               WelcomeSheet(onDismiss: {
+                   UserDefaults.standard.set(true, forKey: "appOpenedBefore")
+                   showWelcomeSheet = false
+               })
+           }
+
     }
 }
 

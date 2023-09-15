@@ -5,6 +5,13 @@
 //  Created by Hossein Sharifi on 22/08/2023.
 //
 
+//
+//  ComposeArea.swift
+//  iMessageClone
+//
+//  Created by Amos from getstream.io on 13.12.2021.
+//
+
 import SwiftUI
 
 struct   ComposeArea: View {
@@ -12,6 +19,7 @@ struct   ComposeArea: View {
     let incomingMessaageBubble = Color(#colorLiteral(red: 0.1490196078, green: 0.1490196078, blue: 0.1607843137, alpha: 1))
     let accentPrimary = Color(#colorLiteral(red: 0.03921568627, green: 0.5176470588, blue: 1, alpha: 1))
     @State private var write: String = ""
+    
     var body: some View {
         HStack {
             Image(systemName: "camera.fill")

@@ -14,6 +14,9 @@ struct KaraokeListView: View {
         }
 }
 
-#Preview {
-    KaraokeListView()
+struct KaraokeListView_Previews: PreviewProvider {
+    static var previews: some View {
+        KaraokeListView()
+    }
 }
+

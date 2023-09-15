@@ -22,6 +22,7 @@ struct HundredView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                
                 ScrollView {
                     VStack {
                         // Display rule if it exists in the first question

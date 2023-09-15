@@ -46,6 +46,10 @@ struct JegHarAldriListView: View {
     }
 }
 
-#Preview {
-    JegHarAldriListView()
+struct JegHarAldriListView_Previews: PreviewProvider {
+    static var previews: some View {
+        JegHarAldriListView()
+    }
 }
+
+

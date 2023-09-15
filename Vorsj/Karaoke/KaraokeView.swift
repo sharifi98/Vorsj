@@ -44,7 +44,8 @@ struct KaraokeView: View {
                 .padding(.top, 20)
                 
                 VStack(spacing: 20) {
-                    ForEach(songs, id: \.hvem) { song in
+                    ForEach(0..<songs.count, id: \.self) { index in
+                        let song = songs[index]
                         VStack {
                             Text(song.hvem)
                                 .font(.system(size: 18, weight: .bold))
@@ -57,11 +58,13 @@ struct KaraokeView: View {
                                 .multilineTextAlignment(.center)
                         }
                         .frame(width: 350, height: 150)
-                        .background(gradientBackgroundColor(for: songs.firstIndex(where: { $0.hvem == song.hvem }) ?? 0))
+                        .background(self.gradientBackgroundColor(for: index))
                         .cornerRadius(10)
                     }
                 }
                 .padding(20)
+
+                
             }
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
@@ -69,6 +72,9 @@ struct KaraokeView: View {
     }
 }
 
-#Preview {
-    KaraokeView(filename: "vivalavida.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=3ee9c7113cc04e61")
+
+struct KaraokeView_Previews: PreviewProvider {
+    static var previews: some View {
+        KaraokeView(filename: "vivalavida.json", title: "Livin on a prayer - Bon Jovi", url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=3ee9c7113cc04e61")
+    }
 }

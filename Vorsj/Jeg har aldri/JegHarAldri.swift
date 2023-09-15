@@ -51,6 +51,11 @@ struct JegHarAldri: View {
                     
                 }
             }
+            .listRowBackground(Rectangle()
+                                .background(Color.clear)
+                                .foregroundColor(.gray)
+                                .opacity(0.3)
+            )
             
         }
         .listStyle(.plain)
@@ -58,6 +63,10 @@ struct JegHarAldri: View {
     }
 }
 
-#Preview {
-    JegHarAldri(filename: "JegHarAldriVolume1.json", title: "Volume 1")
+struct JegHarAldri_Previews: PreviewProvider {
+    static var previews: some View {
+        JegHarAldri(filename: "JegHarAldriVolume1.json", title: "Volume 1")
+    }
 }
+
+
