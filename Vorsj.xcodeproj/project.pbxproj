@@ -159,13 +159,13 @@
 			isa = PBXGroup;
 			children = (
 				033F53682AA0C3D0005D44B3 /* JegHarAldri.swift */,
+				033F53772AA0C955005D44B3 /* JegHarAldriListView.swift */,
 				034A39522AB4648C005ED690 /* JegHarAldriS3XEdition.json */,
 				034A39542AB4648C005ED690 /* JegHarAldriVolume1.json */,
 				034A39512AB4648C005ED690 /* JegHarAldriVolume2.json */,
 				034A39502AB4648C005ED690 /* JegHarAldriVolume3.json */,
 				034A39532AB4648C005ED690 /* JegHarAldriVolume4.json */,
 				034A39552AB4648C005ED690 /* JegHarAldriVolume5.json */,
-				033F53772AA0C955005D44B3 /* JegHarAldriListView.swift */,
 			);
 			path = "Jeg har aldri";
 			sourceTree = "<group>";
@@ -219,8 +219,8 @@
 				03ADF43D2A8BAE4B004C3D8C /* HundredQuestionsListView.swift */,
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
 				032C94782A96056800B4BD31 /* HeaderView.swift */,
-				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
+				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				032C94732A94DC7C00B4BD31 /* Messages */,
 			);
 			name = "100Spørsmål";
@@ -571,7 +571,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -607,7 +607,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.hosseinsharifi.Vorsj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
