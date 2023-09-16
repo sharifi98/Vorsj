@@ -96,7 +96,7 @@ struct MessageBubble: View {
     // MARK: - Helper Functions
 
     private func fontForType() -> Font {
-        return .system(size: 20)
+        return .system(size: 18)
     }
 
     private func paddingForType() -> EdgeInsets {

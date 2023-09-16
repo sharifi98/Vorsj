@@ -29,7 +29,7 @@ struct ChuggEllerSannhetListView: View {
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     HStack {
-                        Image("anders")
+                        Image("chugg")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 30, height: 30)

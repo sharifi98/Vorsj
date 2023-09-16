@@ -35,7 +35,7 @@ struct   ComposeArea: View {
                     Image(systemName: "waveform.circle.fill")
                         .font(.title)
                 }
-                .padding(EdgeInsets(top: 3, leading: 8, bottom: 3, trailing: 3))
+                .padding(EdgeInsets(top: 1, leading: 8, bottom: 3, trailing: 3))
             }
             .frame(width: 249, height: 33)
         }

@@ -31,7 +31,7 @@ struct KaraokeView: View {
             ScrollView {
                 Link(destination: URL(string: url)!) {
                     HStack {
-                        Text("Play on Spotify")
+                        Text("Spill på Spotify")
                             .font(.system(size: 18))
                             .foregroundColor(.white)
                         Image(systemName: "music.note")
