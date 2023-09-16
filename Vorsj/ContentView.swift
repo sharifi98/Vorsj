@@ -33,7 +33,12 @@ struct ContentView: View {
         Item(title: "Karaoke", 
              subtitle: "Sett en av sangene på, følg teksten og syng når det gjeld..",
              destinationView: AnyView(KaraokeListView()),
-             image: Image("pimp"))
+             image: Image("pimp")),
+        
+        Item(title: "Start Nachet",
+             subtitle: "Få i gang nachet!",
+             destinationView: AnyView(StartNachet(filename: "startnachet.json", title: "Start Nachet")),
+             image: Image("trym"))
         
     ]
     

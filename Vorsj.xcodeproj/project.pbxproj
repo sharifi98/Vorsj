@@ -31,6 +31,9 @@
 		034A395A2AB4648C005ED690 /* JegHarAldriVolume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A39542AB4648C005ED690 /* JegHarAldriVolume1.json */; };
 		034A395B2AB4648C005ED690 /* JegHarAldriVolume5.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A39552AB4648C005ED690 /* JegHarAldriVolume5.json */; };
 		0389473F2AB5267600BC572D /* cornfieldchase.json in Resources */ = {isa = PBXBuildFile; fileRef = 0389473E2AB5267600BC572D /* cornfieldchase.json */; };
+		038947412AB5C7FC00BC572D /* ChatsTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038947402AB5C7FC00BC572D /* ChatsTabBarView.swift */; };
+		038947442AB5C9B200BC572D /* StartNachet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038947432AB5C9B200BC572D /* StartNachet.swift */; };
+		038947462AB5CC8000BC572D /* startnachet.json in Resources */ = {isa = PBXBuildFile; fileRef = 038947452AB5CC8000BC572D /* startnachet.json */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -92,6 +95,9 @@
 		034A39542AB4648C005ED690 /* JegHarAldriVolume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JegHarAldriVolume1.json; sourceTree = "<group>"; };
 		034A39552AB4648C005ED690 /* JegHarAldriVolume5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JegHarAldriVolume5.json; sourceTree = "<group>"; };
 		0389473E2AB5267600BC572D /* cornfieldchase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cornfieldchase.json; path = ../../../../../cornfieldchase.json; sourceTree = "<group>"; };
+		038947402AB5C7FC00BC572D /* ChatsTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTabBarView.swift; sourceTree = "<group>"; };
+		038947432AB5C9B200BC572D /* StartNachet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNachet.swift; sourceTree = "<group>"; };
+		038947452AB5CC8000BC572D /* startnachet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = startnachet.json; path = ../../../startnachet.json; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				032C94712A94DB0300B4BD31 /* ComposeArea.swift */,
+				038947402AB5C7FC00BC572D /* ChatsTabBarView.swift */,
 				032C947A2A96058E00B4BD31 /* MessageBubble.swift */,
 			);
 			path = Messages;
@@ -172,6 +179,15 @@
 			path = "Jeg har aldri";
 			sourceTree = "<group>";
 		};
+		038947422AB5C95600BC572D /* Narch */ = {
+			isa = PBXGroup;
+			children = (
+				038947432AB5C9B200BC572D /* StartNachet.swift */,
+				038947452AB5CC8000BC572D /* startnachet.json */,
+			);
+			name = Narch;
+			sourceTree = "<group>";
+		};
 		03ADF3F52A8B8E99004C3D8C = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +214,7 @@
 				03ADF44F2A8CE533004C3D8C /* Chugg eller sannhet */,
 				03E9CE0F2A9644A5002EC676 /* Karaoke */,
 				033F53672AA0C3A1005D44B3 /* Jeg har aldri */,
+				038947422AB5C95600BC572D /* Narch */,
 				03ADF4162A8B8FAA004C3D8C /* ModelData.swift */,
 				03ADF41A2A8B917B004C3D8C /* Question.swift */,
 				03E9CE182A96481A002EC676 /* Song.swift */,
@@ -372,6 +389,7 @@
 				03D7A2172A977517002F250D /* bestsongever.json in Resources */,
 				03ADF4472A8CCA6C004C3D8C /* Kompliment.json in Resources */,
 				034A39582AB4648C005ED690 /* JegHarAldriS3XEdition.json in Resources */,
+				038947462AB5CC8000BC572D /* startnachet.json in Resources */,
 				033733222A975B1C005DA72C /* takeonme.json in Resources */,
 				0337331A2A9747D3005DA72C /* iwantitthatway.json in Resources */,
 				03ADF4432A8CC6A3004C3D8C /* Volume7.json in Resources */,
@@ -416,9 +434,11 @@
 				033F53692AA0C3D0005D44B3 /* JegHarAldri.swift in Sources */,
 				0337332D2A976895005DA72C /* Spotify.swift in Sources */,
 				03E9CE172A964767002EC676 /* KaraokeView.swift in Sources */,
+				038947412AB5C7FC00BC572D /* ChatsTabBarView.swift in Sources */,
 				03ADF4562A8CE726004C3D8C /* ChuggEllerSannhetVolume3.swift in Sources */,
 				03E9CE152A96473A002EC676 /* KaraokeListView.swift in Sources */,
 				03ADF44A2A8CDC7A004C3D8C /* ChuggEllerSannhetVolume.swift in Sources */,
+				038947442AB5C9B200BC572D /* StartNachet.swift in Sources */,
 				03ADF4172A8B8FAA004C3D8C /* ModelData.swift in Sources */,
 				032C947B2A96058E00B4BD31 /* MessageBubble.swift in Sources */,
 				03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */,

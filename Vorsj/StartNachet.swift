@@ -1,13 +1,13 @@
 //
-//  HundredView.swift
+//  StartNachet.swift
 //  Vorsj
 //
-//  Created by Hossein Sharifi on 15/08/2023.
+//  Created by Hossein Sharifi on 16/09/2023.
 //
 
 import SwiftUI
 
-struct HundredView: View {
+struct StartNachet: View {
     
     var filename: String
     var title: String
@@ -20,26 +20,17 @@ struct HundredView: View {
     }
     
     var body: some View {
-        NavigationStack {
-            VStack {
-                customScrollView
-                ComposeArea()
-                ChatsTabBarView()
-            }
-            .navigationTitle(self.title)
-            .navigationBarTitleDisplayMode(.large)
-        }
-    }
-    
-    // This is your custom ScrollView, extracted as a computed property
-    private var customScrollView: some View {
-        ScrollView {
-            VStack {
+        VStack {
+            
+            ScrollView {
                 ruleView
                 questionsView
             }
-            .background(Color.gray.opacity(0.1))
+            ComposeArea()
+            ChatsTabBarView()
         }
+        .navigationTitle(self.title)
+        .navigationBarTitleDisplayMode(.large)
     }
     
     // Display rule if it exists in the first question
@@ -61,10 +52,8 @@ struct HundredView: View {
     }
 }
 
-
-struct HundredView_Previews: PreviewProvider {
+struct StartNachet_Previews: PreviewProvider {
     static var previews: some View {
-        HundredView(filename: "Kompliment.json", title: "50/50")
+        StartNachet(filename: "startnachet.json", title: "Start Nachet")
     }
 }
-

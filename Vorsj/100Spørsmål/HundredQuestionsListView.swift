@@ -10,13 +10,14 @@ import SwiftUI
 struct HundredQuestionsListView: View {
     let buttonsData = [
         ("5050.json", "50/50", "%"),
-        ("Volume1.json", "Utgave 1", "⭐️"),
-        ("Volume2.json", "Utgave 2", "💫"),
-        ("Volume3.json", "Utgave 3", "🎊"),
-        ("Volume4.json", "Utgave 4 (DRØY)", "🍺"),
-        ("Volume5BI.json", "Utgave 5 (BI)", "🎓"),
-        ("Volume6.json", "Utgave 69 (Sambucas)", "🥃"),
-        ("Volume7.json", "Utgave 7", "👽"),
+        ("Volume1.json", "Volume 1", "⭐️"),
+        ("Volume2.json", "Volume 2", "💫"),
+        ("Volume3.json", "Volume 3", "🎊"),
+        ("Volume4.json", "Volume 4 (DRØY)", "🍺"),
+        ("Volume41.json", "Volume 4.1 (DRØY)", "🍻"),
+        ("Volume5BI.json", "Volume 5 (BI)", "🎓"),
+        ("Volume6.json", "Volume 69 (Sambucas)", "🥃"),
+        ("Volume7.json", "Volume 7", "👽"),
         ("Kompliment.json", "Kompliment", "💕"),
     ]
 
