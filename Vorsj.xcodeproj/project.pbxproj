@@ -30,6 +30,7 @@
 		034A39592AB4648C005ED690 /* JegHarAldriVolume4.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A39532AB4648C005ED690 /* JegHarAldriVolume4.json */; };
 		034A395A2AB4648C005ED690 /* JegHarAldriVolume1.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A39542AB4648C005ED690 /* JegHarAldriVolume1.json */; };
 		034A395B2AB4648C005ED690 /* JegHarAldriVolume5.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A39552AB4648C005ED690 /* JegHarAldriVolume5.json */; };
+		0389473F2AB5267600BC572D /* cornfieldchase.json in Resources */ = {isa = PBXBuildFile; fileRef = 0389473E2AB5267600BC572D /* cornfieldchase.json */; };
 		03ADF4022A8B8E99004C3D8C /* VorsjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */; };
 		03ADF4042A8B8E99004C3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF4032A8B8E99004C3D8C /* ContentView.swift */; };
 		03ADF4062A8B8E9B004C3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADF4052A8B8E9B004C3D8C /* Assets.xcassets */; };
@@ -90,6 +91,7 @@
 		034A39532AB4648C005ED690 /* JegHarAldriVolume4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JegHarAldriVolume4.json; sourceTree = "<group>"; };
 		034A39542AB4648C005ED690 /* JegHarAldriVolume1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JegHarAldriVolume1.json; sourceTree = "<group>"; };
 		034A39552AB4648C005ED690 /* JegHarAldriVolume5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JegHarAldriVolume5.json; sourceTree = "<group>"; };
+		0389473E2AB5267600BC572D /* cornfieldchase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cornfieldchase.json; path = ../../../../../cornfieldchase.json; sourceTree = "<group>"; };
 		03ADF3FE2A8B8E99004C3D8C /* Vorsj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vorsj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF4012A8B8E99004C3D8C /* VorsjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorsjApp.swift; sourceTree = "<group>"; };
 		03ADF4032A8B8E99004C3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -220,8 +222,8 @@
 				03ADF43B2A8BACA6004C3D8C /* HundredView.swift */,
 				032C94782A96056800B4BD31 /* HeaderView.swift */,
 				03ADF41C2A8B9296004C3D8C /* QuestionCardView.swift */,
-				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 				032C94732A94DC7C00B4BD31 /* Messages */,
+				03ADF4482A8CCB15004C3D8C /* JSON 100 Spørsmål  */,
 			);
 			name = "100Spørsmål";
 			path = "100Spørsmål";
@@ -296,6 +298,7 @@
 				033733212A975B1C005DA72C /* takeonme.json */,
 				033733252A975D56005DA72C /* sorry.json */,
 				03F6F6292AA4CE8C0026FB24 /* vivalavida.json */,
+				0389473E2AB5267600BC572D /* cornfieldchase.json */,
 			);
 			path = "Karaoke JSON";
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				03ADF43A2A8BAAF3004C3D8C /* Volume3.json in Resources */,
 				03ADF4542A8CE661004C3D8C /* ChuggEllerSannhetVolume2.json in Resources */,
 				03ADF4412A8CC4E8004C3D8C /* Volume6.json in Resources */,
+				0389473F2AB5267600BC572D /* cornfieldchase.json in Resources */,
 				034A39562AB4648C005ED690 /* JegHarAldriVolume3.json in Resources */,
 				03ADF4302A8BA80E004C3D8C /* Volume1.json in Resources */,
 				03D7A2172A977517002F250D /* bestsongever.json in Resources */,

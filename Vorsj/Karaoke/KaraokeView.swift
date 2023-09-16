@@ -23,7 +23,7 @@ struct KaraokeView: View {
     
     func gradientBackgroundColor(for index: Int) -> LinearGradient {
         let baseColor: Color = index % 2 == 0 ? Color.blue : Color.green
-        return LinearGradient(gradient: Gradient(colors: [baseColor.opacity(0.5), baseColor]), startPoint: .top, endPoint: .bottom)
+        return LinearGradient(gradient: Gradient(colors: [baseColor.opacity(0.3), baseColor]), startPoint: .top, endPoint: .bottom)
     }
     
     var body: some View {

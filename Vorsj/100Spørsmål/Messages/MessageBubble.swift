@@ -54,7 +54,6 @@ struct MessageBubble: View {
             Label("FaceTime", systemImage: "video")
             Label("FaceTime Audio", systemImage: "phone")
             Label("Add to Contacts", systemImage: "person.crop.circle.badge.plus")
-            Label("doc.on.doc", systemImage: "trash")
         }
     }
 
@@ -97,7 +96,7 @@ struct MessageBubble: View {
     // MARK: - Helper Functions
 
     private func fontForType() -> Font {
-        return .system(size: 16)
+        return .system(size: 20)
     }
 
     private func paddingForType() -> EdgeInsets {

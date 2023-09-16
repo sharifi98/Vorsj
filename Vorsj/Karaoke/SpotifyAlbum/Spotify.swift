@@ -14,103 +14,117 @@ struct Spotify: View {
             ZStack {
                 Background()
                 VStack {
-
+                    
                     ScrollView {
                         Cover()
-
+                        
                         VStack{
                             ArtistInfo()
                             Controls()
-
+                            
                             VStack(spacing: 24){
-                                trackNavigationLink(name: "Livin On A Prayer",
-                                                    artists: "Bon Jovi",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "livinonaprayer.json",
-                                                    title: "Livin on a prayer - Bon Jovi",
-                                                    url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=5c56a9428ac343d3")
+                                Group {
+                                    trackNavigationLink(name: "Livin On A Prayer",
+                                                        artists: "Bon Jovi",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "livinonaprayer.json",
+                                                        title: "Livin on a prayer - Bon Jovi",
+                                                        url: "https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF?si=5c56a9428ac343d3")
+                                    
+                                    trackNavigationLink(name: "Best Song Ever",
+                                                        artists: "One Direction",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "bestsongever.json",
+                                                        title: "Best Song Ever - One Direction",
+                                                        url: "https://open.spotify.com/track/5T7ZFtCcOgkpjxcuaeZbw0?si=1e4398968b294b7b")
+                                    
+                                    trackNavigationLink(name: "Sex On Fire",
+                                                        artists: "Kings Of Leon",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "sexonfire.json",
+                                                        title: "Sex On Fire - Kings Of Leon",
+                                                        url: "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45?si=bf6037e43165440a")
+                                    
+                                    trackNavigationLink(name: "Dancing Queen",
+                                                        artists: "ABBA",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "dancingqueen.json",
+                                                        title: "Dancing Queen - ABBA",
+                                                        url: "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr?si=056b6868a1dc4a8a")
+                                    
+                                    trackNavigationLink(name: "I Want It That Way",
+                                                        artists: "Backstreet Boys",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "iwantitthatway.json",
+                                                        title: "I Want It That Way - Backstreet Boys",
+                                                        url: "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya?si=8851ce5ccf4c4537")
+                                    
+                                    trackNavigationLink(name: "Lay All Your Love On Me",
+                                                        artists: "ABBA",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "layallyourloveonme.json",
+                                                        title: "Lay All Your Love On Me - ABBA",
+                                                        url: "https://open.spotify.com/track/4euAGZTszWPrriggYK0HG9?si=592be5da6bec4afb")
+                                    
+                                    trackNavigationLink(name: "Forever Alone",
+                                                        artists: "Kakkmaddafakka",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "foreveralone.json",
+                                                        title: "Forever Alone - Kakkmaddafakka",
+                                                        url: "https://open.spotify.com/track/2ABslCJtxwLFLCUHWctSaL?si=4ced1e4dbbc74e08")
+                                    
+                                    trackNavigationLink(name: "Fairy Tale",
+                                                        artists: "Alexander Rybak",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "fairytale.json",
+                                                        title: "Fairy Tale - Alexander Rybak",
+                                                        url: "https://open.spotify.com/track/6NgYIETQ8U72CVfkzYhK30?si=f6ab3cc5d81a4d77")
+                                    
+                                    trackNavigationLink(name: "Take On Me",
+                                                        artists: "A-Ha",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "takeonme.json",
+                                                        title: "Take On Me - A-Ha",
+                                                        url: "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L?si=a3080fc99b764186")
+                                    
+                                    trackNavigationLink(name: "Sorry",
+                                                        artists: "AF1",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "sorry.json",
+                                                        title: "Sorry - AF1",
+                                                        url: "https://open.spotify.com/track/12C1wQ5YJMiOtwunC9Ds6N?si=071312f28a384e6d")
+                                }
                                 
-                                trackNavigationLink(name: "Best Song Ever",
-                                                    artists: "One Direction",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "bestsongever.json",
-                                                    title: "Best Song Ever - One Direction",
-                                                    url: "https://open.spotify.com/track/5T7ZFtCcOgkpjxcuaeZbw0?si=1e4398968b294b7b")
-                                
-                                trackNavigationLink(name: "Sex On Fire",
-                                                    artists: "Kings Of Leon",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "sexonfire.json",
-                                                    title: "Sex On Fire - Kings Of Leon",
-                                                    url: "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45?si=bf6037e43165440a")
-                                
-                                trackNavigationLink(name: "Dancing Queen",
-                                                    artists: "ABBA",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "dancingqueen.json",
-                                                    title: "Dancing Queen - ABBA",
-                                                    url: "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr?si=056b6868a1dc4a8a")
-                                
-                                trackNavigationLink(name: "I Want It That Way",
-                                                    artists: "Backstreet Boys",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "iwantitthatway.json",
-                                                    title: "I Want It That Way - Backstreet Boys",
-                                                    url: "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya?si=8851ce5ccf4c4537")
-                                
-                                trackNavigationLink(name: "Lay All Your Love On Me",
-                                                    artists: "ABBA",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "layallyourloveonme.json",
-                                                    title: "Lay All Your Love On Me - ABBA",
-                                                    url: "https://open.spotify.com/track/4euAGZTszWPrriggYK0HG9?si=592be5da6bec4afb")
-                                
-                                trackNavigationLink(name: "Forever Alone",
-                                                    artists: "Kakkmaddafakka",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "foreveralone.json",
-                                                    title: "Forever Alone - Kakkmaddafakka",
-                                                    url: "https://open.spotify.com/track/2ABslCJtxwLFLCUHWctSaL?si=4ced1e4dbbc74e08")
-                                
-                                trackNavigationLink(name: "Fairy Tale",
-                                                    artists: "Alexander Rybak",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "fairytale.json",
-                                                    title: "Fairy Tale - Alexander Rybak",
-                                                    url: "https://open.spotify.com/track/6NgYIETQ8U72CVfkzYhK30?si=f6ab3cc5d81a4d77")
-                                
-                                trackNavigationLink(name: "Take On Me",
-                                                    artists: "A-Ha",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "takeonme.json",
-                                                    title: "Take On Me - A-Ha",
-                                                    url: "https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L?si=a3080fc99b764186")
-                                
-                                trackNavigationLink(name: "Sorry",
-                                                    artists: "AF1",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "sorry.json",
-                                                    title: "Sorry - AF1",
-                                                    url: "https://open.spotify.com/track/12C1wQ5YJMiOtwunC9Ds6N?si=071312f28a384e6d")
-                                
-                              /*  trackNavigationLink(name: "Viva La Vida",
-                                                    artists: "Coldplay",
-                                                    explicit: false,
-                                                    playing: false,
-                                                    filename: "vivalavida.json",
-                                                    title: "Viva La Vida - Coldplay",
-                                                    url: "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b?si=593889fd373147c2")
-                               */
+                                Group {
+                                    
+                                    trackNavigationLink(name: "Viva La Vida",
+                                                        artists: "Coldplay",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "vivalavida.json",
+                                                        title: "Viva La Vida - Coldplay",
+                                                        url: "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b?si=593889fd373147c2")
+                                    
+                                    
+                                    trackNavigationLink(name: "Cornfield Chase",
+                                                        artists: "Hans Zimmer",
+                                                        explicit: false,
+                                                        playing: false,
+                                                        filename: "cornfieldchase.json",
+                                                        title: "Cornfield Chase - Hans Zimmer",
+                                                        url: "https://open.spotify.com/track/4WmB04GBqS4xPMYN9dHgBw?si=ec99c624f91f4881")
+                                    
+                                }
                                 
                             }.padding(.top)
                         }
@@ -136,11 +150,6 @@ struct Spotify: View {
 }
 
 
-struct Spotify_Previews: PreviewProvider {
-    static var previews: some View {
-        Spotify()
-    }
-}
 
 
 
@@ -157,7 +166,7 @@ struct Background: View{
 struct Cover: View{
     var body: some View{
         ZStack(alignment: .top){
-            Image("tobias")
+            Image("amy2")
                 .resizable()
                 .frame(width: 220, height: 220)
                 .shadow(radius: 5)
@@ -256,21 +265,21 @@ struct Track: View {
     let playing: Bool
     // Note: The filename parameter isn't used directly in this view, but it's kept for consistency with the parent view.
     let filename: String
-
+    
     var body: some View {
         HStack {
             // Maybe an icon or image representing the song
             VStack(alignment: .leading) {
                 Text(name)
                     .font(.headline)
-
+                
                 Text(artists)
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
-
+            
             Spacer()
-
+            
             if explicit {
                 Text("E")
                     .font(.caption)
@@ -310,7 +319,7 @@ struct MediaPlayer: View{
                 Image(systemName: "play.fill")
             }
             .font(.system(size: 25))
-            .padding(.trailing)
+            .padding()
         }
         .border(Color.black, width: 0.3)
     }
@@ -359,3 +368,9 @@ struct Menu: View{
 
 
 
+
+struct Spotify_Previews: PreviewProvider {
+    static var previews: some View {
+        Spotify()
+    }
+}

@@ -46,11 +46,15 @@ struct ChuggEllerSannhetVolume2: View {
                         get: { self.questions[index].isChecked ?? false },
                         set: { self.questions[index].isChecked = $0 }
                     )) {
-                        Text("\(index+1): \(questions[index].question)")
+                        Text("\(index+1).  \(questions[index].question)")
                     }
                     .toggleStyle(CustomToggleStyle())
                 }
             }
+            .listRowBackground(Rectangle()
+                                .background(Color.clear)
+                                .foregroundColor(.gray)
+                                .opacity(0.3))
         }
     }
 }

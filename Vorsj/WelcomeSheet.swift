@@ -26,9 +26,13 @@ struct WelcomeSheet: View {
                 .padding(.vertical, 5)
 
             
-            Text("Ivar Aasen gikk rundt i Norge for å samle på dialekt. Asbjørnsen og Moe reiste rundt i Norge for å samle på eventyr. Jeg? Jeg samler på drikkeleker")
+            Text("''Ivar Aasen gikk rundt i Norge for å samle på dialekt. Asbjørnsen og Moe reiste rundt i Norge for å samle på eventyr. Jeg? Jeg samler på drikkeleker''")
+            
                 .italic()
                 .multilineTextAlignment(.center)
+            Text("-HS")
+                .italic()
+            
             Spacer()
             
             Button("Ta meg til lekene!") {

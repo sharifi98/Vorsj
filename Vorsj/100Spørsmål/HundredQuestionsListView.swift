@@ -14,7 +14,6 @@ struct HundredQuestionsListView: View {
         ("Volume2.json", "Utgave 2", "💫"),
         ("Volume3.json", "Utgave 3", "🎊"),
         ("Volume4.json", "Utgave 4 (DRØY)", "🍺"),
-        ("Volume41.json", "Utgave 8 (DRØY) ", "👙"),
         ("Volume5BI.json", "Utgave 5 (BI)", "🎓"),
         ("Volume6.json", "Utgave 69 (Sambucas)", "🥃"),
         ("Volume7.json", "Utgave 7", "👽"),
@@ -26,40 +25,61 @@ struct HundredQuestionsListView: View {
         GridItem(.flexible(), spacing: 20)
     ]
 
-    var body: some View {
-        NavigationStack {
-            List {
-                Section {
-                    ForEach(0..<buttonsData.count, id: \.self) { index in
-                        let (filename, title, emoji) = buttonsData[index]
-                        NavigationLink(destination: HundredView(filename: filename, title: title)) {
-                            HStack {
-                                Text(emoji)
-                                Text(title)
+    @State private var listItemOffset: CGFloat = 50
+        @State private var listItemOpacity: Double = 0
+
+        var body: some View {
+            NavigationView {
+                ScrollView {
+                    LazyVStack(spacing: 20) {
+                        ForEach(0..<buttonsData.count, id: \.self) { index in
+                            let (filename, title, emoji) = buttonsData[index]
+                            NavigationLink(destination: HundredView(filename: filename, title: title)) {
+                                HStack {
+                                    Text(emoji)
+                                        .font(.largeTitle)
+                                        .padding(.leading, 20)
+                                    Text(title)
+                                        .fontWeight(.semibold)
+                                        .padding(.trailing, 20)
+                                    Spacer()
+                                }
+                                .padding(.vertical, 10)
+                                .background(Color.blue.opacity(0.1))
+                                .cornerRadius(10)
+                                .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 5)
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                            .opacity(listItemOpacity)
+                            .offset(y: listItemOffset)
+                            .onAppear {
+                                withAnimation(Animation.spring().delay(0.1 * Double(index))) {
+                                    listItemOpacity = 1
+                                    listItemOffset = 0
+                                }
                             }
                         }
                     }
+                    .padding()
                 }
-            }
-            .toolbar {
-                ToolbarItem(placement: .principal) {
-                    HStack {
-                        Image("trym")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 30, height: 30)
-                            .clipShape(Circle())
-                        Text("100 Spørsmål")
-                        Image(systemName: "chevron.right")
-                            .font(.system(size: 10))
+                .navigationBarTitle("100 Spørsmål", displayMode: .inline)
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        HStack {
+                            Image("trym")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 30, height: 30)
+                                .clipShape(Circle())
+                            Text("100 Spørsmål")
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 10))
+                        }
                     }
                 }
+                ComposeArea()
             }
-            .navigationTitle("")
-            .navigationBarTitleDisplayMode(.inline)
-            ComposeArea()
         }
-    }
 }
 
 struct HundredQuestionsListView_Previews: PreviewProvider {

@@ -58,9 +58,14 @@ struct ChuggEllerSannhetVolume: View {
                     .toggleStyle(CustomToggleStyle())
                 }
             }
+            .listRowBackground(Rectangle()
+                                .background(Color.clear)
+                                .foregroundColor(.gray)
+                                .opacity(0.3))
+            
             
         }
-        .listStyle(.plain)
+        
         
     }
 }

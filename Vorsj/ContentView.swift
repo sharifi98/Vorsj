@@ -18,7 +18,7 @@ struct ContentView: View {
         Item(title: "100 spørsmål",
              subtitle: "Snusboks leken, Volume 1-7 og mer",
              destinationView: AnyView(HundredQuestionsListView()),
-             image: Image("chugg"))
+             image: Image("trym"))
 ,
         Item(title: "Chugg eller sannhet", 
              subtitle: "Volume 1-3",
