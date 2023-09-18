@@ -1,0 +1,660 @@
+[
+  {
+    "id": 1,
+    "question": "Hvor mange årstider er det i et år?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "4"
+  },
+  {
+    "id": 2,
+    "question": "Hvor mange øre er det i en krone?",
+    "options": [
+      "50",
+      "75",
+      "100",
+      "125"
+    ],
+    "correct_answer": "100"
+  },
+  {
+    "id": 3,
+    "question": "Hvem malte Mona Lisa?",
+    "options": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo Da Vinci",
+      "Michelangelo"
+    ],
+    "correct_answer": "Leonardo Da Vinci"
+  },
+  {
+    "id": 4,
+    "question": "Hvor mange nuller er det i tallet for en million?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "6"
+  },
+  {
+    "id": 5,
+    "question": "Hvilket heltall er nærmest kvadratroten av 65?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_answer": "8"
+  },
+  {
+    "id": 6,
+    "question": "Hvilket kontinent er minst befolket?",
+    "options": [
+      "Asia",
+      "Afrika",
+      "Antarktis",
+      "Europa"
+    ],
+    "correct_answer": "Antarktis"
+  },
+  {
+    "id": 7,
+    "question": "Hvor mange stater er det i USA?",
+    "options": [
+      "48",
+      "49",
+      "50",
+      "51"
+    ],
+    "correct_answer": "50"
+  },
+  {
+    "id": 8,
+    "question": "Frihetsgudinnen var en gave fra hvem?",
+    "options": [
+      "Storbritannia",
+      "Spania",
+      "Frankrike",
+      "Tyskland"
+    ],
+    "correct_answer": "Frankrike"
+  },
+  {
+    "id": 9,
+    "question": "Hvor mange strenger har en gitar?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "6"
+  },
+  {
+    "id": 10,
+    "question": "Hva er summen av vinklene av en firkant?",
+    "options": [
+      "180",
+      "270",
+      "360",
+      "450"
+    ],
+    "correct_answer": "360"
+  },
+  {
+    "id": 11,
+    "question": "Hva er summen av vinklene av en trekant?",
+    "options": [
+      "90",
+      "120",
+      "180",
+      "240"
+    ],
+    "correct_answer": "180"
+  },
+  {
+    "id": 12,
+    "question": "Hvor mange cl er det i en liter?",
+    "options": [
+      "50",
+      "75",
+      "100",
+      "125"
+    ],
+    "correct_answer": "100"
+  },
+  {
+    "id": 13,
+    "question": "Hvilken planet er nærmest solen?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Merkur",
+      "Saturn"
+    ],
+    "correct_answer": "Merkur"
+  },
+  {
+    "id": 14,
+    "question": "Hva er Norges vanligste bergart?",
+    "options": [
+      "Granitt",
+      "Skifer",
+      "Gneis",
+      "Kalkstein"
+    ],
+    "correct_answer": "Gneis"
+  },
+  {
+    "id": 15,
+    "question": "Hva er det laveste primtallet?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "id": 16,
+    "question": "Hvem var den første som tråkket på månen?",
+    "options": [
+      "Yuri Gagarin",
+      "John Glenn",
+      "Buzz Aldrin",
+      "Neil Armstrong"
+    ],
+    "correct_answer": "Neil Armstrong"
+  },
+  {
+    "id": 17,
+    "question": "Hvem var den første presidenten i USA?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington",
+      "Abraham Lincoln"
+    ],
+    "correct_answer": "George Washington"
+  },
+  {
+    "id": 18,
+    "question": "Hva kalles det når solen blokkerer månen?",
+    "options": [
+      "Solflekk",
+      "Solskjerm",
+      "Solkorona",
+      "Solformørkelse"
+    ],
+    "correct_answer": "Solformørkelse"
+  },
+  {
+    "id": 19,
+    "question": "Hva er arealet av kvadratet med side 5 cm?",
+    "options": [
+      "15 cm^2",
+      "20 cm^2",
+      "25 cm^2",
+      "30 cm^2"
+    ],
+    "correct_answer": "25 cm^2"
+  },
+  {
+    "id": 20,
+    "question": "Hva er det letteste grunnstoffet?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Lithium",
+      "Bor"
+    ],
+    "correct_answer": "Hydrogen"
+  },
+  {
+    "id": 21,
+    "question": "Stav 'høst' på engelsk",
+    "options": [
+      "Autumn",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "correct_answer": "Autumn"
+  },
+  {
+    "id": 22,
+    "question": "Hvor mange kontinenter er det i verden?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "7"
+  },
+  {
+    "id": 23,
+    "question": "Hva er det største havet?",
+    "options": [
+      "Atlanterhavet",
+      "Stillehavet",
+      "Det indiske hav",
+      "Arktisk hav"
+    ],
+    "correct_answer": "Stillehavet"
+  },
+  {
+    "id": 24,
+    "question": "Hva heter linjene som går fra øst til vest over et kart?",
+    "options": [
+      "Breddegrader",
+      "Lengdegrader",
+      "Kontinenter",
+      "Høydegrader"
+    ],
+    "correct_answer": "Lengdegrader"
+  },
+  {
+    "id": 25,
+    "question": "Hva heter de grønne monsterene i Minecraft som sprenger i lufta?",
+    "options": [
+      "Zombies",
+      "Skeletons",
+      "Endermen",
+      "Creepers"
+    ],
+    "correct_answer": "Creepers"
+  },
+  {
+    "id": 26,
+    "question": "Hva heter røverne i Kardemommeby?",
+    "options": [
+      "Klatremus og Musa",
+      "Kardemomme-Kongen og Kongen",
+      "Kasper, Jesper, Jonathan",
+      "Emil og Ivar"
+    ],
+    "correct_answer": "Kasper, Jesper, Jonathan"
+  },
+  {
+    "id": 27,
+    "question": "Hvor er verdens høyeste fjell?",
+    "options": [
+      "Andesfjellene",
+      "Rocky Mountains",
+      "Alpene",
+      "Himalaya"
+    ],
+    "correct_answer": "Himalaya"
+  },
+  {
+    "id": 28,
+    "question": "Hva heter den lengste elven i verden?",
+    "options": [
+      "Nilen",
+      "Amazonas",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "correct_answer": "Nilen"
+  },
+  {
+    "id": 29,
+    "question": "Hva heter kraften som holder oss på jorden?",
+    "options": [
+      "Magnetisk kraft",
+      "Elektrisk kraft",
+      "Gravitasjonskraft",
+      "Kjernefysisk kraft"
+    ],
+    "correct_answer": "Gravitasjonskraft"
+  },
+  {
+    "id": 30,
+    "question": "Hva heter det når egenskaper overføres fra foreldre til barna deres?",
+    "options": [
+      "Genetikk",
+      "Kjemisk reaksjon",
+      "Evolusjon",
+      "Fotosyntese"
+    ],
+    "correct_answer": "Genetikk"
+  },
+  {
+    "id": 31,
+    "question": "Hvem sa 'I have a dream?'",
+    "options": [
+      "Abraham Lincoln",
+      "Martin Luther King Jr.",
+      "John F. Kennedy",
+      "Nelson Mandela"
+    ],
+    "correct_answer": "Martin Luther King Jr."
+  },
+  {
+    "id": 32,
+    "question": "Hvem oppdaget Amerika?",
+    "options": [
+      "Columbus",
+      "Magellan",
+      "Leiv Eiriksson",
+      "Vasco da Gama"
+    ],
+    "correct_answer": "Leiv Eiriksson"
+  },
+  {
+    "id": 33,
+    "question": "Hvor mange grader er en rettvinkel?",
+    "options": [
+      "45",
+      "60",
+      "90",
+      "120"
+    ],
+    "correct_answer": "90"
+  },
+  {
+    "id": 34,
+    "question": "Hvem skrev Romeo og Juliet?",
+    "options": [
+      "Charles Dickens",
+      "Jane Austen",
+      "William Shakespeare",
+      "F. Scott Fitzgerald"
+    ],
+    "correct_answer": "William Shakespeare"
+  },
+  {
+    "id": 35,
+    "question": "Hvem skrev 'Den lille havfruen'?",
+    "options": [
+      "Hans Christian Andersen",
+      "Brothers Grimm",
+      "J.K. Rowling",
+      "Mark Twain"
+    ],
+    "correct_answer": "Hans Christian Andersen"
+  },
+  {
+    "id": 36,
+    "question": "Hva er de fire elementene?",
+    "options": [
+      "Vann, Luft, Jord, Ild",
+      "Ild, Jord, Luft, Stein",
+      "Vind, Vann, Jord, Ild",
+      "Ild, Vann, Metall, Tre"
+    ],
+    "correct_answer": "Ild, Jord, Luft, Vann"
+  },
+  {
+    "id": 37,
+    "question": "Hvor mange år har jorden eksistert?",
+    "options": [
+      "2 millioner år",
+      "4.5 milliarder år",
+      "10.000 år",
+      "1 milliard år"
+    ],
+    "correct_answer": "4.5 milliarder år"
+  },
+  {
+    "id": 38,
+    "question": "Hva er kokepunktet for vann?",
+    "options": [
+      "50 grader Celsius",
+      "75 grader Celsius",
+      "100 grader Celsius",
+      "125 grader Celsius"
+    ],
+    "correct_answer": "100 grader Celsius"
+  },
+  {
+    "id": 39,
+    "question": "Hva er frysepunktet for vann?",
+    "options": [
+      "-10 grader Celsius",
+      "-5 grader Celsius",
+      "0 grader Celsius",
+      "5 grader Celsius"
+    ],
+    "correct_answer": "0 grader Celsius"
+  },
+  {
+    "id": 40,
+    "question": "Hva er kvadratroten til 49?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "7"
+  },
+  {
+    "id": 41,
+    "question": "Når startet andre verdenskrig?",
+    "options": [
+      "1914",
+      "1929",
+      "1939",
+      "1945"
+    ],
+    "correct_answer": "1939"
+  },
+  {
+    "id": 42,
+    "question": "Hva er det mest brukte språket?",
+    "options": [
+      "Kinesisk",
+      "Engelsk",
+      "Spansk",
+      "Hindi"
+    ],
+    "correct_answer": "Engelsk"
+  },
+  {
+    "id": 43,
+    "question": "Per og Tom skal dele 1/2 liter julebrus likt, hvor mange liter får hver av dem?",
+    "options": [
+      "1/4 liter",
+      "1/3 liter",
+      "1/2 liter",
+      "1 liter"
+    ],
+    "correct_answer": "1/4 liter"
+  },
+  {
+    "id": 44,
+    "question": "Hvor mange ringer er det i OL ringene?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": "5"
+  },
+  {
+    "id": 45,
+    "question": "Hvem forrådte Jesus?",
+    "options": [
+      "Judas Iskariot",
+      "Petrus",
+      "Paulus",
+      "Johannes"
+    ],
+    "correct_answer": "Judas Iskariot"
+  },
+  {
+    "id": 46,
+    "question": "Hvor kommer Anne Frank fra?",
+    "options": [
+      "Amsterdam, Nederland",
+      "Berlin, Tyskland",
+      "Warszawa, Polen",
+      "Frankfurt, Tyskland"
+    ],
+    "correct_answer": "Frankfurt, Tyskland"
+  },
+  {
+    "id": 47,
+    "question": "Hvem skrev 'Charlie og sjokoladefabrikken'?",
+    "options": [
+      "Enid Blyton",
+      "J.K. Rowling",
+      "Roald Dahl",
+      "Lewis Carroll"
+    ],
+    "correct_answer": "Roald Dahl"
+  },
+  {
+    "id": 48,
+    "question": "Hvor er Auschwitz?",
+    "options": [
+      "Tyskland",
+      "Østerrike",
+      "Polen",
+      "Tsjekkia"
+    ],
+    "correct_answer": "Polen"
+  },
+  {
+    "id": 49,
+    "question": "Hvem har lagd Flåklypa?",
+    "options": [
+      "Ivo Caprino",
+      "Kjell Aukrust",
+      "Arne Nordheim",
+      "Ole Brumm"
+    ],
+    "correct_answer": "Ivo Caprino"
+  },
+  {
+    "id": 50,
+    "question": "Er det pingviner på Nordpolen?",
+    "options": [
+      "Ja",
+      "Nei"
+    ],
+    "correct_answer": "Nei"
+  },
+  {
+    "id": 51,
+    "question": "Hva er hovedstaten på Svalbard?",
+    "options": [
+      "Oslo",
+      "Tromsø",
+      "Longyearbyen",
+      "Bergen"
+    ],
+    "correct_answer": "Longyearbyen"
+  },
+  {
+    "id": 52,
+    "question": "Hvilket land ble Joshua French og Tjostolv Moland fengslet?",
+    "options": [
+      "Kongo",
+      "Uganda",
+      "Sudan",
+      "Nigeria"
+    ],
+    "correct_answer": "Kongo"
+  },
+  {
+    "id": 53,
+    "question": "Hva står 'FN' for?",
+    "options": [
+      "Felles Nasjoner",
+      "Forbundet Nasjoner",
+      "Forente Nasjoner",
+      "Freds Nasjoner"
+    ],
+    "correct_answer": "Forente Nasjoner"
+  },
+  {
+    "id": 54,
+    "question": "Hva er en pesceterianer?",
+    "options": [
+      "En person som spiser kun grønnsaker",
+      "En person som spiser kun frukt",
+      "En person som spiser kun fisk",
+      "En person som spiser kun kjøtt"
+    ],
+    "correct_answer": "En person som spiser kun fisk"
+  },
+  {
+    "id": 55,
+    "question": "Hva er verdens minste land?",
+    "options": [
+      "Monaco",
+      "Andorra",
+      "Vatikanstaten",
+      "San Marino"
+    ],
+    "correct_answer": "Vatikanstaten"
+  },
+  {
+    "id": 56,
+    "question": "Hva heter Elvis til etternavn?",
+    "options": [
+      "Prescott",
+      "Preston",
+      "Prestley",
+      "Presley"
+    ],
+    "correct_answer": "Presley"
+  },
+  {
+    "id": 57,
+    "question": "Når kom grunnloven til Norge?",
+    "options": [
+      "1750",
+      "1814",
+      "1905",
+      "1945"
+    ],
+    "correct_answer": "1814"
+  },
+  {
+    "id": 58,
+    "question": "Hvilken by kommer Erna Solberg fra?",
+    "options": [
+      "Oslo",
+      "Stavanger",
+      "Bergen",
+      "Trondheim"
+    ],
+    "correct_answer": "Bergen"
+  },
+  {
+    "id": 59,
+    "question": "Hvem skrev mormor og de åtte ungene?",
+    "options": [
+      "Anne Cath Vestly",
+      "Thorbjørn Egner",
+      "Alf Prøysen",
+      "Inger Hagerup"
+    ],
+    "correct_answer": "Anne Cath Vestly"
+  },
+  {
+    "id": 60,
+    "question": "Hva heter hovedstaten i Belgia?",
+    "options": [
+      "Brussel",
+      "Antwerpen",
+      "Gent",
+      "Liège"
+    ],
+    "correct_answer": "Brussel"
+  }
+]

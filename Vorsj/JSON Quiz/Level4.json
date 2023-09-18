@@ -1,0 +1,660 @@
+[
+   {
+      "id":1,
+      "question":"Er kuen en drøvtygger?",
+      "options":[
+         "Ja",
+         "Nei"
+      ],
+      "correct_answer":"Ja"
+   },
+   {
+      "id":2,
+      "question":"Hva er Værnes, Gardemoen og Torp?",
+      "options":[
+         "Flyplass",
+         "Jernbanestasjoner",
+         "Bilforhandlere",
+         "Sykehus"
+      ],
+      "correct_answer":"Flyplass"
+   },
+   {
+      "id":3,
+      "question":"Hvem er Hermine og Ron vennene til?",
+      "options":[
+         "Harry Potter",
+         "Ronny Røver",
+         "Hedvig",
+         "Trollmannen fra Oz"
+      ],
+      "correct_answer":"Harry Potter"
+   },
+   {
+      "id":4,
+      "question":"Hva er det mest av i kaviar?",
+      "options":[
+         "Roe",
+         "Syltetøy",
+         "Kjøtt",
+         "Sjokolade"
+      ],
+      "correct_answer":"Roe"
+   },
+   {
+      "id":5,
+      "question":"Hvilken film møter vi Troy Bolton?",
+      "options":[
+         "High School Musical",
+         "Pirates of the Caribbean",
+         "The Avengers",
+         "Jurassic Park"
+      ],
+      "correct_answer":"High School Musical"
+   },
+   {
+      "id":6,
+      "question":"Hvem lagde låten Thriller?",
+      "options":[
+         "Michael Jackson",
+         "Elvis Presley",
+         "The Beatles",
+         "Madonna"
+      ],
+      "correct_answer":"Michael Jackson"
+   },
+   {
+      "id":7,
+      "question":"Hvilket kjæledyr har Svampebob?",
+      "options":[
+         "Snegle",
+         "Katt",
+         "Hund",
+         "Papegøye"
+      ],
+      "correct_answer":"Snegle"
+   },
+   {
+      "id":8,
+      "question":"Hva heter Norges dronning?",
+      "options":[
+         "Sonja",
+         "Mette-Marit",
+         "Ingrid",
+         "Elisabeth"
+      ],
+      "correct_answer":"Sonja"
+   },
+   {
+      "id":9,
+      "question":"Er gaten Karl Johan oppkalt etter en svensk eller dansk konge?",
+      "options":[
+         "Svensk",
+         "Dansk",
+         "Norsk",
+         "Finsk"
+      ],
+      "correct_answer":"Dansk"
+   },
+   {
+      "id":10,
+      "question":"Hvor mange fylker har vi i Norge?",
+      "options":[
+         "19",
+         "20",
+         "18",
+         "17"
+      ],
+      "correct_answer":"19"
+   },
+   {
+      "id":11,
+      "question":"Hva er Norges største kommune i folketall?",
+      "options":[
+         "Oslo",
+         "Bergen",
+         "Trondheim",
+         "Stavanger"
+      ],
+      "correct_answer":"Oslo"
+   },
+   {
+      "id":12,
+      "question":"Hvilket år ble Norge uavhengig fra Sverige?",
+      "options":[
+         "1905",
+         "1805",
+         "1705",
+         "1605"
+      ],
+      "correct_answer":"1905"
+   },
+   {
+      "id":13,
+      "question":"Hva heter forbryterbanden som pleier å rane Onkel Skrue?",
+      "options":[
+         "B-gjengen",
+         "A-laget",
+         "Røverbanden",
+         "Tjuvgjengen"
+      ],
+      "correct_answer":"B-gjengen"
+   },
+   {
+      "id":14,
+      "question":"Er det lov for barn under 10 år uten pass å reise til USA?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Kanskje",
+         "Det kommer an på"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":15,
+      "question":"Er promping forbudt i noen land?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Bare i offentlige rom",
+         "Kun i kirker"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":16,
+      "question":"Hvor finner vi Hufsa?",
+      "options":[
+         "Mummidalen",
+         "Smurfeland",
+         "Neverland",
+         "Arendelle"
+      ],
+      "correct_answer":"Mummidalen"
+   },
+   {
+      "id":17,
+      "question":"Hva er jentene i serien H20?",
+      "options":[
+         "Havfruer",
+         "Hekser",
+         "Engler",
+         "Superhelter"
+      ],
+      "correct_answer":"Havfruer"
+   },
+   {
+      "id":18,
+      "question":"Er kaffe en ert?",
+      "options":[
+         "Nei, bønne.",
+         "Ja, frukt.",
+         "Ja, grønnsak.",
+         "Ja, krydder."
+      ],
+      "correct_answer":"Nei, bønne."
+   },
+   {
+      "id":19,
+      "question":"Finnes det steinfrie meloner?",
+      "options":[
+         "Ja",
+         "Nei",
+         "Bare på sommeren",
+         "Bare i tropiske land"
+      ],
+      "correct_answer":"Ja"
+   },
+   {
+      "id":20,
+      "question":"Hvor mange hundeår er det i et menneskeår?",
+      "options":[
+         "7 år",
+         "5 år",
+         "10 år",
+         "12 år"
+      ],
+      "correct_answer":"7 år"
+   },
+   {
+      "id":21,
+      "question":"Hva blir nomekop baklengs?",
+      "options":[
+         "Pokemon",
+         "Kopmeno",
+         "Nomekop",
+         "Baklengs"
+      ],
+      "correct_answer":"Pokemon"
+   },
+   {
+      "id":22,
+      "question":"Hvor tjukk må isen være for å være trygg?",
+      "options":[
+         "10 cm",
+         "5 cm",
+         "15 cm",
+         "20 cm"
+      ],
+      "correct_answer":"10 cm"
+   },
+   {
+      "id":23,
+      "question":"Ble Lollipop isen lagd i 1966 eller 1036?",
+      "options":[
+         "1966",
+         "1036",
+         "1754",
+         "1989"
+      ],
+      "correct_answer":"1966"
+   },
+   {
+      "id":24,
+      "question":"Hva heter mammuten i Istid?",
+      "options":[
+         "Manfred",
+         "Oscar",
+         "Diego",
+         "Sid"
+      ],
+      "correct_answer":"Manfred"
+   },
+   {
+      "id":25,
+      "question":"Hva heter de grønne monsterene i minecraft som sprenger i lufta?",
+      "options":[
+         "Creeper",
+         "Zombie",
+         "Enderman",
+         "Skeleton"
+      ],
+      "correct_answer":"Creeper"
+   },
+   {
+      "id":26,
+      "question":"Hvem har sangen 'Moves Like Jagger?'",
+      "options":[
+         "Maroon Five",
+         "Taylor Swift",
+         "Adele",
+         "Ed Sheeran"
+      ],
+      "correct_answer":"Maroon Five"
+   },
+   {
+      "id":27,
+      "question":"Har vi monarki eller republikk i Norge?",
+      "options":[
+         "Monarki",
+         "Republikk",
+         "Demokrati",
+         "Diktatur"
+      ],
+      "correct_answer":"Monarki"
+   },
+   {
+      "id":28,
+      "question":"I hvilken Harry Potter-bok blir vi kjent med Remus Lupus?",
+      "options":[
+         "Fangeren fra Azkaban",
+         "De vises stein",
+         "Ildbegeret",
+         "Halvblodsprinsen"
+      ],
+      "correct_answer":"Fangeren fra Azkaban"
+   },
+   {
+      "id":29,
+      "question":"Hvor ofte arrangeres vinter OL?",
+      "options":[
+         "Hvert 4 år",
+         "Hvert 2 år",
+         "Hvert 6 år",
+         "Hvert 8 år"
+      ],
+      "correct_answer":"Hvert 4 år"
+   },
+   {
+      "id":30,
+      "question":"Hva heter det når egenskaper overføres fra foreldre til barna deres?",
+      "options":[
+         "Genetikk",
+         "Fysikk",
+         "Kjemi",
+         "Biologi"
+      ],
+      "correct_answer":"Genetikk"
+   },
+   {
+      "id":31,
+      "question":"Hvilke farger klarer fargeblinde ikke å se forskjell på?",
+      "options":[
+         "Rødt og grønt",
+         "Blått og gult",
+         "Svart og hvitt",
+         "Lilla og oransje"
+      ],
+      "correct_answer":"Rødt og grønt"
+   },
+   {
+      "id":32,
+      "question":"Hva står EU for?",
+      "options":[
+         "Europiske Union",
+         "Europas Samling",
+         "Europas Forbund",
+         "Europas Alliance"
+      ],
+      "correct_answer":"Europiske Union"
+   },
+   {
+      "id":33,
+      "question":"Hvilke tall får du hvis du legger sammen prikkene på en terning?",
+      "options":[
+         "21",
+         "15",
+         "18",
+         "24"
+      ],
+      "correct_answer":"21"
+   },
+   {
+      "id":34,
+      "question":"Når er samene sin nasjonaldag?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Sankthansaften",
+         "1. februar"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":35,
+      "question":"Hvilke farger må vi blande for å få rød og oransje?",
+      "options":[
+         "Rød og gul",
+         "Blå og grønn",
+         "Lilla og rosa",
+         "Svart og hvitt"
+      ],
+      "correct_answer":"Rød og gul"
+   },
+   {
+      "id":36,
+      "question":"Kommer M før K i alfabetet?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Bare på onsdager",
+         "Det kommer an på språket"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":37,
+      "question":"Er blekkspruten en fisk?",
+      "options":[
+         "Nei, bløtdyr",
+         "Ja, fisk",
+         "Ja, krabbe",
+         "Ja, hai"
+      ],
+      "correct_answer":"Nei, bløtdyr"
+   },
+   {
+      "id":38,
+      "question":"Trenger man gjær for å lage sjokoladekake?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Bare hvis du vil",
+         "Bare på tirsdager"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":39,
+      "question":"Hva er ofte det beste i følge Rema?",
+      "options":[
+         "Det enkle",
+         "Det dyre",
+         "Det rare",
+         "Det kjedelige"
+      ],
+      "correct_answer":"Det enkle"
+   },
+   {
+      "id":40,
+      "question":"Hvordan regner man ut arealet av en rektangel?",
+      "options":[
+         "Grunnlinje*Høyde",
+         "Bredde*Lengde",
+         "Omkrets/2",
+         "Volum/Høyde"
+      ],
+      "correct_answer":"Grunnlinje*Høyde"
+   },
+   {
+      "id":41,
+      "question":"Hvilken planet ligner mest på jorda?",
+      "options":[
+         "Mars",
+         "Venus",
+         "Saturn",
+         "Uranus"
+      ],
+      "correct_answer":"Mars"
+   },
+   {
+      "id":42,
+      "question":"Hvilken kroppsdel løsner alltid på Tussi?",
+      "options":[
+         "Halen",
+         "Øret",
+         "Labben",
+         "Nesen"
+      ],
+      "correct_answer":"Halen"
+   },
+   {
+      "id":43,
+      "question":"Hva heter oppfinneren i Donald Duck?",
+      "options":[
+         "Peter Smart",
+         "Gyro Gearloose",
+         "Daisy Duck",
+         "Scrooge McDuck"
+      ],
+      "correct_answer":"Peter Smart"
+   },
+   {
+      "id":44,
+      "question":"Hva regnes som kjærlighetsblomsten?",
+      "options":[
+         "Rose",
+         "Tulipan",
+         "Orkidé",
+         "Lilje"
+      ],
+      "correct_answer":"Rose"
+   },
+   {
+      "id":45,
+      "question":"Hvem har en ape som heter Herr Nilson?",
+      "options":[
+         "Pippi Langstrømpe",
+         "Tarzan",
+         "George of the Jungle",
+         "King Kong"
+      ],
+      "correct_answer":"Pippi Langstrømpe"
+   },
+   {
+      "id":46,
+      "question":"Hva heter tyven i Kamilla og tyven Sebastian?",
+      "options":[
+         "Sebastian",
+         "Kamilla",
+         "Alfred",
+         "Heksa Rumpa"
+      ],
+      "correct_answer":"Sebastian"
+   },
+   {
+      "id":47,
+      "question":"Kan du nevne en av dvergene i Snøhvit?",
+      "options":[
+         "Happy",
+         "Sleepy",
+         "Bashful",
+         "Sneezy"
+      ],
+      "correct_answer":"Happy"
+   },
+   {
+      "id":48,
+      "question":"Hva gjør mummitrollene om vinteren?",
+      "options":[
+         "Sover",
+         "Reiser på ferie",
+         "Firer",
+         "Feirer jul"
+      ],
+      "correct_answer":"Sover"
+   },
+   {
+      "id":49,
+      "question":"Kan du stave vakker på engelsk?",
+      "options":[
+         "Beautiful",
+         "Vakker",
+         "Beautyful",
+         "Beautifull"
+      ],
+      "correct_answer":"Beautiful"
+   },
+   {
+      "id":50,
+      "question":"Hva er et eskimokys?",
+      "options":[
+         "Gnir nesene mot hverandre",
+         "Gir hverandre et iskaldt kyss",
+         "Sitter stille i en snøhule",
+         "Spiser iskrem sammen"
+      ],
+      "correct_answer":"Gnir nesene mot hverandre"
+   },
+   {
+      "id":51,
+      "question":"Er det aldergrense på å være forelsket?",
+      "options":[
+         "Nei",
+         "Ja",
+         "Bare for voksne",
+         "Bare for barn"
+      ],
+      "correct_answer":"Nei"
+   },
+   {
+      "id":52,
+      "question":"Hvor mange kort er det i en kortstokk?",
+      "options":[
+         "52",
+         "48",
+         "54",
+         "50"
+      ],
+      "correct_answer":"52"
+   },
+   {
+      "id":53,
+      "question":"Hva er Norges nest største by?",
+      "options":[
+         "Bergen",
+         "Stavanger",
+         "Trondheim",
+         "Kristiansand"
+      ],
+      "correct_answer":"Bergen"
+   },
+   {
+      "id":54,
+      "question":"Hvilken gruppe var Niall Horan med i?",
+      "options":[
+         "1D",
+         "5SOS",
+         "Little Mix",
+         "The Wanted"
+      ],
+      "correct_answer":"1D"
+   },
+   {
+      "id":55,
+      "question":"Hvilket tre er mest brukt som juletre?",
+      "options":[
+         "Gran",
+         "Furu",
+         "Eik",
+         "Bjørk"
+      ],
+      "correct_answer":"Gran"
+   },
+   {
+      "id":56,
+      "question":"Nevn to former vann kan ha",
+      "options":[
+         "Flytende, is",
+         "Gass, fast stoff",
+         "Lett, tungt",
+         "Kaldt, varmt"
+      ],
+      "correct_answer":"Flytende, is"
+   },
+   {
+      "id":57,
+      "question":"Hvor på kroppen finner du hammeren, stigbøylen og ambolten?",
+      "options":[
+         "Øret",
+         "Øyet",
+         "Nesen",
+         "Halsen"
+      ],
+      "correct_answer":"Øret"
+   },
+   {
+      "id":58,
+      "question":"Hva er det som frakter blod rundt i kroppen?",
+      "options":[
+         "Hjertet",
+         "Leveren",
+         "Nyrene",
+         "Magen"
+      ],
+      "correct_answer":"Hjertet"
+   },
+   {
+      "id":59,
+      "question":"Hvor er en magnet sterkest?",
+      "options":[
+         "I endene",
+         "I midten",
+         "På sidene",
+         "Overalt"
+      ],
+      "correct_answer":"I endene"
+   },
+   {
+      "id":60,
+      "question":"Hvor kommer vind fra?",
+      "options":[
+         "Trykkforskjeller i atmosfæren",
+         "Fjellene",
+         "Havet",
+         "Skogbranner"
+      ],
+      "correct_answer":"Trykkforskjeller i atmosfæren"
+   }
+]

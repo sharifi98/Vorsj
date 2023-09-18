@@ -8,75 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showWelcomeSheet = false
-    @State private var searchText = ""
     
-    
-
-    
-    let items = [
-        Item(title: "100 spørsmål",
-             subtitle: "Snusboks leken, Volume 1-7 og mer",
-             destinationView: AnyView(HundredQuestionsListView()),
-             image: Image("trym"))
-,
-        Item(title: "Chugg eller sannhet", 
-             subtitle: "Volume 1-3",
-             destinationView: AnyView(ChuggEllerSannhetListView()),
-             image: Image("chugg")),
-        
-        Item(title: "Jeg har aldri", 
-             subtitle: "Volume 1-9",
-             destinationView: AnyView(JegHarAldriListView()),
-             image: Image("mats")),
-        
-        Item(title: "Karaoke", 
-             subtitle: "Sett en av sangene på, følg teksten og syng når det gjeld..",
-             destinationView: AnyView(KaraokeListView()),
-             image: Image("pimp")),
-        
-        Item(title: "Start Nachet",
-             subtitle: "Få i gang nachet!",
-             destinationView: AnyView(StartNachet(filename: "startnachet.json", title: "Start Nachet")),
-             image: Image("anders"))
-        
-    ]
-    
-    var filteredItems: [Item] {
-        items.filter { item in
-            searchText.isEmpty || item.title.lowercased().contains(searchText.lowercased())
-        }
+    enum ViewChoice {
+        case viewMedDrikke
+        case ViewUtenDrikke
     }
-
+    
+    @State private var showWelcomeSheet = false
+    @State private var selectedView : ViewChoice = .viewMedDrikke
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                HeaderView(searchText: $searchText)
-                List {
-                    Section {
-                        ForEach(filteredItems) { item in
-                            NavigationLink(destination: item.destinationView) {
-                                HStack {
-                                    item.image
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 50, height: 50)
-                                        .clipShape(Circle())
-                                    VStack(alignment: .leading) {
-                                        Text(item.title)
-                                            .font(.headline)
-                                        Text(item.subtitle)
-                                            .foregroundColor(.secondary)
-                                    }
-                                    .padding(.horizontal)
-                                }
-                            }
-                        }
-                    }
-                }
-                .listStyle(.plain)
-            }
             
+            VStack {
+                Picker("Velg type lek", selection: $selectedView) {
+                    Text("Med drikke").tag(ViewChoice.viewMedDrikke)
+                    Text("Uten drikke").tag(ViewChoice.ViewUtenDrikke)
+                }
+                
+            }
+            .pickerStyle(.menu)
+            Group {
+                switch selectedView {
+                case .viewMedDrikke:
+                    MedDrikkeView()
+                case .ViewUtenDrikke:
+                    UtenDrikkeView()
+                }
+            }
             
         }
         .onAppear {
@@ -85,12 +44,12 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showWelcomeSheet) {
-               WelcomeSheet(onDismiss: {
-                   UserDefaults.standard.set(true, forKey: "appOpenedBefore")
-                   showWelcomeSheet = false
-               })
-           }
-
+            WelcomeSheet(onDismiss: {
+                UserDefaults.standard.set(true, forKey: "appOpenedBefore")
+                showWelcomeSheet = false
+            })
+        }
+        
     }
 }
 
@@ -135,7 +94,7 @@ struct ExtractedView<Destination: View>: View {
         .background(color)
         .clipShape(RoundedRectangle(cornerRadius: 50))
         .foregroundColor(.white)
-
+        
     }
 }
 

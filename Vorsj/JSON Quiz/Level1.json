@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "question": "Fullfør utrykket 'Når katten er borte..'",
+        "options": [
+            "Er det billig kebab på hjørnet",
+            "Danser musene på bordet",
+            "Er hasj prisen høy",
+            "Så har politiet beslagt det"
+        ],
+        "correct_answer": "Danser musene på bordet"
+    },
+    {
+        "id": 2,
+        "question": "Hvem var gift med Prinsesse Martha Louise",
+        "options": [
+            "Ari Behn",
+            "Arr i panna",
+            "Ari Lår",
+            "Ari Kanari"
+        ],
+        "correct_answer": "Ari Behn"
+    },
+    {
+        "id": 3,
+        "question": "Hvem av disse var en norsk krigshelt",
+        "options": [
+            "Max Mekker",
+            "Max Manus",
+            "Mix Master",
+            "Jan Erik Vold"
+        ],
+        "correct_answer": "Max Manus"
+    },
+    {
+        "id": 4,
+        "question": "Hva heter det kjente norske bandet?",
+        "options": [
+            "Turboafrikaner",
+            "Turbonegro",
+            "Turbokurder",
+            "Homotryner"
+        ],
+        "correct_answer": "Turbonegro"
+    },
+    {
+        "id": 5,
+        "question": "For hvilket program var Dan Børge programleder",
+        "options": [
+            "Krølleprogram",
+            "QuizDan",
+            "Ramadan",
+            "Sør-Sudan"
+        ],
+        "correct_answer": "Krølleprogram"
+    },
+    {
+        "id": 6,
+        "question": "Hvem samlet Norge til ett rike",
+        "options": [
+            "Harald Din Hårfagre",
+            "Harald Den Hårfagre",
+            "Harald min hårfagre",
+            "Thomas og Harald"
+        ],
+        "correct_answer": "Harald Den Hårfagre"
+    },
+    {
+        "id": 7,
+        "question": "Hva heter Norges høyeste fjell",
+        "options": [
+            "Jonas Fjeld",
+            "Veldig høyt fjell bror",
+            "Galdhøgpiggen",
+            "Høyfjellet"
+        ],
+        "correct_answer": "Galdhøgpiggen"
+    },
+    {
+        "id": 8,
+        "question": "Hvilken av disse er norsk mat",
+        "options": [
+            "Diplomat",
+            "Lokkemat",
+            "Fårikål",
+            "Kråkebolle"
+        ],
+        "correct_answer": "Fårikål"
+    },
+    {
+        "id": 9,
+        "question": "Hva heter den kjente statuen i Frognerparken",
+        "options": [
+            "Grinetrynet",
+            "Gråtebaby",
+            "Sinnasnekkern",
+            "Sinnataggen"
+        ],
+        "correct_answer": "Sinnataggen"
+    },
+    {
+        "id": 10,
+        "question": "Fullfør uttrykket: Borte bra, men hjemme best..",
+        "options": [
+            "Hjemme best",
+            "Hjemmefest",
+            "Hjemmeland best",
+            "Uavgjort hjemme"
+        ],
+        "correct_answer": "Hjemme best"
+    },
+    {
+        "id": 11,
+        "question": "Hva heter Norges lengste elv",
+        "options": [
+            "Jordskjelv",
+            "Bankelv",
+            "Glomma",
+            "Elverum"
+        ],
+        "correct_answer": "Glomma"
+    },
+    {
+        "id": 12,
+        "question": "Det finnes ikke dårlig vær, bare ..",
+        "options": [
+            "Fravær",
+            "Dårlig værmelding",
+            "Dårlig klær",
+            "Dårlig kone som ikke pakker dårlig"
+        ],
+        "correct_answer": "Dårlig klær"
+    },
+    {
+        "id": 13,
+        "question": "Hvem fant Vasaloppet 2015",
+        "options": [
+            "Petter Northug",
+            "Petter Planke",
+            "Petter Eliassen",
+            "Peter Pan"
+        ],
+        "correct_answer": "Petter Eliassen"
+    },
+    {
+        "id": 14,
+        "question": "Hva heter tiden mellom jul og nyttår",
+        "options": [
+            "Husjul",
+            "Hybeljul",
+            "Selveiersleilighet",
+            "Romjul"
+        ],
+        "correct_answer": "Romjul"
+    },
+    {
+        "id": 15,
+        "question": "Fullfør setningen: Det snør det snør ..",
+        "options": [
+            "Tiddelibom",
+            "Tiddeli faen ass",
+            "Tiddelikoko",
+            "Tiddeli typisk"
+        ],
+        "correct_answer": "Tiddelibom"
+    },
+    {
+        "id": 16,
+        "question": "Hva heter det når man får overraskende info?",
+        "options": [
+            "Slippe dama ut av sekken",
+            "Kaste katta over hekken",
+            "Slippe katta ut av sekken",
+            "Kaste katta på kona"
+        ],
+        "correct_answer": "Slippe katta ut av sekken"
+    },
+    {
+        "id": 17,
+        "question": "Hva heter det norske uttrykket?",
+        "options": [
+            "Fytti grisen",
+            "Fytti Listhaug",
+            "Fytti Bikkja",
+            "Fytti musa"
+        ],
+        "correct_answer": "Fytti musa"
+    },
+    {
+        "id": 18,
+        "question": "Norske uttrykk for å dumme seg ut",
+        "options": [
+            "Spise salaten",
+            "Tråkke i salaten",
+            "Spise under ramadan",
+            "Gå i spagaten"
+        ],
+        "correct_answer": "Tråkke i salaten"
+    },
+    {
+        "id": 19,
+        "question": "Hva sa Gro Harlem Brundtland? 'Det er typisk norsk..",
+        "options": [
+            "..å være god",
+            "..å være dum",
+            "..å være utlending",
+            "..deilig å være norsk i Danmark"
+        ],
+        "correct_answer": "..å være god"
+    },
+    {
+        "id": 20,
+        "question": "Å sette skjegget .. ?",
+        "options": [
+            ".. i postkassa",
+            ".. på postkontoret",
+            ".. i moskedøra",
+            ".. hos postmannen"
+        ],
+        "correct_answer": ".. i postkassa"
+    },
+    {
+        "id": 21,
+        "question": "Hvordan begynner norske eventyr?",
+        "options": [
+            "Det var to gang",
+            "Det var en gang",
+            "Hva skjer går bra?",
+            "Hør her'a bror"
+        ],
+        "correct_answer": "Det var en gang"
+    },
+    {
+        "id": 22,
+        "question": "Hvilken av disse er en norske forfatter?",
+        "options": [
+            "Anne-Cath. Stovner",
+            "Anne-Cath. Tøyen",
+            "Anne-Cath. Jernbanetorget",
+            "Anne-Cath. Vestli"
+        ],
+        "correct_answer": "Anne-Cath. Vestli"
+    },
+    {
+        "id": 23,
+        "question": "Hva heter Norges nasjonalsang",
+        "options": [
+            "Nasjonal Norge syng sang",
+            "Ja vi elsker",
+            "Ja vi elsker, men ikke før ekteskapet",
+            "Heia Norge, beste land da"
+        ],
+        "correct_answer": "Ja vi elsker"
+    },
+    {
+        "id": 24,
+        "question": "Fullfør uttrykket: Saken er ..",
+        "options": [
+            "biff",
+            "Iam shawarma",
+            "under behandling",
+            "henlagt"
+        ],
+        "correct_answer": "under behandling"
+    },
+    {
+        "id": 25,
+        "question": "Hvilket av disse er et norsk idrettslag",
+        "options": [
+            "Forlag",
+            "Grunnlag",
+            "Avslag",
+            "Brann"
+        ],
+        "correct_answer": "Brann"
+    },
+    {
+        "id": 26,
+        "question": "Hva heter den kjente norske dikteren?",
+        "options": [
+            "Bjørn Dæhlie",
+            "Bjørngærne Bjørnson",
+            "Bjørnstjerne Bjørnson",
+            "Bjørnfjerne Bjørnson"
+        ],
+        "correct_answer": "Bjørnstjerne Bjørnson"
+    }
+]

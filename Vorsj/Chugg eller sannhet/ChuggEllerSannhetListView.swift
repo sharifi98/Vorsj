@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ChuggEllerSannhetListView: View {
     let buttonsData = [
         ("ChuggEllerSannhetVolume1.json", "Volume 1", "1", Color.red),
@@ -15,15 +14,25 @@ struct ChuggEllerSannhetListView: View {
         ("ChuggEllerSannhetVolume3.json", "Volume 3", "3", Color.blue)
     ]
     
+    @State private var listItemOffset: CGFloat = 50
+    @State private var listItemOpacity: Double = 0
+    
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    ForEach(buttonsData, id: \.0) { data in
-                        NavigationLink(destination: ChuggEllerSannhetVolume(filename: data.0, title: "Vol \(data.2)")) {
-                            ListItem(data: data)
-                        }
+            ScrollView {
+                ForEach(buttonsData, id: \.0) { data in
+                    NavigationLink(
+                        destination: ChuggEllerSannhetVolume(filename: data.0, title: "Vol \(data.2)"
+                        )
+                    ) {
+                        ListItem(data: data)
                     }
+                    .frame(width: 350)
+                    .padding(.vertical, 10)
+                    .background(Color.white.opacity(0.1))
+                    .cornerRadius(10)
+                    .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 5)
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
             .toolbar {
@@ -42,7 +51,6 @@ struct ChuggEllerSannhetListView: View {
             }
             
             ComposeArea()
-            
         }
     }
     

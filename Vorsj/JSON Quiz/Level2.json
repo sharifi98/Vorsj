@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1,
+    "question": "Hvem er finansministeren i Norge?",
+    "options": [
+      "Trygve Slagsvold Vedum",
+      "Erna Solberg",
+      "Jonas Gahr Støre",
+      "Sylvi Listhaug"
+    ],
+    "correct_answer": "Trygve Slagsvold Vedum"
+  },
+  {
+    "id": 2,
+    "question": "Hva er hovedstaden i USA?",
+    "options": [
+      "New York City",
+      "Los Angeles",
+      "Chicago",
+      "Washington DC"
+    ],
+    "correct_answer": "Washington DC"
+  },
+  {
+    "id": 3,
+    "question": "Hvem var statsministeren før Erna Solberg?",
+    "options": [
+      "Kjell Magne Bondevik",
+      "Jens Stoltenberg",
+      "Gro Harlem Brundtland",
+      "Erling Norvik"
+    ],
+    "correct_answer": "Jens Stoltenberg"
+  },
+  {
+    "id": 4,
+    "question": "De nordligste fylkene i Norge er?",
+    "options": [
+      "Hordaland og Sogn og Fjordane",
+      "Nordland og Troms og Finnmark",
+      "Rogaland og Vest-Agder",
+      "Trøndelag og Møre og Romsdal"
+    ],
+    "correct_answer": "Nordland og Troms og Finnmark"
+  },
+  {
+    "id": 5,
+    "question": "Hvilke partier sitter i regjering i Norge?",
+    "options": [
+      "Høyre og Fremskrittspartiet",
+      "Arbeiderpartiet og Senterpartiet",
+      "Venstre og Kristelig Folkeparti",
+      "Miljøpartiet De Grønne og Rødt"
+    ],
+    "correct_answer": "Arbeiderpartiet og Senterpartiet"
+  },
+  {
+    "id": 6,
+    "question": "Hva er den lengste elven i Norge?",
+    "options": [
+      "Gudbrandsdalslågen",
+      "Glomma",
+      "Drammenselva",
+      "Numedalslågen"
+    ],
+    "correct_answer": "Glomma"
+  },
+  {
+    "id": 7,
+    "question": "Hva var jobben til Sylvi Listhaug?",
+    "options": [
+      "Statsminister",
+      "Helseminister",
+      "Innvandringsminister",
+      "Utenriksminister"
+    ],
+    "correct_answer": "Innvandringsminister"
+  },
+  {
+    "id": 8,
+    "question": "Hva er PI?",
+    "options": [
+      "En matematisk konstant som er forholdet mellom en sirkels omkrets og diameteren",
+      "En kjemisk formel for vann",
+      "En forkortelse for politiets innsatsstyrke",
+      "En type matvare"
+    ],
+    "correct_answer": "En matematisk konstant som er forholdet mellom en sirkels omkrets og diameteren"
+  },
+  {
+    "id": 9,
+    "question": "Hvem var Norges første kvinnelige statsminister?",
+    "options": [
+      "Erna Solberg",
+      "Gro Harlem Brundtland",
+      "Kjell Magne Bondevik",
+      "Jens Stoltenberg"
+    ],
+    "correct_answer": "Gro Harlem Brundtland"
+  },
+  {
+    "id": 10,
+    "question": "Hva er Ivar Aasen kjent for?",
+    "options": [
+      "Nynorsk",
+      "Bokmål",
+      "Samisk",
+      "Dansk"
+    ],
+    "correct_answer": "Nynorsk"
+  },
+  {
+    "id": 11,
+    "question": "Hvorfor feirer vi 8. mars?",
+    "options": [
+      "Internasjonal kakedag",
+      "Arbeidernes dag",
+      "Kvinnedagen",
+      "Nasjonaldagen"
+    ],
+    "correct_answer": "Kvinnedagen"
+  },
+  {
+    "id": 12,
+    "question": "Hva heter lederen i Nord-Korea?",
+    "options": [
+      "Kim Jong-il",
+      "Kim Jong-un",
+      "Kim Jong-nam",
+      "Kim Kardashian"
+    ],
+    "correct_answer": "Kim Jong-un"
+  },
+  {
+    "id": 13,
+    "question": "Hvem er Theresa May?",
+    "options": [
+      "En britisk skuespiller",
+      "En britisk popstjerne",
+      "Var statsminister i Storbritannia 2016-2019",
+      "En berømt forfatter"
+    ],
+    "correct_answer": "Var statsminister i Storbritannia 2016-2019"
+  },
+  {
+    "id": 14,
+    "question": "Hva heter den norske nasjonalsangen?",
+    "options": [
+      "Ja vi Elsker",
+      "Norge i rødt, hvitt og blått",
+      "Norges Sønner",
+      "Sønner av Norge"
+    ],
+    "correct_answer": "Ja vi Elsker"
+  },
+  {
+    "id": 15,
+    "question": "Fullfør utrykket: En fugl i hånden er bedre enn ti ..",
+    "options": [
+      "I skogen",
+      "I luften",
+      "På taket",
+      "I fjellet"
+    ],
+    "correct_answer": "På taket"
+  },
+  {
+    "id": 16,
+    "question": "Fullfør utrykket: Kjært barn har mange ..",
+    "options": [
+      "Kjoler",
+      "Venner",
+      "Sko",
+      "Navn"
+    ],
+    "correct_answer": "Navn"
+  },
+  {
+    "id": 17,
+    "question": "Hva heter Norges kronprins?",
+    "options": [
+      "Haakon",
+      "Olav",
+      "Magnus",
+      "Erik"
+    ],
+    "correct_answer": "Haakon"
+  },
+  {
+    "id": 18,
+    "question": "Hva heter Norges kronprinsesse?",
+    "options": [
+      "Mette-MArit",
+      "Ingrid",
+      "Marianne",
+      "Sofie"
+    ],
+    "correct_answer": "Mette-MArit"
+  },
+  {
+    "id": 19,
+    "question": "Hva heter presidenten i USA (per 2023)?",
+    "options": [
+      "Donald Trump",
+      "Barack Obama",
+      "Joe Biden",
+      "George Bush"
+    ],
+    "correct_answer": "Joe Biden"
+  },
+  {
+    "id": 20,
+    "question": "Hva er brexit?",
+    "options": [
+      "Storbritannias utmelding av EU",
+      "En ny type frokostblanding",
+      "En populær britisk matrett",
+      "En britisk musikkfestival"
+    ],
+    "correct_answer": "Storbritannias utmelding av EU"
+  },
+  {
+    "id": 21,
+    "question": "Hvor ble siste vinter-OL arrangert?",
+    "options": [
+      "Sør-Korea",
+      "Kina",
+      "Japan",
+      "Canada"
+    ],
+    "correct_answer": "Japan"
+  },
+  {
+    "id": 22,
+    "question": "Hva står NRK for?",
+    "options": [
+      "Norges Radio og Kringkasting",
+      "Norsk RiksKringkasting",
+      "Norsk Radio og TV",
+      "Nasjonalt RadioKringkasting"
+    ],
+    "correct_answer": "Norsk RiksKringkasting"
+  },
+  {
+    "id": 23,
+    "question": "Fullfør uttrykket 'Dra meg baklengs inn i..'",
+    "options": [
+      "Nattens mørke",
+      "Skogen",
+      "Mørket",
+      "Fuglekassa"
+    ],
+    "correct_answer": "Fuglekassa"
+  },
+  {
+    "id": 24,
+    "question": "Hva jobber Jens Stoltenberg med nå?",
+    "options": [
+      "Forfatter",
+      "Foredragsholder",
+      "Nobelkomiteen",
+      "NATO-leder"
+    ],
+    "correct_answer": "NATO-leder"
+  },
+  {
+    "id": 25,
+    "question": "Hva gjorde Edvard Munch?",
+    "options": [
+      "Politiker",
+      "Forfatter",
+      "Kunstner",
+      "Astronaut"
+    ],
+    "correct_answer": "Kunstner"
+  },
+  {
+    "id": 26,
+    "question": "Hvem er brødrene Ingebritsen?",
+    "options": [
+      "Musikere",
+      "Friidrettsutøvere",
+      "Skuespillere",
+      "Kokker"
+    ],
+    "correct_answer": "Friidrettsutøvere"
+  },
+  {
+    "id": 27,
+    "question": "Hva er det Hvite Hus?",
+    "options": [
+      "En populær restaurant",
+      "En historisk kirke",
+      "Amerikanske presidenters embedsbolig",
+      "En berømt fornøyelsespark"
+    ],
+    "correct_answer": "Amerikanske presidenters embedsbolig"
+  },
+  {
+    "id": 28,
+    "question": "Hvem er justisministeren i Norge nå?",
+    "options": [
+      "Emilie Enger Mehl",
+      "Sylvi Listhaug",
+      "Jøran Kallmyr",
+      "Jon Georg Dale"
+    ],
+    "correct_answer": "Emilie Enger Mehl"
+  },
+  {
+    "id": 29,
+    "question": "Hva er Tom Hagen kjent for?",
+    "options": [
+      "Profesjonell idrettsutøver",
+      "Milliardær",
+      "Kjendis-kokk",
+      "Forsker"
+    ],
+    "correct_answer": "Milliardær, mulig drapsmann"
+  },
+  {
+    "id": 30,
+    "question": "Hva er contouring?",
+    "options": [
+      "En musikksjanger",
+      "En sminke-teknikk for å definere ansiktet",
+      "En dansestil",
+      "En form for båtrace"
+    ],
+    "correct_answer": "En sminke-teknikk for å definere ansiktet"
+  },
+  {
+    "id": 31,
+    "question": "Hvilken verdensdel ligger Mexico i?",
+    "options": [
+      "Afrika",
+      "Asia",
+      "Sør-Amerika",
+      "Nord-Amerika"
+    ],
+    "correct_answer": "Nord-Amerika"
+  },
+  {
+    "id": 32,
+    "question": "Hvilke land grenser Norge til?",
+    "options": [
+      "Sverige, Danmark, Finland",
+      "Sverige, Russland, Finland",
+      "Tyskland, Sverige, Danmark",
+      "Sverige, Finland, Island"
+    ],
+    "correct_answer": "Sverige, Russland, Finland"
+  },
+  {
+    "id": 33,
+    "question": "Hva står MDG for?",
+    "options": [
+      "Miljøpartiet De Grønne",
+      "Moderne Demokratiske Grupper",
+      "Miljøvennlig Demokratisk Gjerning",
+      "Mennesker for Demokratisk Gjennomføring"
+    ],
+    "correct_answer": "Miljøpartiet De Grønne"
+  },
+  {
+    "id": 34,
+    "question": "Når sluttet andre verdenskrig?",
+    "options": [
+      "1939",
+      "1941",
+      "1945",
+      "1950"
+    ],
+    "correct_answer": "1945"
+  },
+  {
+    "id": 35,
+    "question": "Hvem er Henrik Ibsen?",
+    "options": [
+      "Kokk",
+      "Politiker",
+      "Forfatter og dramatiker",
+      "Musiker"
+    ],
+    "correct_answer": "Forfatter og dramatiker"
+  },
+  {
+    "id": 36,
+    "question": "Hvem tar over etter Kong Harald?",
+    "options": [
+      "Mette-Marit",
+      "Ingrid Alexandra",
+      "Sverre Magnus",
+      "Kronprins Håkon"
+    ],
+    "correct_answer": "Kronprins Håkon"
+  },
+  {
+    "id": 37,
+    "question": "Hvilket dyr er i Norges riksvåpen?",
+    "options": [
+      "Ørn",
+      "Løve",
+      "Hval",
+      "Elg"
+    ],
+    "correct_answer": "Løve"
+  },
+  {
+    "id": 38,
+    "question": "Hva er 8 * 8?",
+    "options": [
+      "32",
+      "48",
+      "64",
+      "72"
+    ],
+    "correct_answer": "64"
+  },
+  {
+    "id": 39,
+    "question": "Hvilke farger er primærfargene?",
+    "options": [
+      "Rød, Gul, Blå",
+      "Grønn, Oransje, Lilla",
+      "Svart, Hvit, Grå",
+      "Rosa, Lysblå, Lilla"
+    ],
+    "correct_answer": "Rød, Gul, Blå"
+  },
+  {
+    "id": 40,
+    "question": "Hva er verdens største hav?",
+    "options": [
+      "Atlanterhavet",
+      "Det indiske hav",
+      "Arktisk hav",
+      "Stillehavet"
+    ],
+    "correct_answer": "Stillehavet"
+  },
+  {
+    "id": 41,
+    "question": "Hvilket land er størst i verden?",
+    "options": [
+      "Kina",
+      "India",
+      "Russland",
+      "USA"
+    ],
+    "correct_answer": "Russland"
+  },
+  {
+    "id": 42,
+    "question": "Hovedstaden i Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correct_answer": "Canberra"
+  },
+  {
+    "id": 43,
+    "question": "Hvilket program leder Fredrik Solvang?",
+    "options": [
+      "Skavlan",
+      "Lindmo",
+      "Debatten",
+      "Senkveld"
+    ],
+    "correct_answer": "Debatten"
+  },
+  {
+    "id": 44,
+    "question": "Hvor mange måneder i året har 28 dager?",
+    "options": [
+      "1",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_answer": "12"
+  },
+  {
+    "id": 45,
+    "question": "Hvilken klubb spiller Erling Braut Haaland for?",
+    "options": [
+      "Liverpool FC",
+      "Real Madrid",
+      "Manchester City",
+      "Borussia Dortmund"
+    ],
+    "correct_answer": "Manchester City"
+  },
+  {
+    "id": 46,
+    "question": "Hvem er statsministeren i Norge nå?",
+    "options": [
+      "Jens Stoltenberg",
+      "Sylvi Listhaug",
+      "Erna Solberg",
+      "Jonas Gahr Støre"
+    ],
+    "correct_answer": "Jonas Gahr Støre"
+  },
+  {
+    "id": 47,
+    "question": "Hva heter barna til Martha Louise og Ari Behn?",
+    "options": [
+      "Leah, Maud og Emma",
+      "Olav, Harald og Astrid",
+      "Marius, Ingrid og Sverre",
+      "Mia, Lukas og Nora"
+    ],
+    "correct_answer": "Leah, Maud og Emma"
+  },
+  {
+    "id": 48,
+    "question": "Hva heter barna til kronprinsparet?",
+    "options": [
+      "Ingrid Alexandra, Sverre Magnus",
+      "Marius, Leah, Maud",
+      "Emma, Olav, Harald",
+      "Nora, Mia, Lukas"
+    ],
+    "correct_answer": "Ingrid Alexandra, Sverre Magnus"
+  },
+  {
+    "id": 49,
+    "question": "Hva er Norges største innsjø?",
+    "options": [
+      "Mjøsa",
+      "Vannsjø",
+      "Storvatn",
+      "Gjensjøen"
+    ],
+    "correct_answer": "Mjøsa"
+  },
+  {
+    "id": 50,
+    "question": "Hvilket land har flest innbyggere i verden?",
+    "options": [
+      "Kina",
+      "India",
+      "USA",
+      "Indonesia"
+    ],
+    "correct_answer": "Kina og India"
+  },
+  {
+    "id": 51,
+    "question": "Norges eldste by?",
+    "options": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Tønsberg"
+    ],
+    "correct_answer": "Tønsberg"
+  },
+  {
+    "id": 52,
+    "question": "Hvilket land ligger Machu Picchu i?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Brasil",
+      "Colombia"
+    ],
+    "correct_answer": "Peru"
+  },
+  {
+    "id": 53,
+    "question": "Hva er Homo sapiens?",
+    "options": [
+      "En type fugl",
+      "En fisk",
+      "Mennesker",
+      "En ape"
+    ],
+    "correct_answer": "Mennesker"
+  },
+  {
+    "id": 54,
+    "question": "Hva kalles skogens konge?",
+    "options": [
+      "Bjørn",
+      "Rev",
+      "Elg",
+      "Ulven"
+    ],
+    "correct_answer": "Elg"
+  },
+  {
+    "id": 55,
+    "question": "Hvilke farger har det engelske flagget?",
+    "options": [
+      "Blå og hvit",
+      "Rød og hvit",
+      "Blå og gul",
+      "Hvit og rød"
+    ],
+    "correct_answer": "Hvit og rød"
+  },
+  {
+    "id": 56,
+    "question": "Hvilken type energikilde bruker en Tesla-bil?",
+    "options": [
+      "Bensin",
+      "Diesel",
+      "Strøm",
+      "Hydrogen"
+    ],
+    "correct_answer": "Strøm"
+  },
+  {
+    "id": 57,
+    "question": "Hvilket land kommer taco fra?",
+    "options": [
+      "Italia",
+      "Spania",
+      "Mexico",
+      "Brasil"
+    ],
+    "correct_answer": "Mexico"
+  },
+  {
+    "id": 58,
+    "question": "Hvilket dyr er avbildet på Gjende kjeks?",
+    "options": [
+      "Elg",
+      "Reinsdyr",
+      "Bjørn",
+      "Hare"
+    ],
+    "correct_answer": "Reinsdyr"
+  },
+  {
+    "id": 59,
+    "question": "Hva er apartheid?",
+    "options": [
+      "En type matrett",
+      "En politisk ideologi",
+      "Raseskillet",
+      "En type musikk"
+    ],
+    "correct_answer": "Raseskillet"
+  },
+  {
+    "id": 60,
+    "question": "Hvem er Elon Musk?",
+    "options": [
+      "En kjent skuespiller",
+      "En profesjonell idrettsutøver",
+      "En forretningsmann og investor",
+      "En astronaut"
+    ],
+    "correct_answer": "En forretningsmann og investor"
+  },
+  {
+    "id": 61,
+    "question": "Hvilket selskap lager iPhone?",
+    "options": [
+      "Samsung",
+      "Huawei",
+      "Google",
+      "Apple"
+    ],
+    "correct_answer": "Apple"
+  },
+  {
+    "id": 62,
+    "question": "Hvem var grunnleggeren av Apple?",
+    "options": [
+      "Steve Jobs",
+      "Steve Wozniak",
+      "Ronald Wayne",
+      "Bill Gates"
+    ],
+    "correct_answer": "Steve Jobs"
+  },
+  {
+    "id": 63,
+    "question": "Hvem var grunnleggeren av buddhismen?",
+    "options": [
+      "Konfucius",
+      "Moses",
+      "Jesus",
+      "Buddha"
+    ],
+    "correct_answer": "Buddha"
+  },
+  {
+    "id": 64,
+    "question": "Hva heter Islams helligste by?",
+    "options": [
+      "Bagdad",
+      "Mekka",
+      "Medina",
+      "Kairo"
+    ],
+    "correct_answer": "Mekka"
+  },
+  {
+    "id": 65,
+    "question": "Hva er 2^2?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "4"
+  },
+  {
+    "id": 66,
+    "question": "Hva er 'ananas' på engelsk?",
+    "options": [
+      "Banana",
+      "Pineapple",
+      "Apple",
+      "Pear"
+    ],
+    "correct_answer": "Pineapple"
+  },
+  {
+    "id": 67,
+    "question": "Løs gåten: En bonde har 17 sauer, alle bortsatt fra 9 dør. Hvor mange sauer er igjen?",
+    "options": [
+      "0",
+      "9",
+      "17",
+      "8"
+    ],
+    "correct_answer": "9"
+  },
+  {
+    "id": 68,
+    "question": "Hvem oppdaget penicillin?",
+    "options": [
+      "Thomas Edison",
+      "Marie Curie",
+      "Alexander Fleming",
+      "Isaac Newton"
+    ],
+    "correct_answer": "Alexander Fleming"
+  },
+  {
+    "id": 69,
+    "question": "Hva står BSU for?",
+    "options": [
+      "Boligsparing for ungdom",
+      "Bil- og sykkelsalg under utstilling",
+      "Byggeselskap for unge",
+      "Bokstav- og staveutvikling"
+    ],
+    "correct_answer": "Boligsparing for ungdom"
+  },
+  {
+    "id": 70,
+    "question": "Hvor kommer ark fra?",
+    "options": [
+      "Plast",
+      "Papir",
+      "Tre",
+      "Stål"
+    ],
+    "correct_answer": "Tre"
+  },
+  {
+    "id": 71,
+    "question": "Hvor mange ben har en edderkopp?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_answer": "8"
+  },
+  {
+    "id": 72,
+    "question": "Hvilke planeter er det i solsystemet vårt?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "8"
+  },
+  {
+    "id": 73,
+    "question": "Hvilken alder feirer man konfirmasjon?",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "21"
+    ],
+    "correct_answer": "15"
+  },
+  {
+    "id": 74,
+    "question": "Hvilken planet har ringer?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correct_answer": "Saturn"
+  },
+  {
+    "id": 75,
+    "question": "Hva er solen?",
+    "options": [
+      "Planet",
+      "Stjerne",
+      "Måne",
+      "Komet"
+    ],
+    "correct_answer": "Stjerne"
+  },
+  {
+    "id": 76,
+    "question": "Hvorfor feirer vi påske?",
+    "options": [
+      "For å ønske våren velkommen",
+      "For å feire at vinteren er over",
+      "For å minnes Jesu lidelse, død og oppstandelse",
+      "For å feire påskelammet"
+    ],
+    "correct_answer": "For å minnes Jesu lidelse, død og oppstandelse"
+  },
+  {
+    "id": 77,
+    "question": "Hva står LHBTQ for?",
+    "options": [
+      "Lett, Håndfast, Brukbar, Tung, Kvalitet",
+      "Lesbisk, Gammel, Hetero, Trans, Queer",
+      "Lun, Høst, Barmark, Tung snø, Kveld",
+      "Lesbian, Gay, Bisexual, Transgender, Queer"
+    ],
+    "correct_answer": "Lesbian, Gay, Bisexual, Transgender, Queer"
+  },
+  {
+    "id": 78,
+    "question": "Hvem er Trond Giske?",
+    "options": [
+      "Fotballspiller",
+      "Skuespiller",
+      "Tidligere politiker for Arbeiderpartiet",
+      "Musiker"
+    ],
+    "correct_answer": "Tidligere politiker for Arbeiderpartiet"
+  }
+]

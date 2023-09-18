@@ -13,30 +13,26 @@ var dataCache: [String: Data] = [:]
 func load<T: Decodable>(_ filename: String) -> T {
     // If data is already cached, decode and return it
     if let cachedData = dataCache[filename] {
-        let decoder = JSONDecoder()
-        do {
-            return try decoder.decode(T.self, from: cachedData)
-        } catch {
-            fatalError("Couldn't parse \(filename) from cache as \(T.self):\n\(error)")
-        }
+        return decode(data: cachedData, filename: filename)
     }
 
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil) else {
         fatalError("Couldn't find \(filename) in main bundle.")
     }
 
-    let data: Data
-    do {
-        data = try Data(contentsOf: file)
-    } catch {
-        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+    guard let data = try? Data(contentsOf: file) else {
+        fatalError("Couldn't load \(filename) from main bundle.")
     }
 
     // Cache the loaded data
     dataCache[filename] = data
 
+    return decode(data: data, filename: filename)
+}
+
+func decode<T: Decodable>(data: Data, filename: String) -> T {
+    let decoder = JSONDecoder()
     do {
-        let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")

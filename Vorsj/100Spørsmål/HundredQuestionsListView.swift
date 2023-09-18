@@ -21,13 +21,10 @@ struct HundredQuestionsListView: View {
         ("Kompliment.json", "Kompliment", "💕"),
     ]
 
-    let columns = [
-        GridItem(.flexible(), spacing: 20),
-        GridItem(.flexible(), spacing: 20)
-    ]
+    
 
     @State private var listItemOffset: CGFloat = 50
-        @State private var listItemOpacity: Double = 0
+    @State private var listItemOpacity: Double = 0
 
         var body: some View {
             NavigationView {
@@ -35,6 +32,7 @@ struct HundredQuestionsListView: View {
                     LazyVStack(spacing: 20) {
                         ForEach(0..<buttonsData.count, id: \.self) { index in
                             let (filename, title, emoji) = buttonsData[index]
+                            
                             NavigationLink(destination: HundredView(filename: filename, title: title)) {
                                 HStack {
                                     Text(emoji)
@@ -54,7 +52,7 @@ struct HundredQuestionsListView: View {
                             .opacity(listItemOpacity)
                             .offset(y: listItemOffset)
                             .onAppear {
-                                withAnimation(Animation.spring().delay(0.1 * Double(index))) {
+                                withAnimation(Animation.spring().delay(0.05 * Double(index))) {
                                     listItemOpacity = 1
                                     listItemOffset = 0
                                 }
