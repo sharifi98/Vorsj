@@ -176,7 +176,7 @@ struct Cover: View{
             
         }
         VStack(alignment: .center) {
-            Text("Sett en av sangene på, følg teksten og syng når det gjelder for deg. De som synger skal reise seg opp, mens de andre skal drikke.")
+            Text("Sett en av sangene på, følg teksten og syng når det gjelder for deg. De som synger skal reise seg opp.")
                 .font(.caption)
                 .frame(maxWidth: 300)
                 .multilineTextAlignment(.center)  // This line aligns the text to the center
@@ -198,7 +198,7 @@ struct ArtistInfo: View{
                         .frame(width: 25, height: 25)
                         .clipShape(Circle())
                     
-                    Text("Trym Hjellbakk")
+                    Text("Tryminator")
                         .font(.system(size: 14, weight: .bold))
                 }
             }
@@ -305,7 +305,7 @@ struct MediaPlayer: View{
                 
                 VStack(alignment: .leading){
                     Text("G.O.A.T.")
-                    Text("Trym Hjellbakk")
+                    Text("Tryminator")
                         .foregroundColor(Color(#colorLiteral(red: 0.6901075244, green: 0.6901670098, blue: 0.6941940188, alpha: 1)))
                 }
                 .font(.system(size: 14))

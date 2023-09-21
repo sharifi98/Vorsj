@@ -11,9 +11,9 @@ struct UtenDrikkeView: View {
     
     @State private var searchText = ""
     
-    let items = [Item(title: "Venneleken",
-                      subtitle: "Venneleken 123",
-                      destinationView: AnyView(HundredQuestionsListView()),
+    let items = [Item(title: "Quiz",
+                      subtitle: "Quiz 1-10",
+                      destinationView: AnyView(QuizListView()),
                       image: Image("trym")),
     ]
     

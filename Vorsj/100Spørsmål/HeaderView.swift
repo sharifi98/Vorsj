@@ -46,7 +46,7 @@ struct SheetView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Kontakt meg på mail eller instagram hvis du har nye drikkeleker eller andre forslag")
+            Text("Kontakt meg på mail eller instagram hvis du har nye leker eller andre forslag")
                 .multilineTextAlignment(.center)
                 .padding()
             
