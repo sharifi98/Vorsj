@@ -8,7 +8,7 @@
 import Foundation
 
 var dataCache: [String: Data] = [:]
-
+// yes
 
 func load<T: Decodable>(_ filename: String) -> T {
     // If data is already cached, decode and return it
