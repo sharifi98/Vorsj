@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "question": "Den som er med på leken må smake steken, kast boksen til den som oftest går over streken?"
+  },
+  {
+    "id": 2,
+    "question": "Nå har vi funnet kveldens grensekrysser, den neste som får boksen er rommets beste kysser. (Må kysse personen)"
+  },
+  {
+    "id": 3,
+    "question": "Nå er drikkeleken godt i gang, hvem er rommets blikkfang?"
+  },
+  {
+    "id": 4,
+    "question": "Du utmerker deg godt i mengden, hvem skal ha creds for lengden?"
+  },
+  {
+    "id": 5,
+    "question": "Du har kanskje stor pikk, men hvem i rommet har alltid åpen butikk?"
+  },
+  {
+    "id": 6,
+    "question": "Om du har åpent i dag eller ei, kast til den som aldri hadde fått deg."
+  },
+  {
+    "id": 7,
+    "question": "Ohh den var hard å få, men hvem i rommet har vanskeligst for å få stå?"
+  },
+  {
+    "id": 8,
+    "question": "Dette kan vi gjøre noe med, hiv boksen mtil den du vil lapdance se. (Får lapdance)"
+  },
+  {
+    "id": 9,
+    "question": "Det var litt av en dans må jeg si, hvem sin personlighet er 10/10?"
+  },
+  {
+    "id": 10,
+    "question": "Du må jammen være snill, men hvem av oss er mest vill?"
+  },
+  {
+    "id": 11,
+    "question": "Du liker å slå deg løs, men hvem er størst tindertøs?"
+  },
+  {
+    "id": 12,
+    "question": "Nye mennesker er du ikke redd for å treffe, hvem i rommet liker å stå i doggystyle og bjeffe?"
+  },
+  {
+    "id": 13,
+    "question": "Voff voff, du er spenstig i sengen, her velger ligg over gjengen?"
+  },
+  {
+    "id": 14,
+    "question": "Ai håper i hvert fall det var digg, men hvem her trenge å få seg et ligg?"
+  },
+  {
+    "id": 15,
+    "question": "Du trenger å få deg fitte eller kuk, hvem her har høyest pengeforbruk?"
+  },
+  {
+    "id": 16,
+    "question": "På byen bruker du flere tusen, hvem her er mest gnien på musen?"
+  },
+  {
+    "id": 17,
+    "question": "Er du kresen eller er du bare en luremus, kast til den som oftest får bakrus.?"
+  },
+  {
+    "id": 18,
+    "question": "I kveld får du ta det rolig på drikken, hvem her er oftest på helseklinikken?"
+  },
+  {
+    "id": 19,
+    "question": "Husk at det går an å bruke kondom, hvem her har et syndrom?"
+  },
+  {
+    "id": 20,
+    "question": "Det går bra, du er god som du er, kast til en som må bytte klær. (Kasteren velger byttepartner også)"
+  },
+  {
+    "id": 21,
+    "question": "Nå var dere fine, kast til den som med den til høyre for seg må kline."
+  },
+  {
+    "id": 22,
+    "question": "Nå tok stemningen seg opp, hvem sørger alltid for at den er på topp?"
+  },
+  {
+    "id": 23,
+    "question": "Du må være gøy på fest, men hvem er festens verste gjest?"
+  },
+  {
+    "id": 24,
+    "question": "Skjerp deg, ikke vær så teit, hvem i we rommet synes du er heit? , klin med den du har et øye til i kveld?"
+  },
+  {
+    "id": 25,
+    "question": "Der fortjener du heder og ære, hvem her klarer ikke å singel være?"
+  },
+  {
+    "id": 26,
+    "question": "Den holdningen må ta slutt, hvem her kommer på under ett minutt?"
+  },
+  {
+    "id": 27,
+    "question": "Viagra er kanskje tingen, hvem tar sjansen på å hopper av i svingen?"
+  },
+  {
+    "id": 28,
+    "question": "Pass på så du ikke går på en smell, hvem her blir fullest i kveld"
+  },
+  {
+    "id": 29,
+    "question": "Ikke gidd å bli for full, hvem her er latest under knull?"
+  },
+  {
+    "id": 30,
+    "question": "Innsats i senga har du ikke, den som har en fetisj må drikke (si hvilken)"
+  },
+  {
+    "id": 31,
+    "question": "Det å drikke går vi aldri lei, hvem her tar ikke nei for et nei?"
+  },
+  {
+    "id": 32,
+    "question": "Dette er en dårlig egenskap, hvem her har best musikksmak?"
+  },
+  {
+    "id": 33,
+    "question": "Det var litt av et kompliment, neste må vise sitt beste dansemove til en sang."
+  },
+  {
+    "id": 34,
+    "question": "De movsa var ikke dum, hvem her får finest avkom?"
+  },
+  {
+    "id": 35,
+    "question": "Vi gleder oss til å se dine små håpefulle, hem her har lavest standard når de skal knulle?"
+},
+{
+"id": 36,
+"question": "Du får kanskje pule i fleng, men hvem her puler flest i samme gjeng?"
+},
+{
+"id": 37,
+"question": "Kom deg ut av gjengen, hvem lager de sykeste lydene i sengen?"
+},
+{
+"id": 38,
+"question": "Håper ikke det var lytt da du vridde deg i spasme, hvem her har oftest orgasme?"
+},
+{
+"id": 39,
+"question": "Får håpe du får deg noe i kveld, hvem her er høyest på seg selv?"
+},
+{
+"id": 40,
+"question": "Du lever kanskje i din egen sone, hvem her blir dårligst mann eller kone?"
+},
+{
+"id": 41,
+"question": "Ai uheldige den som ender opp med deg, gi boksen til den som alltid blir lei seg."
+},
+{
+"id": 42,
+"question": "Ikke ta alt i verste mening, hvem her gjør det best på trening?"
+},
+{
+"id": 43,
+"question": "Du er kanskje størst, men hvem i rommet tror du slår seg til ro først?"
+},
+{
+"id": 44,
+"question": "Vent litt med å slå deg til ro, gi boksen til den som er mest utro."
+},
+{
+"id": 45,
+"question": "Fysj a meg tror ikke de var blid, hvem holder på med flest på samme tid?"
+},
+{
+"id": 46,
+"question": "Håper ikke de vet om hverandre, kast boksen til den som i fylla lar seg forandre."
+},
+{
+"id": 47,
+"question": "Fylla har skylda sier de alle, men hvem her kan vi lykkeligst kalle?"
+},
+{
+"id": 48,
+"question": "Tilsynelatende har du det bra, hvem i rommet lar skinnet bedra?"
+},
+{
+"id": 49,
+"question": "Du skjuler nok meget, hvem her er flinkest til å ta det første steget?"
+},
+{
+"id": 50,
+"question": "Har hatt sex med flest nasjonaliteta"
+},
+{
+"id": 51,
+"question": "Du fikser deg nok som mest, kast til den som alltid har fest."
+},
+{
+"id": 52,
+"question": "Kåken er alltid fullstappa, hvem her klarer seg ikke uten mamma og pappa?"
+},
+{
+"id": 53,
+"question": "Du har kanskje vanskelig for å slippe tak, hvem kunne du aldri tatt med i familieselskap?"
+},
+{
+"id": 54,
+"question": "Vi dømmer ingen, hvem får først ring på fingeren?"
+},
+{
+"id": 55,
+"question": "De fleste giftemål går uansett rett vest, hvem her spanter mest?"
+},
+{
+"id": 56,
+"question": "Har du overgått kredittgrensen? Hvem puler oftest med mensen?"
+},
+{
+"id": 57,
+"question": "Det høres ut som du er spontan, hvem har mest hår på sitt kjønnsorgan?"
+},
+{
+"id": 58,
+"question": "Håper vi alle begynner å bli drita, hvem er oftest på sprita?"
+},
+{
+"id": 59,
+"question": "Du er nok en kjenning på polet, hvem her gir faen i skole?"
+},
+{
+"id": 60,
+"question": "Skole er kanskje ikke din sterke side, hvem har høyest sannsynlighet for å lykkes i livet"
+},
+{
+"id": 61,
+"question": "Det blir spennende å Hva livet bringer, kast til den som oftest fylleringer"
+},
+{
+"id": 62,
+"question": "Du fylleringer kanskje mest, men hvem sittet oftest på telefonen på fest?"
+},
+{
+"id": 63,
+"question": "La telefonen ligge i kveld, kast til den som har høyest gjeld"
+},
+{
+"id": 64,
+"question": "Pass på så det ikke går helt over styr, den neste som får boksen er den som oftest spyr."
+},
+{
+"id": 65,
+"question": "Klarer du ikke å holde nede på drikken? Kast til den som skal si den beste sjekkereplikken."
+},
+{
+"id": 66,
+"question": "Nå ble vi passe ubekvem, hvem her kunne du tatt med deg hjem?"
+},
+{
+"id": 67,
+"question": "Er det gjensidig, blir det knull? Hvem her puler flest 00?"
+},
+{
+"id": 68,
+"question": "Jo nærmere null, jo trangere hull, kast boksen til den som er minst full.(Chug)"
+},
+{
+"id": 69,
+"question": "Du må drikke for du er for nykter, hvem i rommet sprer flest rykter?"
+},
+{
+"id": 70,
+"question": "Du må drikke for du er for nykter, hvem i rommet sprer flest rykter?"
+},
+{
+"id": 71,
+"question": "Ai du er rommets sladrehank, kast boksen til den som får mest bank."
+},
+{
+"id": 72,
+"question": "Håper at du neste gang vinner, hvem her er det som alltid på byen forsvinner?"
+},
+{
+"id": 73,
+"question": "Hadde du det travelt da du forsvant? Hvem er festens største kverulant?"
+},
+{
+"id": 74,
+"question": "Håper din tid som kverulant er omme, neste skal gi et kompliment til alle i rommet."
+},
+{
+"id": 75,
+"question": "Det var hyggelig, når var du grei, kast til den som må ta en bodyshot av den til venstre for seg."
+},
+{
+"id": 76,
+"question": "Håper ikke den går rett til hodet og lager kluss, hvem i rommet trenger en suss? (Den som kaster boksen kysser mottager)"
+},
+{
+"id": 77,
+"question": "Håper sussen var god selv under tvang, hvem her har høyest temperament?"
+},
+{
+"id": 78,
+"question": "I kveld får du være stille, hvem her kjøper oftest angrepille?"
+},
+{
+"id": 79,
+"question": "DDen var kanskje litt frekk, hvem synes du har finest antrekk?"
+},
+{
+"id": 80,
+"question": "Håper alle har kost seg til nå, den neste som får boksen en drikkepartner skal få! (Kaster velger en drikkepartner)"
+},
+{
+"id": 81,
+"question": "På denne festen er det ingen som depper, hvem har finest sugelepper?"
+},
+{
+"id": 82,
+"question": "Der er det ingen tvil, kast til den som har finest smil"
+},
+{
+"id": 83,
+"question": "Festens fineste smil er kåret, kast til den som er singel ut året?"
+},
+{
+"id": 84,
+"question": "Du er i hvertfall singel og fri, kast til den som er flinkest til å ri"
+},
+{
+"id": 85,
+"question": "Yihaa du må være litt av en rytter, hvem her drar flest gutter?"
+},
+{
+"id": 86,
+"question": "Du får nok gutter så det suser, hvem her er størst hjerteknuser?"
+},
+{
+"id": 87,
+"question": "I å knuse hjerter er du drøyest, hvem her snakker alltid høyest?"
+},
+{
+"id": 88,
+"question": "Åherregud som du tyter, hvem er festens verste skryter?"
+},
+{
+"id": 89,
+"question": "Det er ikke kult å skryte i øst og vest, hvem her inkluderer mest?"
+},
+{
+"id": 90,
+"question": "Det er du bror, kast boksen til den som har høyest kjendisfaktor"
+},
+{
+"id": 91,
+"question": "Kjendiser er kule og pene, hvem i rommet går aldri på do alene?"
+},
+{
+"id": 92,
+"question": "Er du ensom eller har du mye å fortelle? Hvem i rommet kunne vært et engangstilfelle?"
+},
+{
+"id": 93,
+"question": "Håper ikke den setter varige men, hvem her er alltid for sen?"
+},
+{
+"id": 94,
+"question": "Man kommer ikke for sent til fest, kast boksen til den som alltid drikker mest"
+},
+{
+"id": 95,
+"question": "Drikkemesteren det er deg, hvem her har mest drama rundt seg?"
+},
+{
+"id": 96,
+"question": "Det blir ofte drama rundt sex, hvem ligger med venners eks?"
+},
+{
+"id": 97,
+"question": "Det kan fort smelle, hvem her får seg finest ektefelle?"
+},
+{
+"id": 98,
+"question": "Du ender kanskje opp med den fineste mannen eller dama, men hvem her får seg en sugarmama?"
+},
+{
+"id": 99,
+"question": "Sugarmama kan være digg, men nå er det siste sjanse til å få deg ligg (kast til den du kunne tenkt deg å ligge med)"
+},
+{
+"id": 100,
+"question": "Heia heia, det å drikke går vi aldri lei av! FELLESSKÅL 100 spørsmål"
+}
+]
